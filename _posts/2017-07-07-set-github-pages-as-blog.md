@@ -8,3 +8,5 @@ categories:
 
 
 Follow the guide at [github-pages](https://pages.github.com/) to set up github pages as the personal blog.
+
+Next step is to investigate how to generate RSS support.

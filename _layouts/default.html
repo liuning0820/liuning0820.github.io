@@ -4,8 +4,25 @@
 	　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	　<title>{{page.title}}</title>
     <!--<link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/css/site.css" type="text/css" />-->
+	    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{site.baseurl}}/css/main.css">
 	</head>
 	<body>
+
+    <nav>
+		<ul>
+			<li><a href="{{ site.url }}{{site.baseurl}}/">Home</a></li>
+			<li><a href="{{ site.url }}{{site.baseurl}}/about">About</a></li>
+			<li><a href="{{ site.url }}{{site.baseurl}}/">Blog</a></li>
+		</ul>
+    </nav>
+
 	　{{content }}
+
+		<footer>
+    		<ul>
+        		<li><a href="mailto:liuning0820@gmail.com">email</a></li>
+        		<li><a href="https://github.com/liuning0820">github.com/liuning0820</a></li>
+			</ul>
+		</footer>
 	</body>
 	</html>

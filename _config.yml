@@ -1,2 +1,4 @@
 encoding: utf-8
 baseurl: /liuning0820.github.io
+
+theme: jekyll-theme-cayman

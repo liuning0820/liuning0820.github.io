@@ -1,5 +1,6 @@
 encoding: utf-8
-baseurl: /liuning0820.github.io
+# baseurl: /liuning0820.github.io
+baseurl: /blog
 
 email: liuning0820@outlook.com
 

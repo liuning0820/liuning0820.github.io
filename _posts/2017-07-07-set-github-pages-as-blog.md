@@ -14,6 +14,8 @@ Follow the guide at [github-pages](https://pages.github.com/) to set up github p
 Next step is to investigate how to generate RSS support.
 
 http://jmcglone.com/guides/github-pages/
+http://www.pchou.info/ssgithubPage/2014-07-04-build-github-blog-page-08.html
+http://www.jianshu.com/p/05289a4bc8b2
 
 
 

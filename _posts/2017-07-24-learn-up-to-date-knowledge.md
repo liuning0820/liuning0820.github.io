@@ -17,7 +17,7 @@ title: "learn the up to date knowledge"
 
 当你学习某个主题时( 比如nigix)：
 
-1. 经常关顾官网的document, wiki
+1. 经常光顾官网的document, wiki
 2. 买最新的出版的这个主题的书籍
 3. 网络blog里的过往的文章当成历史去读，一定要自己加以验证。
 

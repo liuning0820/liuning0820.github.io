@@ -18,7 +18,6 @@ http://www.pchou.info/ssgithubPage/2014-07-04-build-github-blog-page-08.html
 http://www.jianshu.com/p/05289a4bc8b2
 
 
-
 # Troubleshooting
-对于中文的支持必须是utf-8 编码，在visual studio里直接写中文，貌似不是utf-8的编码，用文本编辑器打开发现是乱发， 然后用
+对于中文的支持必须是utf-8 编码，在visual studio里直接写中文，貌似不是utf-8的编码，用文本编辑器打开发现是乱码， 然后用
 bundle exec jekyll serve 本地启动发现报错。

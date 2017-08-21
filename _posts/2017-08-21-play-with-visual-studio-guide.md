@@ -1,9 +1,10 @@
 ---
+subtitle: A developer must know his/her IDE
 title: Visual Studio 使用手册
 ---
 
-New feature supported by VS2013 
-================================
+New feature supported by VS2013
+===============================
 
 To improve the efficiency of the team.
 
@@ -43,8 +44,8 @@ Navigation
 
 -   Go To Implementation Ctrl + F12
 
-Python Development with Visual Studio 2017 
-===========================================
+Python Development with Visual Studio 2017
+==========================================
 
 1.  <https://blogs.msdn.microsoft.com/visualstudio/2017/05/12/a-lap-around-python-in-visual-studio-2017/>
 

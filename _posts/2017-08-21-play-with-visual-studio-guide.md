@@ -32,13 +32,13 @@ Breakpoint Labels
 Within Visual Studio, once you’ve created a breakpoint, you can add one or more
 labels to it by simply right-clicking and choosing Edit Labels:
 
-![edit-breakpoint-label](media/e37b1d14e40b84c5c6d9bd39c020fcfe.png)
+![edit-breakpoint-label](http://localhost:4000/liuning0820.github.io/images/e37b1d14e40b84c5c6d9bd39c020fcfe.png)
 
 edit-breakpoint-label
 
 After adding labels to breakpoints, you can view them in the Breakpoints window:
 
-![breakpoints-window](media/595046a261a8aa9c519b30494ce4a3c8.png)
+![breakpoints-window](http://localhost:4000/liuning0820.github.io/images/595046a261a8aa9c519b30494ce4a3c8.png)
 
 breakpoints-window
 

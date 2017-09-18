@@ -1,5 +1,4 @@
 ---
-subtitle: A developer must know his/her IDE
 title: Visual Studio 使用手册
 ---
 
@@ -27,6 +26,32 @@ New feature supported by VS2017
 
 <https://vs2017poster.azurewebsites.net/>
 
+Breakpoint Labels
+-----------------
+
+Within Visual Studio, once you’ve created a breakpoint, you can add one or more
+labels to it by simply right-clicking and choosing Edit Labels:
+
+![edit-breakpoint-label](media/e37b1d14e40b84c5c6d9bd39c020fcfe.png)
+
+edit-breakpoint-label
+
+After adding labels to breakpoints, you can view them in the Breakpoints window:
+
+![breakpoints-window](media/595046a261a8aa9c519b30494ce4a3c8.png)
+
+breakpoints-window
+
+If you present code at conferences, user groups, etc., you may find labeled
+breakpoints useful during demos. You can add a label like “Demo1” to some
+breakpoints, and “Demo2” to others. Toggle which breakpoints are enabled when
+you run your application in order to demonstrate different topics.
+
+Parallel Builds
+---------------
+
+https://www.codeproject.com/tips/1042975/tips-to-improve-visual-studio-build-performance
+
 Shortcut Keys in VS2017
 =======================
 
@@ -43,6 +68,11 @@ Navigation
 -   Full Screen Shift+Alt+Enter
 
 -   Go To Implementation Ctrl + F12
+
+Visual Studio 2017 Extensions
+=============================
+
+-   **Roslynator** 180+ analyzers and 180+ refactoring for C Sharp.
 
 Python Development with Visual Studio 2017
 ==========================================

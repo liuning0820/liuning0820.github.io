@@ -23,7 +23,16 @@ http://www.jianshu.com/p/05289a4bc8b2
 
 http://jekyll.com.cn/docs/structure/
 
+http://jekyllrb.com/docs/structure/
+
+## add images into the page
+
+first put images under folder iluning0820.github.io\images
+then from your post reference the images by using http://localhost:4000/liuning0820.github.io/images/xxx
+for example:
+![](http://localhost:4000/liuning0820.github.io/images/75a475234e7b95eb7d2ee7b3f3552c78.png)
 
 # Troubleshooting
 对于中文的支持必须是utf-8 编码，在visual studio里直接写中文，貌似不是utf-8的编码，用文本编辑器打开发现是乱码， 然后用
 bundle exec jekyll serve 本地启动发现报错。
+

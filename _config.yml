@@ -1,5 +1,7 @@
-encoding: utf-8
-baseurl: /liuning0820.github.io
+encoding                 : utf-8
+url                      : "https://liuning0820.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+
+baseurl                  : /liuning0820.github.io
 
 email: liuning0820@outlook.com
 

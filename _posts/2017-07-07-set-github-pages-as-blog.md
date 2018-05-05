@@ -6,7 +6,7 @@ comments: true
 categories:
 ---
 
-[Previous]({{ site.baseurl }}{% post_url 2016-07-14-second-blog %})
+[Previous]({{ site.baseurl }}{% post_url 2016-07-13-first-blog %})
 
 # GitHub Pages Guide
 

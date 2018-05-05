@@ -16,7 +16,6 @@ Next step is to investigate how to generate RSS support.
 http://jmcglone.com/guides/github-pages/
 http://www.pchou.info/ssgithubPage/2013-01-05-build-github-blog-page-02.html
 http://www.pchou.info/ssgithubPage/2014-07-04-build-github-blog-page-08.html
-http://www.jianshu.com/p/05289a4bc8b2
 
 
 ## jekyll Guide

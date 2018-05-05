@@ -15,3 +15,5 @@ search                   : true # true, false (default), enables basic site sear
 
 gems:
   - jekyll-feed
+
+theme: jekyll-theme-slate

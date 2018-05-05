@@ -19,13 +19,15 @@ http://www.pchou.info/ssgithubPage/2014-07-04-build-github-blog-page-08.html
 http://www.jianshu.com/p/05289a4bc8b2
 
 
-#jekyll Guide
+## jekyll Guide
 
 http://jekyll.com.cn/docs/structure/
 
 http://jekyllrb.com/docs/structure/
 
-## add images into the page
+
+
+### Add images into the page
 
 first put images under folder iluning0820.github.io\images
 then from your post reference the images by using http://localhost:4000/liuning0820.github.io/images/xxx

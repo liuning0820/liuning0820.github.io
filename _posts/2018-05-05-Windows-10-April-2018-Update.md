@@ -3,6 +3,7 @@
 ## Windows 10 2018.04 更新
 
 周末在家，升级了下我的工作PC的系统。
+
 ### 更新后版本
 
 ![]({{ site.url }}{{site.baseurl}}/images/windows-10-2018-04-update.jpg)

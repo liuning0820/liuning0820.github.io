@@ -6,7 +6,7 @@
 
 ### 更新后版本
 
-![]({{ site.url }}{{site.baseurl}}/images/windows-10-2018-04-update.jpg)
+![Windows 2018 Apri 更新]({{ site.url }}{{site.baseurl}}/images/windows-10-2018-04-update.jpg)
 
 ### 新功能
 

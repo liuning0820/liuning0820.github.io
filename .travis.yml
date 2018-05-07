@@ -11,7 +11,7 @@ rvm:
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --href_ignore https://www.linkedin.com/in/toby-liu-86750923/,https://theme.npm.edu.tw/opendata/
+  - bundle exec htmlproofer ./_site --url-ignore https://www.linkedin.com/in/toby-liu-86750923/,https://theme.npm.edu.tw/opendata/
 
 # branch whitelist, only for GitHub Pages
 branches:

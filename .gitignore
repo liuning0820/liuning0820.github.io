@@ -6,3 +6,5 @@
 /.vs
 /Gemfile
 /Gemfile.lock
+
+_site

@@ -13,6 +13,11 @@ email                    : liuning0820@outlook.com
 theme                    : jekyll-theme-slate
 search                   : true # true, false (default), enables basic site search powered by Lunr
 
+exclude:
+  - Gemfile
+  - README.md
+
+# Plugins
 plugins:
   - jekyll-feed
 

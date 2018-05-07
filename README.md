@@ -43,3 +43,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ~/myblog $ bundle exec jekyll serve
 
 ## Now browse to http://localhost:4000
+
+
+## GitHub Pages + Jekyll + CI
+
+[Continuous Integration](https://jekyllrb.com/docs/continuous-integration/travis-ci/)

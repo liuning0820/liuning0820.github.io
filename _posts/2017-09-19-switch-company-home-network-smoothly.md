@@ -11,9 +11,9 @@
 
 连接公司VPN后，使用 IE 浏览器或者Chrome 浏览器访问公司内网和国外资源。
 
-![](https://localhost:4000/liuning0820.github.io/images/d3fe5390355bccf4c00ce77eb01747f8.png)
+![]({{ site.url }}{{site.baseurl}}/images/d3fe5390355bccf4c00ce77eb01747f8.png)
 
 在家里的一台24小时开机机器上安装CCProxy 软件，然后在本机上使用FireFox
 通过这台Home machine 作为国内网站的Proxy。
 
-![](https://localhost:4000/liuning0820.github.io/images/75a475234e7b95eb7d2ee7b3f3552c78.png)
+![]({{ site.url }}{{site.baseurl}}/images/75a475234e7b95eb7d2ee7b3f3552c78.png)

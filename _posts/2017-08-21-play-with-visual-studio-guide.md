@@ -7,24 +7,22 @@ New feature supported by VS2013
 
 To improve the efficiency of the team.
 
--   Peek Definition(select the key you want to peek, and click Alt+F12 )
+- Peek Definition(select the key you want to peek, and click Alt+F12 )
 
--   Peek help in MSDN (select the key you want to peek, and click Alt +F1)
+- Peek help in MSDN (select the key you want to peek, and click Alt +F1)
 
--   Navigate To(Ctrl +,)
+- Navigate To(Ctrl +,)
 
--   CodeLens (Tool-\>Option-\>Text Editor-\>All Languages-\>CodeLens)
+- CodeLens (Tool-\>Option-\>Text Editor-\>All Languages-\>CodeLens)
 
--   Quick Launch (Ctrl+Q)
+- Quick Launch (Ctrl+Q)
 
--   Debug-\>Performance and Diagnostics
+- Debug-\>Performance and Diagnostics
 
--   Edit and Continue supported for 64bit
+- Edit and Continue supported for 64bit
 
 New feature supported by VS2017
 ===============================
-
-<https://vs2017poster.azurewebsites.net/>
 
 Breakpoint Labels
 -----------------

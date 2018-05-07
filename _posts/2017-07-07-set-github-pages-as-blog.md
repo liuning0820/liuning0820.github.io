@@ -28,7 +28,7 @@ http://jekyllrb.com/docs/structure/
 first put images under folder iluning0820.github.io\images
 then from your post reference the images by using {{ site.url }}{{site.baseurl}}/images/xxx
 for example:
-![]({{ site.url }}{{site.baseurl}}/images/75a475234e7b95eb7d2ee7b3f3552c78.png)
+![DescriptionOfImg]({{ site.url }}{{site.baseurl}}/images/75a475234e7b95eb7d2ee7b3f3552c78.png)
 
 ### Troubleshooting
 

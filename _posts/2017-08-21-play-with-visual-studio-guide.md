@@ -72,10 +72,6 @@ Visual Studio 2017 Extensions
 
 - **Roslynator** 180+ analyzers and 180+ refactoring for C Sharp.
 
-Python Development with Visual Studio 2017
-==========================================
+## Python Development with Visual Studio 2017
 
-1. <https://blogs.msdn.microsoft.com/visualstudio/2017/05/12/a-lap-around-python-in-visual-studio-2017/>
-
-2. [Getting Started with Python Development using Visual
-    Studio](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+- [Getting Started with Python Development using Visual Studio](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)

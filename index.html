@@ -11,7 +11,7 @@ title: 对刘谈心-liuning0820.github.io
 {% for post in paginator.posts %}
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 <p class="author">
-	<span class="date">{{ post.date }}</span>
+	<span class="date">{{ post.date | date_to_string   }}</span>
 </p>
 <div class="content">
 	{{ post.content }}

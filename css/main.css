@@ -2,7 +2,13 @@
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+main {
 
+	width: 75%;
+	min-width: 600px;
+	margin-left: 150px;
+	display: block;
+}
 
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }

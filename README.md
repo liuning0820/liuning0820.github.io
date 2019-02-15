@@ -16,6 +16,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ## Build the site on the preview server
 
+```sh
+gem install jekyll bundler
+# Run 'bundle install' to install missing gems added in the Gemfile.
+bundle install
+jekyll -v
+jekyll server
+```
+
 ~/myblog $ bundle exec jekyll serve
 
 ## Now browse to http://localhost:4000

@@ -15,10 +15,19 @@ search                   : true # true, false (default), enables basic site sear
 
 exclude:
   - Gemfile
+  - Gemfile.lock
   - README.md
+
+
+
+# Pagination Settings
+
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 
 theme: jekyll-theme-slate

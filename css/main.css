@@ -2,7 +2,7 @@
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-main {
+body nav,body main {
 
 	width: 75%;
 	min-width: 600px;

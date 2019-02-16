@@ -7,7 +7,7 @@ title: "Visual Studio Code on Debian"
 
 ## Download the debian package
 
-Download the 32bit version of deb from https://code.visualstudio.com/ 
+Download the 32bit version of deb from [here](https://code.visualstudio.com/).
 
 ```sh
 sudo dpkg -i <file>.deb

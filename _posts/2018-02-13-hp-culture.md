@@ -1,14 +1,12 @@
-# HP in Shanghai China
+---
+layout: default
+title: "HP Culture"
+---
 
-## 惠普公司名称变更
+# HP Culture
 
-上海惠普有限公司 变成  上海慧与有限公司
+## Will to Win
 
-## HP Culture
-
-### Will to Win
-
-* 充满活力，振奋精神，以每天成功的意愿
-* Be the best you can be
-* Reaching your highest human potential.
-
+- 充满活力，振奋精神，以每天成功的意愿
+- Be the best you can be
+- Reaching your highest human potential.

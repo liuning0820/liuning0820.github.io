@@ -14,19 +14,19 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-## Build the site on the preview server
+## Build the site locally
 
 ```sh
+cd .\liuning0820.github.io\
 gem install jekyll bundler
 # Run 'bundle install' to install missing gems added in the Gemfile.
 bundle install
 jekyll -v
-jekyll server
+# jekyll serve
+bundle exec jekyll serve
 ```
 
-~/myblog $ bundle exec jekyll serve
-
-## Now browse to http://localhost:4000
+Now browse to http://localhost:4000
 
 ## GitHub Pages + Jekyll + Travis-ci + html-proofer
 

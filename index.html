@@ -9,7 +9,7 @@ title: 对刘谈心-liuning0820.github.io
 
 	<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <p class="author">
 	<span class="date">{{ post.date | date_to_string   }}</span>
 </p>
@@ -19,21 +19,20 @@ title: 对刘谈心-liuning0820.github.io
 {% endfor %}
 
 <!-- Pagination links -->
-<div class="pagination">
-{% if paginator.previous_page %}
-	<a href="{{ paginator.previous_page_path }}" class="previous">
-		Previous
-	</a>
-{% else %}
-	<span class="previous">Previous</span>
-{% endif %}
-<span class="page_number ">
-	Page: {{ paginator.page }} of {{ paginator.total_pages }}
-</span>
-{% if paginator.next_page %}
-	<a href="{{ paginator.next_page_path }}" class="next">Next</a>
-{% else %}
-	<span class="next ">Next</span>
-{% endif %}
+<div class="pagination" role="pagination">
+
+        {% if paginator.previous_page %}
+          {% if paginator.previous_page == 1 %}
+          <a class="newer-posts" href="/" title="Previous Page">&laquo; Newer Posts</a>
+          {% else %}
+          <a class="newer-posts" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
+          {% endif %}
+        {% endif %}
+
+        <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span>
+
+        {% if paginator.next_page %}
+        <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
+        {% endif %}
 </div>
 

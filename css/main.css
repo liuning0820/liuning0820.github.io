@@ -1,6 +1,6 @@
 
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+header a { text-decoration: none; }
+header a:hover { text-decoration: underline; }
 
 body nav,body main {
 

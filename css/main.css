@@ -10,7 +10,7 @@ body nav,body main {
 	display: block;
 }
 
-body main ul li {font-size: 1.5em; }
+/* body main ul li {font-size: 1.5em; } */
 
 
 footer { border-top: 1px solid #d5d5d5; font-size: 1em; background: lightgray}

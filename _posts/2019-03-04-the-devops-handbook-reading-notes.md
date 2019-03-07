@@ -31,3 +31,17 @@ author: liuning0820
   * Market-oriented (OPTIMIZING FOR SPEED)
   * 起决定性作用的并不是组织形式，而是人们的行为和反应。
   * 系统的架构应该保证小团队能够独立运作，彼此充分解耦，避免不必要的沟通和协调。
+
+## STEP ONE: Flow
+
+### Chapter 9 - Create the Foundations of Our Deployment Pipeline
+
+* On demand creating consistent production-like environments. (including DEV, TEST, STAGE)
+* Put back environemnt specific change into version control.
+* Manual changes to the production environment are no longer allowed. The only way production changes can be made is to put the changes into version control.
+* CD to rebuild instead of repairing application using pipeline.
+
+### Chapter 10 - Enable Fast and Reliable Automated Testing
+
+* Test Pyramid
+* Intergate performance testing into our test suit

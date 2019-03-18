@@ -45,3 +45,21 @@ author: liuning0820
 
 * Test Pyramid
 * Intergate performance testing into our test suit
+
+### Chapter 12 - Automate and Enable Low-Risk Releases
+
+* Deployment vs Release
+
+Deployment is the installation of a specified version of software to a given environment (e.g., deploying code into an integration test environment or deploying code into production). Specifically, a deployment may or may not be associated with a release of a feature to customers.
+
+Release is when we make a feature (or set of features) available to all our customers or a segment of customers (e.g., we enable the feature to be used by 5% of our customer base). Our code and environments should be architected in such a way that the release of functionality does not require changing our application code.
+
+* Release patterns
+  * Environment-based release patterns
+  * Application-based release patterns
+
+* Decoupling deployments from releases
+
+  For environment-based release, we can:
+  * The Blue-Green Deployment Pattern
+  * The Canary Release pattern

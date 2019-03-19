@@ -63,3 +63,15 @@ Release is when we make a feature (or set of features) available to all our cust
   For environment-based release, we can:
   * The Blue-Green Deployment Pattern
   * The Canary Release pattern
+
+  For application-based release, we can:
+  * Implement Feature Toggles
+  * Dark Launch Process
+
+### Chapter 13: Architect for Low-Risk Releases
+
+* Evolutionary architecture
+  "Any successful product or organization will necessarily evolve over its life cycle."  ---- Jez Humble
+  * strangler pattern
+
+## STEP TWO: Feedback

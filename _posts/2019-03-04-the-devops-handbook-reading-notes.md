@@ -75,3 +75,24 @@ Release is when we make a feature (or set of features) available to all our cust
   * strangler pattern
 
 ## STEP TWO: Feedback
+
+### Chapter 14 - Create Telemetry to Enable Seeing and Solving Problems
+
+### Chapter 16 - Enable Feedback So Development and Operations Can Safely Deploy Code
+
+* continuously improvement by small but frequent changesets 增量迭代改进，持续小步前行
+* contextual inquiry & customer observation 情景访谈 & 客户体验观察
+
+### Chapter 17: Integrate Hypothesis-Driven Development and A/B Testing into Our Daily Work
+
+Techniques such as hypothesis-driven development, defining and measuring out customer acquisition funnel （客户获取渠道）, and A/B testing allow us to perform user-experiments safely and easily, enabling us to unleash creativity and innovation, and create organizational learning.
+
+* Two major marketing strategies:
+  * Direct response marketing 直效营销
+    * email
+    * phone call
+    * postcard
+  * Mass marketing or brand marketing 大众营销或叫品牌营销
+    * advertisement
+
+A/B testing techniques were pioneered in direct response marketing. A/B 测试在直效营销中率先使用的。

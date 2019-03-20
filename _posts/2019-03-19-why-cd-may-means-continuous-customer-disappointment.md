@@ -3,6 +3,16 @@ layout: default
 title: "Why continuous deployment may cause continuous customer disatisfaction"
 ---
 
+Steve Blank gave example of Adobe in his [blog post](https://hbr.org/2014/01/why-continuous-deployment-may-mean-continuous-customer-disappointment?utm_source=Socialflow&utm_medium=Tweet&utm_campaign=Socialflow), which has now moved all products to the cloud and labeled them the Adobe Creative Cloud. Instead of paying for new products, customers now buy an annual subscription. It is good from the perspective of getting predictable annuity but not good from consumers’ perspective.
+
+He described Adobe’s problem in using continuous deployment as follows:
+
+While creating a predictable revenue stream from high-end users, Adobe has created two problems. First, not all Adobe customers believe that Adobe’s new subscription business model is an improvement for them. If customers stop paying their monthly subscription they don’t just lose access to the Adobe Creative Suite software (Photoshop, Illustrator, etc.) used to create their work, they may lose access to the work they created.
+
+Second, they unintentionally overshot the needs of students, small business and casual users, driving them to good-enough replacements like Pixelmator, Acorn,GIMP for PhotoShop and Sketch, iDraw, and ArtBoard for Illustrator.
+
+The consequence of discarding low margin customers and optimizing revenue and margin in the short-term, Adobe risks enabling future competitors.
+
 引用Steve Blank 在他的[博文](https://hbr.org/2014/01/why-continuous-deployment-may-mean-continuous-customer-disappointment?utm_source=Socialflow&utm_medium=Tweet&utm_campaign=Socialflow) 里举的Adobe的例子，Adobe现在把整个产品线迁移到了云端，称之为 Adobe Creative Cloud。用户不再需要为新产品付钱，而是支付每年的订阅费用。这种做法使公司的年收入更趋向于稳定，但是从消费者的角度来讲，却是不好的。
 
 他描述了 Adobe 在运用持续部署过程中遇到的问题：

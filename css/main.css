@@ -24,3 +24,14 @@ nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding
 /* div class="content" in index.html */
 /* div.content ul li{ font-size: 1.5em; } */
 div.content h1{display: none}
+
+
+.search-icon {
+	display: inline-block;
+	height: 20px;
+	width:20px;
+}
+
+#search-submit{
+	font-size: large
+}

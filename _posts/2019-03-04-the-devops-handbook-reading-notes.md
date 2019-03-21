@@ -96,3 +96,25 @@ Techniques such as hypothesis-driven development, defining and measuring out cus
     * advertisement
 
 A/B testing techniques were pioneered in direct response marketing. A/B 测试在直效营销中率先使用的。
+
+### Chapter 18 - Create Review and Coordination Processes to Increase Quality of Our Current Work
+
+* Pull Request
+
+  Pull request are the mechanism that lets engineers tell others about changes they have pushed to a repository on GitHub. Once a pull request is sent, interested parties can **review** the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
+
+  It shifts our reliance away from periodic review,inspections and approvals from reivew board, and moving to integrated peer review performed continually as a part of our daily work. 将摆脱对评审委员会定期评审、审核和审批的依赖，用不间断的同行间评审取而代之。
+
+  * Small batch sizes of each PR also applies to code reviews.
+
+    "Ask a programmer to review ten lines of code, he’ll find ten issues. Ask him to do five hundred lines, and he’ll say it looks good."
+
+### Chapter 19: Enable and Inject Learning into Daily Work
+
+#### ESTABLISH A JUST, LEARNING CULTURE
+
+The only sustainable competitive advantage is an organization’s ability to learn faster than the competition.
+
+* Blameless post-mortems
+* Controlled introduction of failures into production to create opportunities to practice. Injecting faults into the production environment (such as Chaos Monkey) is one way we can increase our resilience.
+* Game Day 演练日

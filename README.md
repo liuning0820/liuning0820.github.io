@@ -26,7 +26,7 @@ jekyll -v
 bundle exec jekyll serve
 ```
 
-Now browse to http://localhost:4000
+Now browse to [Server address](http://localhost:4000)
 
 ## GitHub Pages + Jekyll + Travis-ci + html-proofer
 

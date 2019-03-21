@@ -1,11 +1,14 @@
 ---
 layout: default
 title: "Why continuous deployment may cause continuous customer disatisfaction"
+tags: [devops, ci]
 ---
+
+# Why continuous deployment may cause continuous customer disatisfaction
 
 Steve Blank gave example of Adobe in his [blog post](https://hbr.org/2014/01/why-continuous-deployment-may-mean-continuous-customer-disappointment?utm_source=Socialflow&utm_medium=Tweet&utm_campaign=Socialflow), which has now moved all products to the cloud and labeled them the Adobe Creative Cloud. Instead of paying for new products, customers now buy an annual subscription. It is good from the perspective of getting predictable annuity but not good from consumers’ perspective.
 
-He described Adobe’s problem in using continuous deployment as follows:
+He described Adobe's problem in using continuous deployment as follows:
 
 While creating a predictable revenue stream from high-end users, Adobe has created two problems. First, not all Adobe customers believe that Adobe’s new subscription business model is an improvement for them. If customers stop paying their monthly subscription they don’t just lose access to the Adobe Creative Suite software (Photoshop, Illustrator, etc.) used to create their work, they may lose access to the work they created.
 
@@ -25,4 +28,6 @@ The consequence of discarding low margin customers and optimizing revenue and ma
 
 其实同样的例子还有很多，比如MS Office -> Office 365.
 
-- [Reference](https://infoq.cn/article/2014/09/continuous-deployment)
+## Reference
+
+1. [continuous-deployment](https://infoq.cn/article/2014/09/continuous-deployment)

@@ -119,3 +119,10 @@ The only sustainable competitive advantage is an organization’s ability to lea
 * Blameless post-mortems
 * Controlled introduction of failures into production to create opportunities to practice. Injecting faults into the production environment (such as Chaos Monkey) is one way we can increase our resilience.
 * Game Day 演练日
+
+### Chapter 20: Convert Local Discoveries into Global Improvements
+
+Propagation of expertise and knowledge to rapidly enable and accumulate organizational learing.
+
+* ChatOps Tools: Hubot, Slack, MS Team instead of Lync and Outlook
+* Create a single, shared source code repository for entire organizaiton.

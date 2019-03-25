@@ -110,6 +110,8 @@ A/B testing techniques were pioneered in direct response marketing. A/B 测试�
 
     "Ask a programmer to review ten lines of code, he’ll find ten issues. Ask him to do five hundred lines, and he’ll say it looks good."
 
+## STEP THREE: Continual Learning And Experimentation
+
 ### Chapter 19: Enable and Inject Learning into Daily Work
 
 #### ESTABLISH A JUST, LEARNING CULTURE
@@ -124,5 +126,14 @@ The only sustainable competitive advantage is an organization’s ability to lea
 
 Propagation of expertise and knowledge to rapidly enable and accumulate organizational learing.
 
-* ChatOps Tools: Hubot, Slack, MS Team instead of Lync and Outlook
+* ChatOps Tools: Use persistent chat room tools, such as Hubot, Slack, and MS Team. Instead of Lync and Outlook which are not broadly persistable.
 * Create a single, shared source code repository for entire organizaiton.
+* Encourage experimentation. "buoys, not boundaries.”
+
+   Instead of drawing hard boundaries that everyone has to stay within, we put buoys that indicate deep areas of the channel where you’re safe and supported. You can go past the buoys as long as you follow the organizational principles. After all, how are we ever going to see the next innovation that helps us win if we’re not exploring and testing at the edges? As leaders, we need to navigate the channel, mark the channel, and allow people to explore past it.
+
+### Chapter 23 - Protecting the Deployment Pipeline
+
+* Reduce reliance on separation of duty
+
+减少对职责分离的依赖，比如我们作为开发人员登陆不了Production 服务器，无法获取Web服务器IIS的Logs, 其实减少了我们可以获得的产品运行时的反馈，妨碍了我们对质量，性能的负责。

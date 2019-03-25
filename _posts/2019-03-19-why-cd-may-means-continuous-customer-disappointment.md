@@ -6,6 +6,8 @@ tags: [devops, ci]
 
 # Why continuous deployment may cause continuous customer disatisfaction
 
+## EN/US
+
 Steve Blank gave example of Adobe in his [blog post](https://hbr.org/2014/01/why-continuous-deployment-may-mean-continuous-customer-disappointment?utm_source=Socialflow&utm_medium=Tweet&utm_campaign=Socialflow), which has now moved all products to the cloud and labeled them the Adobe Creative Cloud. Instead of paying for new products, customers now buy an annual subscription. It is good from the perspective of getting predictable annuity but not good from consumers’ perspective.
 
 He described Adobe's problem in using continuous deployment as follows:
@@ -15,6 +17,8 @@ While creating a predictable revenue stream from high-end users, Adobe has creat
 Second, they unintentionally overshot the needs of students, small business and casual users, driving them to good-enough replacements like Pixelmator, Acorn,GIMP for PhotoShop and Sketch, iDraw, and ArtBoard for Illustrator.
 
 The consequence of discarding low margin customers and optimizing revenue and margin in the short-term, Adobe risks enabling future competitors.
+
+## CN
 
 引用Steve Blank 在他的[博文](https://hbr.org/2014/01/why-continuous-deployment-may-mean-continuous-customer-disappointment?utm_source=Socialflow&utm_medium=Tweet&utm_campaign=Socialflow) 里举的Adobe的例子，Adobe现在把整个产品线迁移到了云端，称之为 Adobe Creative Cloud。用户不再需要为新产品付钱，而是支付每年的订阅费用。这种做法使公司的年收入更趋向于稳定，但是从消费者的角度来讲，却是不好的。
 

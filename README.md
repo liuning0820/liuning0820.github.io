@@ -19,13 +19,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ## Build the site locally
 
 ```sh
-cd .\liuning0820.github.io\
+
 gem install jekyll bundler
 # Run 'bundle install' to install missing gems added in the Gemfile.
 bundle install
 jekyll -v
 # jekyll serve
 bundle exec jekyll serve
+
 ```
 
 Now browse to [Server address](http://localhost:4000)

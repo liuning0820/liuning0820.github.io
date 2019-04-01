@@ -21,3 +21,5 @@ The responsibilities of on-call engineers:
 - The on-call engineer minimizes user impact first, then makes sure the issues are fully addressed.
 - At the start of each shift, the on-call engineer reads the handoff from the previous shift.
 - At the end of the shift, the on-call engineer sends a handoff email to the next engineer on-call.
+
+### Test

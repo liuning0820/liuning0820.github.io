@@ -70,3 +70,37 @@ The phenomena of flow and immersion give us a more realistic way to model how ti
 E-Factor = Uninterrupted Hours/Body-Present Hours
 
 ### Chapter 11
+
+### Chapter 13
+
+Design Your Workspace
+
+- Sit Behind A wall And Make Sure At Least Eight Feet A Wall In Front
+
+    As you work, you want to occasionally look up and rest your eyes by focusing on something farther away than the desk.
+
+    If there is a blank wall closer than eight feet your eyes will not change focus and they get no relief.
+
+- Windows
+
+## Part III The Right People
+
+### Chapter 16 Hiring The Juggler
+
+When you set out to hire a programmer, the rules of common sense are often suspended. You don’t ask to see a design or a program or anything. In fact, the interview is just talk.
+
+- Build Your Portfolio and show it off as part of each interview next time.
+
+    How to build it then?  Put everything as code.
+
+  - document as code and render as blog post in GitHub page.
+  - projects as code and deploy the projects into Cloud.
+  - when learn new technology or tool, set up a running instance in the cloud to practice and demonstrate what you did.
+
+### Chapter 19 Happer To Be Here
+
+- The Cost of Turnover
+- Why People Leave
+  - A just-passing-through mentality: Co-workers engender no feelings of long-term involvement in the job.
+  - A feeling of disposability: Management can only think of its workers as interchangeable parts (since turnover is so high, nobody is indispensable).
+  - The company move  

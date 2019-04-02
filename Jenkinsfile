@@ -9,20 +9,11 @@ stages {
                 }
             }
 
-            
+
 
         
         stage('Spell Check') {
-          when {
-            beforeAgent true
-						anyOf
-						{
-							//we only build on PR or master. I.e not stable
-							branch 'master';
-							changeRequest target: 'master'
-						}
-					}
-    
+             
           agent {
           dockerfile {
               filename 'Dockerfile.mdspell'

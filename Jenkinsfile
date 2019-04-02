@@ -16,6 +16,7 @@
         stage('Spell Check') {
              
           agent {
+            label "docker-agent"
           dockerfile {
               filename 'Dockerfile.mdspell'
               args '-u="root"'

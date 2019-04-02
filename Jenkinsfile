@@ -1,6 +1,6 @@
  pipeline {
-        //  agent  any
-        agent {label "docker-agent"}
+          agent  any
+
 
     stages {
 
@@ -16,7 +16,6 @@
         stage('Spell Check') {
              
           agent {
-            label "docker-agent"
           dockerfile {
               filename 'Dockerfile.mdspell'
               args '-u="root"'

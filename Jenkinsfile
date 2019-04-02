@@ -31,6 +31,7 @@
           steps {
              echo 'Checking spelling...'
              sh  '''
+             uname -a
              mdspell -n -a -r --en-us --dictionary dicts/en_US-large "*.md" "*/*.md" "*/*/*.md"
              '''
           }

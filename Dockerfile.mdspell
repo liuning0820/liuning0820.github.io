@@ -6,4 +6,3 @@ RUN npm config set unsafe-perm true
 RUN npm cache add https://github.com/ojacques/node-markdown-spellcheck/tarball/master
 RUN npm install -g --save https://github.com/ojacques/node-markdown-spellcheck/tarball/master
 
-ENTRYPOINT ["mdspell"]

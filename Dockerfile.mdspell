@@ -7,4 +7,3 @@ RUN npm cache add https://github.com/ojacques/node-markdown-spellcheck/tarball/m
 RUN npm install -g --save https://github.com/ojacques/node-markdown-spellcheck/tarball/master
 
 ENTRYPOINT ["mdspell"]
-CMD ["--help"]

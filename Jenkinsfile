@@ -2,7 +2,7 @@
         //  agent  any
         agent {label "docker-agent"}
 
-stages {
+    stages {
 
     stage ('dummy Jenkinsfile - no job real made'){
                 steps {

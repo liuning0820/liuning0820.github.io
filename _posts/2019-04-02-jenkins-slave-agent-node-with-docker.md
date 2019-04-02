@@ -33,7 +33,7 @@ Now you have Jenkins installed, If you have a Jenkinsfile try to run stage in a 
 
 ## Slave Agent Node With docker installed
 
-For my case, I have Jenkins runing as a container in an Azure Ubuntu Linux VM， so in the VM host I alreay have Docker installed.
+For my case, I have Jenkins running as a container in an Azure Ubuntu Linux VM， so in the VM host I alreay have Docker installed.
 So I specify the VM host as a slave agent node to the Jenkins (192.168.1.1:8080).
 
 - Go to Jenkins-> Manage Jenkins-> [Manage Node](http://192.168.1.1:8080/computer/new) and give the node a named "docker-agent"
@@ -41,7 +41,6 @@ So I specify the VM host as a slave agent node to the Jenkins (192.168.1.1:8080)
 
     ![Add Node]({{ site.url }}{{site.baseurl}}/images/jenkins-add-slave-agent.jpg)
 
-- Check the Node [Log](http://192.168.1.1:8080/computer/docker-agent/log) to make sure the agent contected.
+- Check the Node [Log](http://192.168.1.1:8080/computer/docker-agent/log) to make sure the agent connected.
 
 Notes: during my setting up, the log remind me to have Java installed in the agent(the Azure VM host).
-

@@ -11,7 +11,8 @@ Peopleware
 PhotoShop
 GIMP
 FeedDemon
-
+jekyll
+nginx
 
 ChatOps
 DevOps
@@ -19,4 +20,6 @@ Travis
 CI
 GitHub
 
-
+CodeLens
+Ctrl
+FireFox

@@ -6,10 +6,9 @@ comments: true
 categories:
 ---
 
-
 # GitHub Pages Guide
 
-Follow the guide at [github-pages](https://pages.github.com/) to set up github pages as the personal blog.
+Follow the guide at [Github Pages](https://pages.github.com/) to set up GitHub Pages as the personal blog.
 Next step is to investigate how to generate RSS support.
 
 http://jmcglone.com/guides/github-pages/
@@ -24,7 +23,7 @@ http://jekyllrb.com/docs/structure/
 
 ### Add images into the page
 
-first put images under folder iluning0820.github.io\images
+first put images under folder ./images
 then from your post reference the images by using {{ site.url }}{{site.baseurl}}/images/xxx
 for example:
 ![DescriptionOfImg]({{ site.url }}{{site.baseurl}}/images/75a475234e7b95eb7d2ee7b3f3552c78.png)

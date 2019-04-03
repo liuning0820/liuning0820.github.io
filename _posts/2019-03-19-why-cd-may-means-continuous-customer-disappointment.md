@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Why continuous deployment may cause continuous customer disatisfaction"
+title: "Why continuous deployment may cause continuous customer dissatisfaction"
 tags: [devops, ci]
 ---
 
-# Why continuous deployment may cause continuous customer disatisfaction
+# Why continuous deployment may cause continuous customer dissatisfaction
 
 ## EN/US
 

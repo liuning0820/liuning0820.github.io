@@ -52,7 +52,7 @@ https://www.codeproject.com/tips/1042975/tips-to-improve-visual-studio-build-per
 
 ### Search
 
-- Incremental Search ctrl + I
+- Incremental Search Ctrl + I
 
 - Find All Reference Shift + F12
 
@@ -63,8 +63,6 @@ https://www.codeproject.com/tips/1042975/tips-to-improve-visual-studio-build-per
 - Go To Implementation Ctrl + F12
 
 ## Visual Studio 2017 Extensions
-
-- **Roslynator** 180+ analyzers and 180+ refactoring for C Sharp.
 
 ## Python Development with Visual Studio 2017
 

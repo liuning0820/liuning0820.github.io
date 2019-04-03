@@ -46,5 +46,7 @@ webhook
 Webhooks
 repo
 repo_hook
+admin:repo_hook
+hook
 Breakpoint
 breakpoint

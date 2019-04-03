@@ -126,7 +126,7 @@ The only sustainable competitive advantage is an organization’s ability to lea
 
 Propagation of expertise and knowledge to rapidly enable and accumulate organizational learning.
 
-* ChatOps Tools: Use persistent chat room tools, such as Hubot, Slack, and MS Team. Instead of Lync and Outlook which are not broadly persistable.
+* ChatOps Tools: Use persistent chat room tools, such as Hubot, Slack, and MS Team. Instead of Lync and Outlook which are not broadly persisted.
 * Create a single, shared source code repository for entire organization.
 * Encourage experimentation. "buoys, not boundaries.”
 

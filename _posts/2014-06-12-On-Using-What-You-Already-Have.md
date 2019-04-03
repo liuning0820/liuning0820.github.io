@@ -28,7 +28,7 @@ Language/Platform/Frameworks agnostic.
 - There is no source control.
 
 Reading books and theory is also very important at this stage. Consider it as
-like sitting on the shoulder of giants. Of course practise is very important as
+like sitting on the shoulder of giants. Of course practice is very important as
 well but making sure there is a good balance between these two really pays off.
 
 I love reading books. I have bought quite some books in the past 11 months. I

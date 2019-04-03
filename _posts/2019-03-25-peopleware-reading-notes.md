@@ -97,7 +97,7 @@ When you set out to hire a programmer, the rules of common sense are often suspe
   - projects as code and deploy the projects into Cloud.
   - when learn new technology or tool, set up a running instance in the cloud to practice and demonstrate what you did.
 
-### Chapter 19 Happer To Be Here
+### Chapter 19 Happy To Be Here
 
 - The Cost of Turnover
 - Why People Leave

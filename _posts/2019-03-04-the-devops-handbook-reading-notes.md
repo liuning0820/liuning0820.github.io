@@ -118,13 +118,13 @@ A/B testing techniques were pioneered in direct response marketing. A/B 测试�
 
 The only sustainable competitive advantage is an organization’s ability to learn faster than the competition.
 
-* Blameless post-mortems
+* Blameless postmortem
 * Controlled introduction of failures into production to create opportunities to practice. Injecting faults into the production environment (such as Chaos Monkey) is one way we can increase our resilience.
 * Game Day 演练日
 
 ### Chapter 20: Convert Local Discoveries into Global Improvements
 
-Propagation of expertise and knowledge to rapidly enable and accumulate organizational learing.
+Propagation of expertise and knowledge to rapidly enable and accumulate organizational learning.
 
 * ChatOps Tools: Use persistent chat room tools, such as Hubot, Slack, and MS Team. Instead of Lync and Outlook which are not broadly persistable.
 * Create a single, shared source code repository for entire organizaiton.

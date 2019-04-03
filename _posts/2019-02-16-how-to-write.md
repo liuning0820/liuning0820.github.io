@@ -11,4 +11,4 @@ author: liuning0820
 - use simple word
 - use short word
 - remove duplicate
-- keep to sentense short
+- keep sentence short

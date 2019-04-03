@@ -8,7 +8,7 @@ categories:
 
 # GitHub Pages Guide
 
-Follow the guide at [Github Pages](https://pages.github.com/) to set up GitHub Pages as the personal blog.
+Follow the guide at [GitHub Pages](https://pages.github.com/) to set up GitHub Pages as the personal blog.
 Next step is to investigate how to generate RSS support.
 
 http://jmcglone.com/guides/github-pages/

@@ -12,6 +12,7 @@ PhotoShop
 GIMP
 FeedDemon
 jekyll
+html-proofer
 nginx
 
 ChatOps
@@ -23,3 +24,9 @@ GitHub
 CodeLens
 Ctrl
 FireFox
+
+32bit
+64bit
+utf-8
+
+Webhook

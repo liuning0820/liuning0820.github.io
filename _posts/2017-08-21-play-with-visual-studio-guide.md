@@ -2,8 +2,9 @@
 title: Visual Studio 使用手册
 ---
 
-New feature supported by VS2013
-===============================
+# Visual Studio Guide
+
+## New feature supported by VS2013
 
 To improve the efficiency of the team.
 
@@ -21,11 +22,9 @@ To improve the efficiency of the team.
 
 - Edit and Continue supported for 64bit
 
-New feature supported by VS2017
-===============================
+## New feature supported by VS2017
 
-Breakpoint Labels
------------------
+### Breakpoint Labels
 
 Within Visual Studio, once you’ve created a breakpoint, you can add one or more
 labels to it by simply right-clicking and choosing Edit Labels:
@@ -41,34 +40,29 @@ After adding labels to breakpoints, you can view them in the Breakpoints window:
 breakpoints-window
 
 If you present code at conferences, user groups, etc., you may find labeled
-breakpoints useful during demos. You can add a label like “Demo1” to some
-breakpoints, and “Demo2” to others. Toggle which breakpoints are enabled when
+breakpoints useful during demos. You can add a label like “Demo 1” to some
+breakpoints, and “Demo 2” to others. Toggle which breakpoints are enabled when
 you run your application in order to demonstrate different topics.
 
-Parallel Builds
----------------
+### Parallel Builds
 
 https://www.codeproject.com/tips/1042975/tips-to-improve-visual-studio-build-performance
 
-Shortcut Keys in VS2017
-=======================
+## Shortcut Keys in VS2017
 
-Search
-------
+### Search
 
 - Incremental Search ctrl + I
 
 - Find All Reference Shift + F12
 
-Navigation
-----------
+### Navigation
 
 - Full Screen Shift+Alt+Enter
 
 - Go To Implementation Ctrl + F12
 
-Visual Studio 2017 Extensions
-=============================
+## Visual Studio 2017 Extensions
 
 - **Roslynator** 180+ analyzers and 180+ refactoring for C Sharp.
 

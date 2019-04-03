@@ -14,7 +14,7 @@
 - Focus Assist ： 免打扰
 - Edge (PDF Reader / Read aloud / Print) （优化的内嵌PDF 阅读器，支持语音朗读； 支持局部打印）
 - Win + H Dictation （语音听写输入）
-- Build-in curl / tar unix tool
+- Build-in curl / tar Unix tool
 
 ## 立夏
 

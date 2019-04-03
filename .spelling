@@ -8,25 +8,36 @@ Dockerfile
 
 Peopleware
 
+# Tools
+
 PhotoShop
 GIMP
+Artboard
 FeedDemon
 jekyll
 html-proofer
 nginx
+CCProxy
+FireFox
 
+# DevOps Related
 ChatOps
 DevOps
 Travis
 CI
 GitHub
+Unix
+debian
+Lync
+Hubot
+
 
 CodeLens
 Ctrl
-FireFox
+
 
 32bit
 64bit
 utf-8
 
-Webhook
+webhook

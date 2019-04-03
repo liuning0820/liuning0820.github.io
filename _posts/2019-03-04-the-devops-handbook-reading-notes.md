@@ -5,7 +5,7 @@ author: liuning0820
 tags: [devops, book]
 ---
 
-# Reading Notes: The Devops Handbook
+# Reading Notes: The DevOps Handbook
 
 ## Chapter 5 - Selecting Which Value Stream to Start With
 
@@ -19,7 +19,7 @@ tags: [devops, book]
     * 强调快速响应和反馈，侧重Do it fast
     * 比如一些电子商务系统
     * 变化速度快
-* **Little** fish learn to be big fish in **little** ponds. --- Peter Drucker
+* **Little** fish learn to be big fish in **little** ponds.
 
 ## Chapter 7: How to Design Our Organization and Architecture with Conway’s Law in Mind
 
@@ -38,22 +38,22 @@ tags: [devops, book]
 ### Chapter 9 - Create the Foundations of Our Deployment Pipeline
 
 * On demand creating consistent production-like environments. (including DEV, TEST, STAGE)
-* Put back environemnt specific change into version control.
+* Put back environment specific change into version control.
 * Manual changes to the production environment are no longer allowed. The only way production changes can be made is to put the changes into version control.
 * CD to rebuild instead of repairing application using pipeline.
 
 ### Chapter 10 - Enable Fast and Reliable Automated Testing
 
 * Test Pyramid
-* Intergate performance testing into our test suit
+* Integrate performance testing into our test suit
 
 ### Chapter 12 - Automate and Enable Low-Risk Releases
 
 * Deployment vs Release
 
-Deployment is the installation of a specified version of software to a given environment (e.g., deploying code into an integration test environment or deploying code into production). Specifically, a deployment may or may not be associated with a release of a feature to customers.
+Deployment is the installation of a specified version of software to a given environment (for examplem, deploying code into an integration test environment or deploying code into production). Specifically, a deployment may or may not be associated with a release of a feature to customers.
 
-Release is when we make a feature (or set of features) available to all our customers or a segment of customers (e.g., we enable the feature to be used by 5% of our customer base). Our code and environments should be architected in such a way that the release of functionality does not require changing our application code.
+Release is when we make a feature (or set of features) available to all our customers or a segment of customers (for example, we enable the feature to be used by 5% of our customer base). Our code and environments should be built in such a way that the release of functionality does not require changing our application code.
 
 * Release patterns
   * Environment-based release patterns
@@ -72,7 +72,7 @@ Release is when we make a feature (or set of features) available to all our cust
 ### Chapter 13: Architect for Low-Risk Releases
 
 * Evolutionary architecture
-  "Any successful product or organization will necessarily evolve over its life cycle."  ---- Jez Humble
+  "Any successful product or organization will necessarily evolve over its life cycle."
   * strangler pattern
 
 ## STEP TWO: Feedback
@@ -81,7 +81,7 @@ Release is when we make a feature (or set of features) available to all our cust
 
 ### Chapter 16 - Enable Feedback So Development and Operations Can Safely Deploy Code
 
-* continuously improvement by small but frequent changesets 增量迭代改进，持续小步前行
+* continuously improvement by small but frequent change sets. 增量迭代改进，持续小步前行
 * contextual inquiry & customer observation 情景访谈 & 客户体验观察
 
 ### Chapter 17: Integrate Hypothesis-Driven Development and A/B Testing into Our Daily Work
@@ -104,7 +104,7 @@ A/B testing techniques were pioneered in direct response marketing. A/B 测试�
 
   Pull request are the mechanism that lets engineers tell others about changes they have pushed to a repository on GitHub. Once a pull request is sent, interested parties can **review** the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
 
-  It shifts our reliance away from periodic review,inspections and approvals from reivew board, and moving to integrated peer review performed continually as a part of our daily work. 将摆脱对评审委员会定期评审、审核和审批的依赖，用不间断的同行间评审取而代之。
+  It shifts our reliance away from periodic review,inspections and approvals from review board, and moving to integrated peer review performed continually as a part of our daily work. 将摆脱对评审委员会定期评审、审核和审批的依赖，用不间断的同行间评审取而代之。
 
   * Small batch sizes of each PR also applies to code reviews.
 

@@ -31,7 +31,7 @@
           steps {
              echo 'Checking spelling...'
              sh  '''
-             uname -a
+
              mdspell -n -a -r --en-us "*.md" "*/*.md" "*/*/*.md"
              '''
           }

@@ -7,7 +7,7 @@ tags: [ci]
 
 # Labs: Pipeline with Dockerfile to run in the Agent Node
 
-Now you have Jenkins installed, If you have a Jenkinsfile try to run stage in a delicated docker container instance, You have two options to resolve the dependency to docker.
+Now you have Jenkins installed, If you have a Jenkinsfile try to run stage in a dedicated docker container instance, You have two options to resolve the dependency to docker.
 
 ```groovy
 
@@ -33,7 +33,7 @@ Now you have Jenkins installed, If you have a Jenkinsfile try to run stage in a 
 
 ## Slave Agent Node With docker installed
 
-For my case, I have Jenkins running as a container in an Azure Ubuntu Linux VM， so in the VM host I alreay have Docker installed.
+For my case, I have Jenkins running as a container in an Azure Ubuntu Linux VM， so in the VM host I already have Docker installed.
 So I specify the VM host as a slave agent node to the Jenkins (192.168.1.1:8080).
 
 - Go to Jenkins-> Manage Jenkins-> [Manage Node](http://192.168.1.1:8080/computer/new) and give the node a named "docker-agent"

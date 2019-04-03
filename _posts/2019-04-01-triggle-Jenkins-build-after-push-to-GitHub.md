@@ -29,6 +29,6 @@ tags: [ci]
 
     ![Add GitHub Server]({{ site.url }}{{site.baseurl}}/images/jenkins-add-github-server.jpg)
 
-- In The Popup form，"Kind" Choose ”Secret text”，”Secret”填入前面在GitHub上生成的Personal access tokens.
+- In The pop up form，"Kind" Choose ”Secret text”，”Secret”填入前面在GitHub上生成的Personal access tokens.
 
 - 填写完毕后，点击Configure System页面中右侧的”Test connection”按钮.

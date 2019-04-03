@@ -1,0 +1,9 @@
+# markdown-spellcheck spelling exceptions configuration file
+# Format - lines beginning # are comments
+# one word per lines
+
+
+Jenkinsfile
+Dockerfile
+
+

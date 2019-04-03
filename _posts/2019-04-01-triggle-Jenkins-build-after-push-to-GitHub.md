@@ -13,7 +13,7 @@ tags: [ci]
 
 - [GitHub -> Settings -> Webhooks -> Add webhook](https://github.com/liuning0820/liuning0820.github.io/settings/hooks/new)
 
-- Fill Payload URL with the weekhook url above.
+- Fill Payload URL with the webhook address above.
 
 ## Generate Personal Access Token
 

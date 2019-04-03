@@ -51,7 +51,7 @@ tags: [devops, book]
 
 * Deployment vs Release
 
-Deployment is the installation of a specified version of software to a given environment (for examplem, deploying code into an integration test environment or deploying code into production). Specifically, a deployment may or may not be associated with a release of a feature to customers.
+Deployment is the installation of a specified version of software to a given environment (for example, deploying code into an integration test environment or deploying code into production). Specifically, a deployment may or may not be associated with a release of a feature to customers.
 
 Release is when we make a feature (or set of features) available to all our customers or a segment of customers (for example, we enable the feature to be used by 5% of our customer base). Our code and environments should be built in such a way that the release of functionality does not require changing our application code.
 
@@ -127,7 +127,7 @@ The only sustainable competitive advantage is an organization’s ability to lea
 Propagation of expertise and knowledge to rapidly enable and accumulate organizational learning.
 
 * ChatOps Tools: Use persistent chat room tools, such as Hubot, Slack, and MS Team. Instead of Lync and Outlook which are not broadly persistable.
-* Create a single, shared source code repository for entire organizaiton.
+* Create a single, shared source code repository for entire organization.
 * Encourage experimentation. "buoys, not boundaries.”
 
    Instead of drawing hard boundaries that everyone has to stay within, we put buoys that indicate deep areas of the channel where you’re safe and supported. You can go past the buoys as long as you follow the organizational principles. After all, how are we ever going to see the next innovation that helps us win if we’re not exploring and testing at the edges? As leaders, we need to navigate the channel, mark the channel, and allow people to explore past it.

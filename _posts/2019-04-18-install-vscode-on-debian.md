@@ -32,3 +32,8 @@ sudo apt-get install fcitx-pinyin
 
 ./im-config # 输入法配置工具
 ```
+
+## Terminal 终端下复制粘贴快捷键
+
+- 复制 CTRL+SHIFT+C
+- 粘贴 CTRL+SHIFT+V

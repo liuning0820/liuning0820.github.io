@@ -1,8 +1,17 @@
-# Visual Studio Code Installation
+---
+layout: default
+title: "Play With Debian"
+---
 
-## Debian and Ubuntu based distributions
+# Play With Debian
 
-The easiest way to install Visual Studio Code for Debian/Ubuntu based distributions is to download and install the .deb package.
+Records tools I intalled to play with debian.
+
+## Visual Studio Code Installation
+
+### Debian and Ubuntu based distributions
+
+The easiest way to install Visual Studio Code for Debian/Ubuntu based distributions is to download and install the [.deb package](https://code.visualstudio.com/).
 
 ```sh
 
@@ -12,4 +21,14 @@ sudo apt install ./<file>.deb
 # sudo dpkg -i <file>.deb
 # sudo apt-get install -f # Install dependencies
 
+```
+
+## Chinese Input 中文输入法
+
+```sh
+
+sudo apt-get install fcitx
+sudo apt-get install fcitx-pinyin
+
+./im-config # 输入法配置工具
 ```

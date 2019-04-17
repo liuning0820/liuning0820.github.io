@@ -37,3 +37,13 @@ sudo apt-get install fcitx-pinyin
 
 - 复制 CTRL+SHIFT+C
 - 粘贴 CTRL+SHIFT+V
+
+## Games
+
+```sh
+# supertux
+sudo apt-get install supertux
+
+
+
+```

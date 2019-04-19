@@ -44,6 +44,18 @@ sudo apt-get install fcitx-pinyin
 # supertux
 sudo apt-get install supertux
 
+```
 
+## Password Manager
 
+```sh
+sudo apt-get install keepass2
+
+```
+
+## Bittorrent Client
+
+```sh
+
+sudo apt-get install qbittorrent
 ```

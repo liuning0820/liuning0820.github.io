@@ -5,7 +5,18 @@ title: "Play With Debian"
 
 # Play With Debian
 
-Records tools I intalled to play with debian.
+Records tools installation when playing with debian.
+
+## Git Installation
+
+```sh
+sudo apt install git
+git --version
+git config --global user.name "Sammy"
+git config --global user.email "sammy@domain.com"
+
+
+```
 
 ## Visual Studio Code Installation
 

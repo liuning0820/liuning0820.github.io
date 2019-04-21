@@ -85,3 +85,36 @@ smbclient -L //192.168.*.*
 sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
 
 ```
+## Claws Mail Setting
+
+### IMAP
+
+```
+服务器名称: outlook.office365.com
+
+端口: 993
+
+加密方法: TLS
+
+```
+
+### SMTP
+
+```
+服务器名称: smtp.office365.com
+
+端口: 587
+
+加密方法: STARTTLS
+
+```
+
+
+## shadowsocks
+
+
+```
+
+sudo apt-get install shadowsocks
+
+````

@@ -117,4 +117,8 @@ sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
 
 sudo apt-get install shadowsocks
 
+sslocal -c sslocal.conf # connect to the proxy server.
 ````
+
+
+[Firefox Proxy Setting]({{ site.url }}{{site.baseurl}}/images./shadowsocks-firefox.png)

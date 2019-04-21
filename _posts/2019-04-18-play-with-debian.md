@@ -70,3 +70,18 @@ sudo apt-get install keepass2
 
 sudo apt-get install qbittorrent
 ```
+
+
+## Mount Network Location
+
+```sh
+sudo apt-get install cifs-utils smbclient
+
+sudo mkdir /media/Data
+
+# List the share name in remote host with real host ip
+smbclient -L //192.168.*.*
+
+sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
+
+```

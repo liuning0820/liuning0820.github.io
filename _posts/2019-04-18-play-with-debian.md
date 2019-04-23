@@ -5,7 +5,7 @@ title: "Play With Debian"
 
 # Play With Debian
 
-Records tools installation when playing with debian.
+Records tools installation when playing with Debian.
 
 ## Git Installation
 
@@ -60,7 +60,7 @@ sudo apt-get install supertux
 ## Password Manager
 
 ```sh
-sudo apt-get install keepass2
+sudo apt-get install keepassx
 
 ```
 
@@ -113,12 +113,39 @@ sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
 ## shadowsocks
 
 
-```
+```sh
 
 sudo apt-get install shadowsocks
 
 sslocal -c sslocal.conf # connect to the proxy server.
-````
+
+```
 
 
 [Firefox Proxy Setting]({{ site.url }}{{site.baseurl}}/images./shadowsocks-firefox.png)
+
+
+## Firefox Flash Player
+
+
+Download and execute this shell script [fireflashupdate](https://github.com/cybernova/fireflashupdate)with the following commands: 
+
+```sh
+
+wget https://raw.githubusercontent.com/cybernova/fireflashupdate/master/fireflashupdate.sh
+chmod +x fireflashupdate.sh
+./fireflashupdate.sh
+
+```
+
+
+## Putty - SSH Client
+
+```sh
+
+sudo apt-get install putty
+
+```
+
+
+file:///C:/Users/hpadmin/Documents/ln-doc-as-code/bookmark-as-code/personal-bookmark.html

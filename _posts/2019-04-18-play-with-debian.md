@@ -5,7 +5,7 @@ title: "Play With Debian"
 
 # Play With Debian
 
-![debian-logo]({{ site.url }}{{site.baseurl}}/images./debian-logo.png)
+![debian-logo]({{ site.url }}{{site.baseurl}}/images/debian-logo.png)
 
 Records tools installation when playing with Debian.
 
@@ -124,7 +124,7 @@ sslocal -c sslocal.conf # connect to the proxy server.
 ```
 
 
-![Firefox Proxy Setting]({{ site.url }}{{site.baseurl}}/images./shadowsocks-firefox.png)
+![Firefox Proxy Setting]({{ site.url }}{{site.baseurl}}/images/shadowsocks-firefox.png)
 
 
 ## Firefox Flash Player

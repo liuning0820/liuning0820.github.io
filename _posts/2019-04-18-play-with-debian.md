@@ -147,5 +147,3 @@ sudo apt-get install putty
 
 ```
 
-
-file:///C:/Users/hpadmin/Documents/ln-doc-as-code/bookmark-as-code/personal-bookmark.html

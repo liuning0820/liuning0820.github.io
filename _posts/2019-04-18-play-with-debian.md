@@ -149,3 +149,12 @@ sudo apt-get install putty
 
 ```
 
+
+### GIMP - Open Source Image Editor
+
+```sh
+# https://www.gimp.org/
+sudo apt-get install gimp
+
+```
+

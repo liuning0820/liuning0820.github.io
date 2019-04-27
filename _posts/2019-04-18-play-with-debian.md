@@ -158,3 +158,15 @@ sudo apt-get install gimp
 
 ```
 
+
+### Snapd - Tool to interact with Ubuntu Core Snappy
+
+Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross-platform and dependency-free.
+
+
+```sh
+sudo apt-get intall snapd
+sudo reboot
+sudo snap install hello-world ## find the snaps to install from store https://snapcraft.io/store
+```
+

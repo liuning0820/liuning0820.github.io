@@ -14,6 +14,12 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 [A remote Jekyll themes](https://github.com/mmistakes/minimal-mistakes)
 
+## Jekyll Collection
+
+[Implement Jekyll Collections](https://jekyllrb.com/docs/collections/)
+
+./_staff_members is an sample folder represent a collection. (the folder start with underscore '_')
+
 ## Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

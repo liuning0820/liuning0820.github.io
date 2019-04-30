@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Play With Debian"
 ---
 
 # Play With Debian
@@ -66,13 +65,12 @@ sudo apt-get install keepassx
 
 ```
 
-## Bittorrent Client
+## BitTorrent Client
 
 ```sh
 
 sudo apt-get install qbittorrent
 ```
-
 
 ## Mount Network Location
 
@@ -111,8 +109,7 @@ sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
 
 ```
 
-
-## shadowsocks
+## VPN
 
 
 ```sh
@@ -149,7 +146,6 @@ sudo apt-get install putty
 
 ```
 
-
 ### GIMP - Open Source Image Editor
 
 ```sh
@@ -158,14 +154,12 @@ sudo apt-get install gimp
 
 ```
 
-
 ### Snapd - Tool to interact with Ubuntu Core Snappy
 
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross-platform and dependency-free.
 
-
 ```sh
-sudo apt-get intall snapd
+sudo apt-get install snapd
 sudo reboot
 sudo snap install hello-world ## find the snaps to install from store https://snapcraft.io/store
 ```

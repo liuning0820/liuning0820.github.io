@@ -111,7 +111,6 @@ sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
 
 ## VPN
 
-
 ```sh
 
 sudo apt-get install shadowsocks
@@ -120,14 +119,11 @@ sslocal -c sslocal.conf # connect to the proxy server.
 
 ```
 
-
 ![Firefox Proxy Setting]({{ site.url }}{{site.baseurl}}/images/shadowsocks-firefox.png)
-
 
 ## Firefox Flash Player
 
-
-Download and execute this shell script [fireflashupdate](https://github.com/cybernova/fireflashupdate)with the following commands: 
+Download and execute this shell script [fireflashupdate](https://github.com/cybernova/fireflashupdate)with the following commands:
 
 ```sh
 
@@ -136,7 +132,6 @@ chmod +x fireflashupdate.sh
 ./fireflashupdate.sh
 
 ```
-
 
 ## Putty - SSH Client
 

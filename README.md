@@ -10,6 +10,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/liuning0820/liuning0820.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
+## Jekyll Remote Theme
+
 [A remote Jekyll themes](https://github.com/mmistakes/minimal-mistakes)
 
 ## Support or Contact
@@ -34,3 +36,4 @@ Now browse to [Server address](http://localhost:4000)
 ## Travis CI + html-proofer
 
 [Continuous Integration](https://jekyllrb.com/docs/continuous-integration/travis-ci/)
+

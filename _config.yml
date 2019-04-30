@@ -42,6 +42,6 @@ theme: jekyll-theme-slate
 collections:
   staff_members:
     output: true
-#     permalink: /:_staff_members/:path/
+    permalink: /:collection/:path/
 
   

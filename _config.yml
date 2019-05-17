@@ -31,3 +31,17 @@ plugins:
   - jekyll-paginate-v2
 
 theme: jekyll-theme-slate
+
+
+# Collections
+# https://jekyllrb.com/docs/collections/
+
+# collections:
+#     - staff_members
+    
+collections:
+  staff_members:
+    output: true
+    permalink: /:collection/:path/
+
+  

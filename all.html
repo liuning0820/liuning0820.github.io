@@ -15,6 +15,17 @@ title: 对刘谈心-liuning0820.github.io
 	{% endfor %}
 
 
+	<h1>Collections Example:_staff_members</h1>
+
+	{% for staff_member in site.staff_members %}
+		
+		<li><a href="{{ staff_member.url | prepend: site.baseurl }}">
+		{{ staff_member.name }} - {{ staff_member.position }}
+		</a></li>
+		<!-- <p>{{ staff_member.content}}</p> -->
+	{% endfor %}
+
+
 　　<h1>All Articles:</h1>
 
 	<ul class="posts">

@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Play With Debian"
 ---
 
 # Play With Debian
@@ -66,13 +65,12 @@ sudo apt-get install keepassx
 
 ```
 
-## Bittorrent Client
+## BitTorrent Client
 
 ```sh
 
 sudo apt-get install qbittorrent
 ```
-
 
 ## Mount Network Location
 
@@ -111,9 +109,7 @@ sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
 
 ```
 
-
-## shadowsocks
-
+## VPN
 
 ```sh
 
@@ -123,14 +119,11 @@ sslocal -c sslocal.conf # connect to the proxy server.
 
 ```
 
-
 ![Firefox Proxy Setting]({{ site.url }}{{site.baseurl}}/images/shadowsocks-firefox.png)
-
 
 ## Firefox Flash Player
 
-
-Download and execute this shell script [fireflashupdate](https://github.com/cybernova/fireflashupdate)with the following commands: 
+Download and execute this shell script [fireflashupdate](https://github.com/cybernova/fireflashupdate)with the following commands:
 
 ```sh
 
@@ -140,7 +133,6 @@ chmod +x fireflashupdate.sh
 
 ```
 
-
 ## Putty - SSH Client
 
 ```sh
@@ -148,7 +140,6 @@ chmod +x fireflashupdate.sh
 sudo apt-get install putty
 
 ```
-
 
 ### GIMP - Open Source Image Editor
 
@@ -158,11 +149,9 @@ sudo apt-get install gimp
 
 ```
 
-
 ### Snapd - Tool to interact with Ubuntu Core Snappy
 
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross-platform and dependency-free.
-
 
 ```sh
 sudo apt-get install snapd

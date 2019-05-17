@@ -34,4 +34,4 @@ for example:
 bundle exec jekyll serve 本地启动发现报错。
 
 <!-- Navigation -->
-[Previous]({{ site.baseurl }}{% post_url 2016-07-13-first-blog %})
+[Previous]({{ site.baseurl }}{% post_url 2017-07-06-team-management-bystander-effect %})

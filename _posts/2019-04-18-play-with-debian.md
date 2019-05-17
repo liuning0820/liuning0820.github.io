@@ -165,8 +165,17 @@ Snaps are app packages for desktop, cloud and IoT that are easy to install, secu
 
 
 ```sh
-sudo apt-get intall snapd
+sudo apt-get install snapd
 sudo reboot
 sudo snap install hello-world ## find the snaps to install from store https://snapcraft.io/store
+```
+
+### Find - search for files
+
+```sh
+
+find . -name "*羽毛球*" # search current path for a file name contains '羽毛球'
+
+
 ```
 

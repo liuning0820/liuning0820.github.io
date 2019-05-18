@@ -18,7 +18,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 [Implement Jekyll Collections](https://jekyllrb.com/docs/collections/)
 
-_staff_members is a sample folder which represents a collection. (The folder's name starts with underscore '_')
+**_staff_members** is a sample folder which represents a collection. (The folder's name starts with underscore '_')
 
 ## Support or Contact
 

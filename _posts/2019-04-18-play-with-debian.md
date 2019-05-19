@@ -159,3 +159,36 @@ sudo reboot
 sudo snap install hello-world ## find the snaps to install from store https://snapcraft.io/store
 ```
 
+### Find - search for files
+
+```sh
+
+find . -name "*羽毛球*" # search current path for a file name contains '羽毛球'
+
+
+```
+
+
+### 多屏幕显示
+
+```sh
+# 显示可用显示器
+xrandr
+
+# 仅在外接VGA显示器显示，关闭笔记本显示器
+xrandr --output VGA-1 --auto --output LVDS-1 --off
+
+# 扩屏显示
+xrandr --output VGA-1 --auto --right-of LVDS-1
+
+```
+
+### 摄像头视频拍照工具
+
+```sh
+# cheese  一个使用摄像头拍摄录像或照片的工具
+
+sudo apt-get install cheese
+
+```
+

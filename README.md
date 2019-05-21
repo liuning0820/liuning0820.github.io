@@ -42,4 +42,3 @@ Now browse to [Server address](http://localhost:4000)
 ## Travis CI + html-proofer
 
 [Continuous Integration](https://jekyllrb.com/docs/continuous-integration/travis-ci/)
-

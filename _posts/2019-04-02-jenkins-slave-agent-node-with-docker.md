@@ -39,7 +39,7 @@ So I specify the VM host as a slave agent node to the Jenkins (192.168.1.1:8080)
 - Go to Jenkins-> Manage Jenkins-> [Manage Node](http://192.168.1.1:8080/computer/new) and give the node a named "docker-agent"
 - Configure as below and Save.
 
-    ![Add Node]({{ site.url }}{{site.baseurl}}/images/jenkins-add-slave-agent.jpg)
+    ![Add Node]({{ site.url }}{{site.baseurl}}/images/jenkins-add-slave-agent.jpg){:height="100%" width="100%"}
 
 - Check the Node [Log](http://192.168.1.1:8080/computer/docker-agent/log) to make sure the agent connected.
 

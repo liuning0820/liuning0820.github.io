@@ -23,7 +23,7 @@ http://jekyllrb.com/docs/structure/
 
 ### Add images into the page
 
-first put images under folder ./images
+First, add images under folder ./images
 then from your post reference the images by using {{ site.url }}{{site.baseurl}}/images/xxx
 for example:
 ![DescriptionOfImg]({{ site.url }}{{site.baseurl}}/images/75a475234e7b95eb7d2ee7b3f3552c78.png)

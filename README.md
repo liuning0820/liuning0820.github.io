@@ -39,6 +39,6 @@ bundle exec jekyll serve
 
 Now browse to [Server address](http://localhost:4000)
 
-## Travis CI + html-proofer
+## Travis CI
 
 [Continuous Integration](https://jekyllrb.com/docs/continuous-integration/travis-ci/)

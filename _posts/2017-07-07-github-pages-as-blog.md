@@ -28,6 +28,13 @@ then from your post reference the images by using {{ site.url }}{{site.baseurl}}
 for example:
 ![DescriptionOfImg]({{ site.url }}{{site.baseurl}}/images/75a475234e7b95eb7d2ee7b3f3552c78.png)
 
+### Google Analytics setup
+
+I Reference [Google Analytics setup for Jekyll](https://michaelsoolee.com/google-analytics-jekyll/) to setup
+Google Analytics for my blog.
+
+Another useful link [使用Google Analytics监控GitHub Pages访问流量](https://letianfeng.github.io/github/2018/05/27/github_pages_and_google_analytics.html)
+
 ### Troubleshooting
 
 对于中文的支持必须是utf-8 编码，在visual studio里直接写中文，貌似不是utf-8的编码，用文本编辑器打开发现是乱码， 然后用

@@ -54,6 +54,11 @@
 		</div>
 	</div>
 
+
+	{% if page.comments %}
+		{% include comments.html %}
+	{% endif %}
+
 	<footer>
 		{% include footer.html %}
 	</footer>

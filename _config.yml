@@ -33,6 +33,11 @@ plugins:
 theme: jekyll-theme-slate
 
 
+# Comment 这是disqus的评论系统
+comment:
+    disqus: liuning0820
+
+
 # Collections
 # https://jekyllrb.com/docs/collections/
 

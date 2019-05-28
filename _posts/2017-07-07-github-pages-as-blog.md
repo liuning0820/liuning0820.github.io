@@ -37,6 +37,20 @@ Another useful link [使用Google Analytics监控GitHub Pages访问流量](https
 
 After the setup, you can nativgate [Google Analytics Portal](https://analytics.google.com/analytics/web) to see the usage analytics of your website.
 
+### 添加Disqus评论系统
+
+- Sign up new [disqus profile](https://disqus.com/profile/signup/)
+- Install [Disqus](https://disqus.com/admin/create/) on my site. Give a Website name where to install disqus. And follow the UI Instruction to complete the intallation and setup.
+- Open _config.yml, 修改comment下面的disqus的值为自己上一步填的Website Name.
+
+```yml
+
+# Comment 这是disqus的评论系统
+comment:
+    disqus: liuning0820
+```
+
+
 ### Troubleshooting
 
 对于中文的支持必须是utf-8 编码，在visual studio里直接写中文，貌似不是utf-8的编码，用文本编辑器打开发现是乱码， 然后用

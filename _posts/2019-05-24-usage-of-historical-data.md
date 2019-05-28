@@ -2,6 +2,7 @@
 layout: default
 title: "The usage of historical data 浅谈历史数据的作用"
 author: liuning0820
+comments: true
 ---
 
 ## 历史数据的作用 - 以备不时之需

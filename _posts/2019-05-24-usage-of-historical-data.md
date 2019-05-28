@@ -2,7 +2,6 @@
 layout: default
 title: "The usage of historical data 浅谈历史数据的作用"
 author: liuning0820
-
 ---
 
 ## 历史数据的作用 - 以备不时之需
@@ -31,4 +30,4 @@ author: liuning0820
 从这点展开来，我今天也为我的[博客](https://liuning0820.github.io)加上了Google Analytics 来监测和统计访问流量的数据分布.
 ![Google Analytics]({{ site.url }}{{site.baseurl}}/images/google-analytics.jpg){:height="80%" width="80%"}
 
-希望通过这些数据给出的报告，指导我更好些去写,更好地回馈我的读者。
+希望通过这些数据给出的报告，指导我更好地去写,更好地回馈我的读者。

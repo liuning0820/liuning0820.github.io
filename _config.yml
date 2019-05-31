@@ -17,6 +17,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CONTRIBUTING.md
+  - Dockerfile.mdspell
+  - Jenkinsfile
 
 
 

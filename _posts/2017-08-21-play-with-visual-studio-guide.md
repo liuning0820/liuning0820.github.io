@@ -1,8 +1,6 @@
 ---
-title: Visual Studio 使用手册
+title: Visual Studio Guide
 ---
-
-# Visual Studio Guide
 
 ## New feature supported by VS2013
 
@@ -67,3 +65,13 @@ https://www.codeproject.com/tips/1042975/tips-to-improve-visual-studio-build-per
 ## Python Development with Visual Studio 2017
 
 - [Getting Started with Python Development using Visual Studio](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+
+
+## Visual Studio 2019
+
+### Visual Studio 2019 Extensions
+
+- Whack Whack Terminal
+
+Terminal emulator for Visual Studio. Allows you to run command prompt, powershell, WSL bash. All including interactive mode.
+

@@ -30,7 +30,7 @@ pipeline {
             // mdspell uses chalk to color output.
             // chalk uses a library called supports-color which auto-detects terminal support.
             // this env var will force the library to use color.
-          FORCE_COLOR = "1";
+          // FORCE_COLOR = "1";
         }
 
       steps {

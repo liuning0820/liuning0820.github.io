@@ -14,7 +14,7 @@ author: liuning0820
 - keep sentence short
 - 多用主动式语句，少用被动式语句
 
-## Advoiding Common Mistakes
+## Avoiding Common Mistakes
 
 - Jargon
 

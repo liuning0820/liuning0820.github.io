@@ -29,8 +29,7 @@ pipeline {
         echo 'Checking spelling...'
         // mdspell -n -a -r --en-us "*.md" "*/*.md" "*/*/*.md"
         sh  ''' 
-        cd ./_posts
-        mdspell -n -a -r --en-us "*.md"
+        mdspell -n -a -r --en-us "./_posts/*.md"
         '''
       }
     }    

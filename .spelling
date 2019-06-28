@@ -5,7 +5,6 @@
 
 Jenkinsfile
 Dockerfile
-
 Peopleware
 
 # Tools
@@ -24,7 +23,6 @@ FireFox
 # DevOps Related
 ChatOps
 DevOps
-
 Travis
 CI
 GitHub
@@ -32,12 +30,8 @@ Unix
 debian
 Lync
 Hubot
-
-
 CodeLens
 Ctrl
-
-
 32bit
 64bit
 utf-8
@@ -51,13 +45,10 @@ admin:repo_hook
 _hook
 Breakpoint
 breakpoint
-
 Embeddable
 README.md
-
 fireflashupdate
 Snapd
 IoT
-
 Baidu
 

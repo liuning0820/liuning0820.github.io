@@ -27,7 +27,7 @@ Instructions and more info available in the [here](https://github.com/hakimel/re
 
 ----
 
-#@ Mindset: Everything As Code
+# Mindset: Everything As Code
 
 <img width="80%" data-src="../assets/mindset-x-as-code.jpg">
 
@@ -40,6 +40,8 @@ Instructions and more info available in the [here](https://github.com/hakimel/re
 - Remote tfstate in AWS S3
 - Parameters in AWS SSM
 - Pipeline 最大的作用是对劳动力的解放，程序来控制代码从版本库到线上的行进流程，而非人。
+
+----
 
 ## Practice: Doc as Code
 
@@ -65,5 +67,4 @@ Docs as Code approach gives benefits:
 - GitHub Page (ex. static site , Jekyll light blog)
 - Presentations (reveal.js PPT online)
 - [Diagrams as code](https://www.draw.io/)
-- Using Jenkins pipeline of mdspell, htmlproofer to build feedback loop to improve the doc.
-
+- Using Jenkins pipeline of mdspell, HTML Proofer to build feedback loop to improve the doc.

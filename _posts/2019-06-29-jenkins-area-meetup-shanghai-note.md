@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "Jenkins Meeting up"
+title: "jenkins-area-meetup-shanghai-note"
 author: liuning0820
 comments: true
 ---
 
-
-## Hi, Everyone.
+## 
 

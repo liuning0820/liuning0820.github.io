@@ -35,3 +35,5 @@ comments: true
 - Jenkins X 自建 K8s集群进行金丝雀部署，并通过一些开源监控工具进行状态监测，来自动进行rollout 或者rollback
 - DevOps人才难招
 - 如何解决数据库脚本的自动升级和回滚是自动化部署工具中的一大难题
+- [Carlos Sanchez](https://carlossg.github.io/presentations/2019-06_jam_shanghai_beijing)
+- [Carlos Sanchez@Github](https://github.com/carlossg)

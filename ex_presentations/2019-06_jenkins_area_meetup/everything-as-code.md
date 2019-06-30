@@ -11,23 +11,7 @@ GitHub Page: https://liuning0820.github.io/
 
 ----
 
-# Markdown support
-
-Write content using inline or external Markdown.
-Instructions and more info available in the [here](https://github.com/hakimel/reveal.js#markdown).
-
-```
-<section data-markdown>
-    ## Markdown support
-
-    Write content using inline or external Markdown.
-    Instructions and more info available in the [here](https://github.com/hakimel/reveal.js#markdown).
-</section>
-```
-
-----
-
-# Mindset: Everything As Code
+## Mindset: Everything As Code
 
 <img width="80%" data-src="../assets/mindset-x-as-code.jpg">
 
@@ -68,3 +52,21 @@ Docs as Code approach gives benefits:
 - Presentations (reveal.js PPT online)
 - [Diagrams as code](https://www.draw.io/)
 - Using Jenkins pipeline of mdspell, HTML Proofer to build feedback loop to improve the doc.
+
+----
+
+# Markdown support
+
+Write content using inline or external Markdown.
+Instructions and more info available in the [here](https://github.com/hakimel/reveal.js#markdown).
+
+```
+<section data-markdown>
+    ## Markdown support
+
+    Write content using inline or external Markdown.
+    Instructions and more info available in the [here](https://github.com/hakimel/reveal.js#markdown).
+</section>
+```
+
+----

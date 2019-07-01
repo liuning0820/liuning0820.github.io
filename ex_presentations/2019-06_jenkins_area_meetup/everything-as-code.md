@@ -13,7 +13,7 @@ GitHub Page: https://liuning0820.github.io/
 
 ## Mindset: Everything As Code
 
-<img width="80%" data-src="../assets/mindset-x-as-code.jpg">
+<img alt="Mindset:Everything As Code" width="80%" data-src="../assets/mindset-x-as-code.jpg">
 
 ----
 

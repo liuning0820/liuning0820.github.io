@@ -9,7 +9,7 @@ comments: true
 
 - [Google](http://www.google.com/ncr)
 - Bing
-- [startpage](www.startpage.com) ( highlights: privacy）
+- [startpage](http://www.startpage.com) ( highlights: privacy）
 - YouTube
 - DuckDuckGo
 - Baidu

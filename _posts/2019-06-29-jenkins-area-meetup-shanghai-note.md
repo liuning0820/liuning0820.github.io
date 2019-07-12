@@ -30,7 +30,7 @@ comments: true
 
 作为听众，我也从别的嘉宾那些Get到一些点，当然也和坐我身旁的美女进行了一番技术交流，具体点如下：
 
-- DevOps的平台工具层出不穷，把握住你要解决的问题
+- DevOps的平台工具层出不穷，把握住你要解决的问题。 Principles > Practices > Tools; Mindset > Skillset > Toolset
 - 测试金字塔是各大公司里做的最不理想的（也许还有下次，我可以分享分享这个点）
 - Jenkins X 自建 K8s集群进行金丝雀部署，并通过一些开源监控工具进行状态监测，来自动进行rollout 或者rollback
 - DevOps人才难招

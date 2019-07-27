@@ -14,4 +14,5 @@ Select the Screenshots icon from the page actions menu in the address bar, and t
 
 ## Extensions
 
-- Video Speed Controller 
+- Video Speed Controller
+- Tampermonkey

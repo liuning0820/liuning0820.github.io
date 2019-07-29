@@ -32,6 +32,32 @@ div.content h1{display: none}
 	width:20px;
 }
 
-#search-submit{
-	font-size: large
+#search-outer {
+	width: 600px;
+	margin: 0 0 10px 0;
+  }
+  
+#search-box {
+	margin: 0;
+	width: 400px;
+	font-size: 20px;
+	padding: 5px;
+	border: 1px solid #EEEEEE;
+  }
+  
+#search-submit {
+	margin: 0;
+	font-size: large;
+	padding: 5px;
+	border: 1px solid #EEEEEE;
+  }
+
+#search-results {
+	list-style-type: none;
+	padding: 0%
+
 }
+
+#search-results li {
+	background: #cce5ff;
+  }

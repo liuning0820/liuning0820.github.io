@@ -1,9 +1,13 @@
 ---
 layout: default
-title: "The Future of DevOps As a Service"
 author: liuning0820
 comments: true
 ---
+# The Future of DevOps As a Service
+
+DevOps这两年在各个公司中如火如荼，但是DevOps 终将成为几个大厂的服务。
+
+<! --more-- >
 
 ## Trend of DevOps
 

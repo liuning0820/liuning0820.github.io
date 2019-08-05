@@ -34,7 +34,7 @@ body nav,body main {
 footer { border-top: 1px solid #d5d5d5; font-size: 1em; background: lightgray}
 
 
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
+nav ul li, footer ul li, nav ul li form  { display: inline; margin-right: 20px; }
 
 nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 
@@ -44,20 +44,21 @@ nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding
 div.content h1{display: none}
 
 
-.search-icon {
+/* .search-icon {
 	display: inline-block;
 	height: 20px;
 	width:20px;
-}
+} */
 
-#search-outer {
+/* #search-outer {
+	display: inline-block;
 	width: 600px;
 	margin: 0 0 10px 0;
-  }
+  } */
   
 #search-box {
 	margin: 0;
-	width: 400px;
+	width: 200px;
 	font-size: 20px;
 	padding: 5px;
 	border: 1px solid #EEEEEE;

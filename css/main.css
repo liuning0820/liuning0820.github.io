@@ -1,6 +1,12 @@
 
+html {
+	background-color: aliceblue
+}
+
 header a { text-decoration: none; }
 header a:hover { text-decoration: underline; }
+
+
 
 body nav,body main {
 
@@ -8,9 +14,21 @@ body nav,body main {
 	min-width: 600px;
 	margin-left: 150px;
 	display: block;
+	
 }
 
 /* body main ul li {font-size: 1.5em; } */
+
+.wechat-donate {
+	width: 75%;
+	min-width: 600px;
+	padding: 10px 0; 
+	margin-left: 150px;
+	text-align: center;
+
+}
+
+
 
 
 footer { border-top: 1px solid #d5d5d5; font-size: 1em; background: lightgray}

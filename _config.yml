@@ -21,7 +21,8 @@ exclude:
   - Dockerfile.mdspell
   - Jenkinsfile
 
-
+# #摘要显示分割线
+excerpt_separator: <! --more-- >
 
 # Pagination Settings
 

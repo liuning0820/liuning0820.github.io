@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Labs: Pipeline with Dockerfile running in the Agent"
 author: liuning0820
 tags: [ci]
 ---

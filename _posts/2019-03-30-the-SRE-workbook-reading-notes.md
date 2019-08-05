@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Reading Notes: The Site Reliability Workbook: Practical Ways to Implement SRE"
 author: liuning0820
 tags: [book]
 ---

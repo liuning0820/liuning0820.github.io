@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Reading Notes: The Devops Handbook"
 author: liuning0820
 tags: [devops, book]
 ---

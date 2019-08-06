@@ -11,7 +11,7 @@ header a:hover { text-decoration: underline; }
 body nav,body main {
 
 	width: 75%;
-	min-width: 750px;
+	min-width: 800px;
 	margin-left: 150px;
 	display: block;
 	
@@ -21,7 +21,7 @@ body nav,body main {
 
 .wechat-donate {
 	width: 75%;
-	min-width: 750px;
+	min-width: 800px;
 	padding: 10px 0; 
 	margin-left: 150px;
 	text-align: center;

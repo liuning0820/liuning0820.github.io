@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Reading Notes - Technology Strategy Pattern"
+# title: "Reading Notes - Technology Strategy Pattern"
 author: liuning0820
 tags: [book]
 ---
 
-# Technology Strategy Pattern
+# Reading Notes - Technology Strategy Pattern
 
 ## 几个商业策略的例子
 

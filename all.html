@@ -5,7 +5,15 @@ title: 对刘谈心-liuning0820.github.io
 
 	<h1>All Tags:</h1>
 
+		<!-- 标签云 -->
+		<div id='tag_cloud'>
+			{% for tag in site.tags %}
+			<a href="#{{ tag[0] }}" title="{{ tag[0] }}">{{ tag[0] }}</a>
+			{% endfor %}
+		</div>
+
 	{% for tag in site.tags %}
+		<span id="{{ tag[0] }}">
 		<h3>{{ tag[0] }}</h3>
 		<ul>
 			{% for post in tag[1] %}

@@ -80,3 +80,15 @@ div.content h1{display: none}
 #search-results li {
 	background: #cce5ff;
   }
+
+/* Tag Cloud*/
+
+ 
+
+  
+
+
+  #tag_cloud a:hover,
+  #tag_cloud a:active {
+	background-color: #0085a1 !important;
+  }

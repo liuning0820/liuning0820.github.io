@@ -33,6 +33,7 @@ paginate_path: /page:num/
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-sitemap
 
 theme: jekyll-theme-slate
 

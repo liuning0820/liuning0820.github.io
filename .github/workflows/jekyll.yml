@@ -16,4 +16,4 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}/_site:/_site \
-        jekyll/builder:latest /bin/bash -c "jekyll build --future && htmlproofer ./_site --disable-external 'true' --log-level debug"
+        jekyll/builder:latest /bin/bash -c "jekyll build --future && gem install html-proofer && htmlproofer ./_site --disable-external 'true' --log-level debug"

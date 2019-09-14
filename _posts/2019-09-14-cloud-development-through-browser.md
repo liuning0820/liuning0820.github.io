@@ -7,10 +7,11 @@ comments: true
 
 # cloud-development-through-browser
 
-现在是云计算的时代，作为开发者，也应该拥抱面向云端的开发方式，而不让自己限定于具体的高性能的开发机器。
+现在是云计算的时代，作为开发者，也应该拥抱面向云端的开发方式，而不让自己限定于具体的高性能的开发机器面前。
 
 不管是Windows 或Linux 和 MacOS，还是iPhone或Android, 抑或是iPad，都支持浏览器，浏览器就是云开发的最佳终端入口。
 且看我的实践。
+
 <! --more-- >
 
 ## 浏览器
@@ -50,7 +51,7 @@ docker run -it -p 0.0.0.0:8443:8443 -v "${PWD}:/home/coder/project" codercom/cod
 
 ![VS Code through Browser]({{ site.url }}{{site.baseurl}}/images/code-server-in-browser.png){:height="50%" width="80%"}
 
-更加惊喜的是，你可以在通过浏览器里的VS Code IDE 通过 SSH 连接到其他虚拟器进行bash 操作。
+更加惊喜的是，你可以在浏览器里的VS Code IDE 通过 SSH 连接到其他虚拟器进行bash 操作。
 
 ## 结论
 

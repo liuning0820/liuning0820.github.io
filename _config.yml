@@ -47,11 +47,15 @@ comment:
 # https://jekyllrb.com/docs/collections/
 
 # collections:
-#     - staff_members
+#     - en
     
 collections:
-  staff_members:
+  en:
     output: true
     permalink: /:collection/:path/
-
+    
+# 中文集
+  cn:
+    output: true
+    permalink: /cn/:path/
   

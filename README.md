@@ -53,5 +53,9 @@ Having trouble with Pages? Check out the [documentation](https://help.github.com
 
 ## References
 
-[Travis CI](https://jekyllrb.com/docs/continuous-integration/travis-ci/)
-[Jekyll](https://jekyllrb.com/)
+- [Travis CI](https://jekyllrb.com/docs/continuous-integration/travis-ci/)
+- [Jekyll](https://jekyllrb.com/)
+
+### 同类型博客
+
+- [https://yihui.name](https://github.com/rbind/yihui/)

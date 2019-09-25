@@ -23,7 +23,7 @@ title: 对刘谈心-liuning0820.github.io
 	{% endfor %}
 
 
-	<h1>Collections Example:_en</h1>
+	<h1>Collections :_en</h1>
 
 	{% for staff_member in site.en %}
 		
@@ -31,6 +31,15 @@ title: 对刘谈心-liuning0820.github.io
 		{{ staff_member.name }} - {{ staff_member.position }}
 		</a></li>
 		<!-- <p>{{ staff_member.content}}</p> -->
+	{% endfor %}
+
+	<h1>Collections :_cn</h1>
+
+	{% for item in site.cn %}
+		
+		<li><a href="{{ item.url | prepend: site.baseurl }}">
+		{{ item.name }} - {{ item.position }}
+		</a></li>
 	{% endfor %}
 
 

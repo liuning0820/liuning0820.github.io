@@ -2,7 +2,7 @@
 layout: default
 title: "Labs: 向GitHub Push代码时触发Jenkins自动构建"
 author: liuning0820
-tags: [ci]
+tags: [jenkins]
 ---
 
 # Labs: 向GitHub Push代码时触发Jenkins自动构建

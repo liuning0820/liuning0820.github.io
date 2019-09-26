@@ -1,7 +1,7 @@
 ---
 layout: default
 author: liuning0820
-tags: [ci]
+tags: [jenkins]
 ---
 
 # Labs: Pipeline with Dockerfile to run in the Agent Node

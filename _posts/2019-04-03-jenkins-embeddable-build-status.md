@@ -2,7 +2,7 @@
 layout: default
 title: "Labs: Jenkins Embeddable Build Status"
 author: liuning0820
-tags: [ci]
+tags: [jenkins]
 ---
 
 # Labs: Jenkins Embeddable Build Status

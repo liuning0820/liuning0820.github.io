@@ -10,12 +10,32 @@ header a:hover { text-decoration: underline; }
 
 body nav,body main {
 
-	width: 75%;
+	width: 80%;
 	min-width: 800px;
-	margin-left: 150px;
+	margin-left: 100px;
 	display: block;
 	
 }
+
+
+body main > div.tags {
+	width: 30%;
+	border: 2px lightblue dotted;
+	float: right;
+	clear: both;
+	
+}
+
+body main > div.main {
+	width: 68%;
+	float: right;
+	/* border: 2px #0085a1 dashed; */
+	/* clear: both; */
+	margin:5px,20px,5px;
+	
+}
+
+
 
 footer { border-top: 1px solid #d5d5d5; font-size: 1em; background: lightgray}
 
@@ -33,6 +53,7 @@ nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding
 	padding: 10px 0; 
 	margin-left: 150px;
 	text-align: center;
+	clear: both;
 
 }
 
@@ -40,7 +61,9 @@ nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding
 
 /* div class="content" in index.html */
 /* div.content ul li{ font-size: 1.5em; } */
-div.content h1{display: none}
+div.main > div.content >h1 {
+	display: none
+}
 
 p #badminton{
 	font-size: 20px;

@@ -22,10 +22,13 @@
 			{% include header.html %}
 	</header>
 
-
 	<main>
+		<div class="tags">{% include tags.html %}</div>
+	<div class="main">
 		　{{content | remove: '<p>&lt;! –more– &gt;</p>' }}
-	</main>
+	</div>
+
+</main>
 
 	<div class="wechat-donate">
 		<div>If you like what I am sharing, feel free to give me a cup of coffee.</div>

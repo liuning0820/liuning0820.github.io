@@ -36,9 +36,11 @@ Go to "Manage Jenkins – Manage Plugins," select the "Anchore Container Image S
 
 Go to "Manage Jenkins – Configure System" and navigate to the "Anchore Plugin Mode" section. Fill in the following fields:
 
-    Engine URL: the URL where the Anchore Engine is accessible. You can use the docker inspect command when running Anchore Engine as a Docker container in order to retrieve the IP address (parameter IPAddress in the Networks section).
-    Engine Username: the Anchore Engine user name. default: admin
-    Engine Password: the Anchore Engine password. default: foobar
+Engine URL: the URL where the Anchore Engine is accessible. You can use the docker inspect command when running Anchore Engine as a Docker container in order to retrieve the IP address (parameter IPAddress in the Networks section).
+
+Engine Username: the Anchore Engine user name. default: admin
+
+Engine Password: the Anchore Engine password. default: foobar
 
 Add a FreeStyle Job, and configure as below:
 

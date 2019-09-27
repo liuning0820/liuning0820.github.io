@@ -2,10 +2,10 @@
 layout: default
 author: liuning0820
 comments: true
-# tags: [devops]
+tags: [devops]
 ---
 
-# cloud-development-through-browser
+# 通过浏览器进行云开发
 
 现在是云计算的时代，作为开发者，也应该拥抱面向云端的开发方式，而不让自己限定于具体的高性能的开发机器面前。
 

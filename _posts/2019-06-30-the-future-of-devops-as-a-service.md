@@ -1,6 +1,8 @@
 ---
 layout: default
 author: liuning0820
+tags: [devops]
+title: "DevOps的未来: 开发运维即服务"
 comments: true
 ---
 # DevOps的未来: 开发运维即服务
@@ -27,8 +29,8 @@ CI工具能够及时从SVN中央服务器定时获取代码进行编译，来防
 
 这两年，一些个龙头企业，包括微软，亚马逊整合了自己Cloud 服务方面的各方面的能力，推出了DevOps 服务。一些中小企业，以后完全没有必要自建DevOps平台，直接SRE团队对接这些DevOps服务。我赞同这可能是趋势，以后你看着服务的账单，服务方也会给你一些报告建议，如何节约不必要的浪费。
 
-![Azure DevOps]({{ site.url }}{{site.baseurl}}/images/azure-devops.jpg){:height="50%" width="50%"}
+![Azure DevOps]({{ site.url }}{{site.baseurl}}/images/azure-devops.jpg){:height="70%" width="70%"}
 
 ## 作为从业者的思考
 
-作为软件从业者，你可以是你企业内SRE团队的一员，负责使用这些DevOps的服务来帮助企业高效运维；或者你还是Focus在软件开发这块，帮助企业构建有竞争力的产品和服务。
+作为软件从业者，你可以是你企业内SRE团队的一员，负责使用这些DevOps的服务来帮助企业高效运维；或者你还是Focus在软件开发这块，帮助企业构建有竞争力的产品和服务。我个人觉得，还是要**精进开发的能力**。

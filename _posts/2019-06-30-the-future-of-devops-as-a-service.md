@@ -3,7 +3,7 @@ layout: default
 author: liuning0820
 comments: true
 ---
-# The Future of DevOps As a Service
+# DevOps的未来: 开发运维即服务
 
 DevOps这两年在各个公司中如火如荼，但是DevOps 终将成为几个大厂的服务。
 

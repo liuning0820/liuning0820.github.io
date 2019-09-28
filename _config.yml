@@ -49,12 +49,13 @@ comment:
 # collections:
 #     - en
     
-# collections:
-#   en:
-#     output: true
-#     permalink: /:collection/:path/
+collections:
+  en:
+    output: true
+    permalink: /:collection/:path/
     
-#   cn:
-#     output: true
-#     permalink: /cn/:path/
+# 中文集
+  cn:
+    output: true
+    permalink: /cn/:path/
   

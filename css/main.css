@@ -6,7 +6,11 @@ html {
 header a { text-decoration: none; }
 header a:hover { text-decoration: underline; }
 
-
+h1 {
+	font-size: 26px;
+	font-weight: normal;
+  }
+  
 
 body nav,body main {
 

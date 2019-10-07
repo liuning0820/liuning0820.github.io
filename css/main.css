@@ -25,6 +25,7 @@ body nav,body main {
 body main > div.tags {
 	width: 30%;
 	border: 2px lightblue dotted;
+	padding-left: 10px;
 	float: right;
 	clear: both;
 	

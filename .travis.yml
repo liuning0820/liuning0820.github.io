@@ -8,8 +8,9 @@ rvm:
 # script: ./script/cibuild
 
 # install: gem install jekyll html-proofer  # Travis will automatically install the dependencies based on the referenced gems in Gemfile.
-
+install: gem install mdspell
 script:
+  - bundle exec mdspell README.md ./_posts
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --disable-external 'true' --log-level debug
 

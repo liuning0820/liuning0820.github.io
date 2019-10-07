@@ -6,7 +6,7 @@ tags: [jenkins]
 
 ---
 
-Scan the vulnerability issues in the docker images using the jenkins pipeline.
+Scan the vulnerability issues in the docker images using the Jenkins pipeline.
 
 ## Installation: Anchore Engine
 

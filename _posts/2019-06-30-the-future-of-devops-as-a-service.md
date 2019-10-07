@@ -18,7 +18,7 @@ Shadow DevOps >> Enterprise DevOps >> DevOps As a Service
 大约8年前，我开始使用Hudson和 Cruise Control等工具进行一些持续集成，以此在自己的项目中实现一些自动化让项目更加高效的运行，最初的一个收益，就是
 CI工具能够及时从SVN中央服务器定时获取代码进行编译，来防止项目中有人员因为漏签入代码造成的Break Build. 当然后续我们也为我们的持续集成工具中引入了Code Style Check, 单元测试，DEV以及SIT环境的代码发布和自动安装，Health Check，甚至包括自动回滚。 这一时期，我们做的事情，还局限在具体项目中，我们称之为Shadow DevOps 时代。
 
-5年前，整个企业包括高层（C level）的领导，看到业界有些企业开始搞DevOps, 大多是围绕Jenkins， Github，和自动化脚本工具（比如Ansible），于是各个企业内部也开始专门组建团建建立Central的DevOps平台。各个项目组，把自己的项目接入到这个公共平台来做持续集成。
+5年前，整个企业包括高层（C level）的领导，看到业界有些企业开始搞DevOps, 大多是围绕Jenkins， GitHub，和自动化脚本工具（比如Ansible），于是各个企业内部也开始专门组建团建建立Central的DevOps平台。各个项目组，把自己的项目接入到这个公共平台来做持续集成。
 
 此时一个新的项目需要一个新的插件进行构建，DevOps中央团队就会在Jenkins端找寻适配的插件预安装到Jenkins平台，来让这个项目能够接入进来。
 

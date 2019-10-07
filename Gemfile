@@ -4,4 +4,3 @@ gem 'jekyll-feed'
 gem 'jekyll-paginate-v2'
 gem 'jekyll-sitemap'
 gem "html-proofer"
-gem 'mdspell'

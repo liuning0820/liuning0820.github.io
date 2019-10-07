@@ -15,9 +15,16 @@ title: "GitHub Pages 中嵌入视频"
 
 作为开篇，下面是一个练习的示例。后续需要考虑这些个视频如何托管。
 
+## 直接使用HTML 5 video tag
+
 <video width="560" height="315" src="http://media.w3.org/2010/05/sintel/trailer.mp4" controls="controls" poster="http://media.w3.org/2010/05/sintel/poster.png">
 your browser does not support the  HTML5 Video element
 </video>
 
-<!-- youtube -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P1QE8ZPwsgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## IFrame YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P1QE8ZPwsgc" frameborder="0" allowfullscreen></iframe>
+
+## IFrame 优酷
+
+<iframe width="560" height="315" src="http://player.youku.com/embed/XNjk4MzE4MTg4" frameborder="0" allowfullscreen></iframe>

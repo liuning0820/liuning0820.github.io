@@ -10,7 +10,7 @@ title: "通过浏览器进行云开发"
 
 现在是云计算的时代，作为开发者，也应该拥抱面向云端的开发方式，而不让自己限定于具体的高性能的开发机器面前。
 
-不管是Windows 或Linux 和 MacOS，还是iPhone或Android, 抑或是iPad，都支持浏览器，浏览器就是云开发的最佳终端入口。
+不管是Windows,Linux,MacOS，还是iPhone或Android, 抑或是iPad，都支持浏览器，浏览器就是云开发的最佳终端入口。
 且看我的实践。
 
 <! --more-- >

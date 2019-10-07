@@ -36,12 +36,12 @@ Google Analytics for my blog.
 
 Another useful link [使用Google Analytics监控GitHub Pages访问流量](https://letianfeng.github.io/github/2018/05/27/github_pages_and_google_analytics.html)
 
-After the setup, you can nativgate [Google Analytics Portal](https://analytics.google.com/analytics/web) to see the usage analytics of your website.
+After the setup, you can navigate [Google Analytics Portal](https://analytics.google.com/analytics/web) to see the usage analytics of your website.
 
 ### 添加Disqus评论系统
 
 - Sign up new [disqus profile](https://disqus.com/profile/signup/)
-- Install [Disqus](https://disqus.com/admin/create/) on my site. Give a Website name where to install disqus. And follow the UI Instruction to complete the intallation and setup.
+- Install [Disqus](https://disqus.com/admin/create/) on my site. Give a Website name where to install disqus. And follow the UI Instruction to complete the installation and setup.
 - Open _config.yml, 修改comment下面的disqus的值为自己上一步填的Website Name.
 
 ```yml

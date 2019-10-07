@@ -1,5 +1,6 @@
 FROM node:10.4-alpine
 
+# https://docs.npmjs.com/misc/config#unsafe-perm
 RUN npm config set unsafe-perm true
 
 # Install spellcheck

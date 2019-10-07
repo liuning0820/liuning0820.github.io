@@ -8,7 +8,6 @@ Dockerfile
 Peopleware
 
 # Tools
-
 PhotoShop
 Illustrator
 GIMP
@@ -19,6 +18,8 @@ html-proofer
 nginx
 CCProxy
 FireFox
+disqus
+Disqus
 
 # DevOps Related
 ChatOps
@@ -53,4 +54,5 @@ IoT
 Baidu
 startpage
 Bing
+
 

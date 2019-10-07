@@ -21,15 +21,15 @@ title: "GitHub Pages 中嵌入视频"
 your browser does not support the  HTML5 Video element
 </video>
 
-## IFrame-优酷
+## Inline Frame 优酷
 
 <iframe width="560" height="315" src="http://player.youku.com/embed/XNjk4MzE4MTg4" frameborder="0" allowfullscreen></iframe>
 
-## IFrame-B站
+## Inline Frame B站
 
 <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=29819774&cid=51915240&page=1" 
 frameborder="0" allowfullscreen></iframe>
 
-## IFrame-YouTube
+## Inline Frame YouTube
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P1QE8ZPwsgc" frameborder="0" allowfullscreen></iframe>

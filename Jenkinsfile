@@ -36,4 +36,12 @@ pipeline {
 
 
   }
+
+  post {
+		failure {
+				emailext  body: "View console output at ${env.JOB_NAME}:${env.BUILD_NUMBER} ${env.BUILD_URL} \r\n ${env.GIT_COMMIT}",
+				subject: "Build Failed: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+				to: 'liuning0820@outlook.com'
+		}
+	}
 }

@@ -1,10 +1,12 @@
-# Personal Blog Hosted By GitHub Pages
+# Personal Blog
 
 [![Build Status](https://travis-ci.org/liuning0820/liuning0820.github.io.svg?branch=master)](https://travis-ci.org/liuning0820/liuning0820.github.io)
 
 Table Of Context:
 
 - [Run The Site Locally](#run-the-site-locally)
+- [Hosted By GitHub Pages](#hosted-by-GitHub-pages)
+- [Hosted By Netlify](#hosted-by-netlify)
 - [Supporting Technology](#supporting-technologies)
 
 ## Run The Site Locally
@@ -21,6 +23,10 @@ bundle exec jekyll serve
 ```
 
 Then browse to [http://localhost:4000](http://localhost:4000)
+
+## Hosted By GitHub Pages
+
+## Hosted by Netlify
 
 ## Supporting Technologies
 

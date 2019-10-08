@@ -12,7 +12,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 email                    : liuning0820@outlook.com
 theme                    : jekyll-theme-slate
 search                   : true # true, false (default), enables basic site search powered by Lunr
-
+repository               : liuning0820/liuning0820.github.io
 exclude:
   - Gemfile
   - Gemfile.lock

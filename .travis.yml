@@ -13,7 +13,8 @@ rvm:
 script:
 
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --internal-domains localhost:4000 --disable-external 'true' --log-level debug
+  # - bundle exec htmlproofer ./_site --internal-domains localhost:4000 --disable-external 'true' --log-level debug
+  - bundle exec htmlproofer ./_site --internal-domains localhost:4000
 
 # branch whitelist, only for GitHub Pages
 branches:

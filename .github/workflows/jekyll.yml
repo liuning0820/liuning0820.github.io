@@ -16,4 +16,4 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll/ && jekyll build --future && gem install html-proofer && gem which html-proofer && pwd && ls -al && /usr/gem/gems/html-proofer-3.11.1/bin/htmlproofer ./_site --disable-external 'true' --log-level debug"
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll/ && jekyll build --future && gem install html-proofer && gem which html-proofer && ls -al /usr/gem/gems/html-proofer-3.13.0 && /usr/gem/gems/html-proofer-3.13.0/lib/html-proofer ./_site --disable-external 'true' --log-level debug"

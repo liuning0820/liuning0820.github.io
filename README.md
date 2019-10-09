@@ -26,7 +26,15 @@ Then browse to [http://localhost:4000](http://localhost:4000)
 
 ## Hosted By GitHub Pages
 
+Hosted at [https://liuning0820.github.io/](https://liuning0820.github.io/)
+
 ## Hosted by Netlify
+
+Netlify is a cloud computing company that offers hosting and serverless backend services for static websites. It features continuous deployment from Git across a global application delivery network, serverless form handling, support for AWS Lambda functions, and full integration with Let's Encrypt.
+
+The site dashboard can be accessed [Site Dashboard](https://app.netlify.com/sites/liuning0820/overview)
+
+Deployed at [https://liuning0820.netlify.com/](https://liuning0820.netlify.com/)
 
 ## Supporting Technologies
 
@@ -65,3 +73,4 @@ Having trouble with Pages? Check out the [documentation](https://help.github.com
 ### 同类型博客
 
 - [https://yihui.name](https://github.com/rbind/yihui/)
+- [home-assistant](https://github.com/home-assistant/home-assistant.io)

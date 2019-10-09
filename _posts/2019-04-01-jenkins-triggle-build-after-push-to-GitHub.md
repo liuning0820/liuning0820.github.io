@@ -9,11 +9,9 @@ tags: [jenkins]
 
 ## GitHub上配置Jenkins的webhook地址
 
-假设Jenkins所在服务器的地址是：192.168.0.1，端口为8080，那么webhook地址就是[webhook](http://192.168.0.1:8080/github-webhook/)
+- Step 1: 假设Jenkins所在服务器的地址是：192.168.0.1，端口为8080，那么webhook地址就是[webhook](http://192.168.0.1:8080/github-webhook/)
 
-- [GitHub -> Settings -> Webhooks -> Add webhook](https://github.com/liuning0820/liuning0820.github.io/settings/hooks/new)
-
-- Fill Payload URL with the webhook address above.
+- Step 2: GitHub -> Settings -> Webhooks -> Add webhook and fill Payload URL with the webhook address in step 1.
 
 ## Generate Personal Access Token
 

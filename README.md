@@ -41,6 +41,7 @@ Deployed at [https://liuning0820.netlify.com/](https://liuning0820.netlify.com/)
 - [Jekyll](https://jekyllrb.com/ "Transform your plain text into static websites and blog")
 - Jekyll Themes
 - [HTML Proofer](https://github.com/gjtorikian/html-proofer) - Validates HTML links, used in the CI/CD pipeline. Installed as a Ruby gem.
+- [HTML Proofer Usage](https://simpleit.rocks/web/html/how-to-check-local-websites-for-broken-links/)
 - [Markdown Spellcheck](https://www.npmjs.com/package/markdown-spellcheck) - Runs spell check in the CI/CD pipeline. Installed via Node.js npm.
 - Github Page
 - HTML Presentations - reveal.js

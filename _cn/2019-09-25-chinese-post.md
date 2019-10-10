@@ -1,7 +1,8 @@
 ---
 layout: default
-author: liuning0820
+author: 对刘谈心
 comments: true
+title: 中文文章示例
 
 ---
 

@@ -25,8 +25,7 @@ title: "MPC-HC 同时加载中英双字幕"
 
 MPC-HC 本身内嵌的字幕加载器不支持双字幕，我们需要通过滤镜来显示额外的字幕。
 
-<iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=70730329&cid=122547253&page=1" 
-frameborder="0" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=70730329&cid=122547253&page=1" frameborder="0" allowfullscreen="true"></iframe>
 
 [B站观看短视频教程](https://www.bilibili.com/video/av70730329/)
 

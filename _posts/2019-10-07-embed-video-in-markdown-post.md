@@ -19,7 +19,7 @@ title: "GitHub Pages 中嵌入视频"
 
 ## 直接使用HTML 5 video tag
 
-<video width="560" height="315" src="http://media.w3.org/2010/05/sintel/trailer.mp4" controls="controls" poster="http://media.w3.org/2010/05/sintel/poster.png">
+<video width="560" height="315" src="https://media.w3.org/2010/05/sintel/trailer.mp4" controls="controls" poster="https://media.w3.org/2010/05/sintel/poster.png">
 your browser does not support the  HTML5 Video element
 </video>
 

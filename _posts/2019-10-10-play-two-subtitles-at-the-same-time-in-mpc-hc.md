@@ -25,8 +25,8 @@ title: "MPC-HC 同时加载中英双字幕"
 
 MPC-HC 本身内嵌的字幕加载器不支持双字幕，我们需要通过滤镜来显示额外的字幕。
 
-<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=70730329&cid=122547253&page=1" 
-frameborder="0"  controls="controls" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=70730329&cid=122547253&page=1" 
+frameborder="0" allowfullscreen="true"></iframe>
 
 [B站观看短视频教程](https://www.bilibili.com/video/av70730329/)
 
@@ -46,3 +46,7 @@ In the Main tab tick Override placement and enter a vertical (V) number somewher
 当您打开视频文件并需要两个字幕时，可以右键单击->字幕菜单中加载底部的字幕，第二个显示在顶部的字幕可通过"过滤器" -> "VSFilter（自动加载版本）"加载。
 
 ![加载额外字幕]({{ site.url }}{{site.baseurl}}/images/mpc_vsfilter_subtitle.jpg){:height="50%" width="70%"}
+
+### 参考链接
+
+[playing-two-subtitles](https://www.raymond.cc/blog/playing-two-subtitles-at-the-same-time-in-dvd-player-and-computer/)

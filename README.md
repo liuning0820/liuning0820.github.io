@@ -45,6 +45,7 @@ Deployed at [https://liuning0820.netlify.com/](https://liuning0820.netlify.com/)
 - [Markdown Spellcheck](https://www.npmjs.com/package/markdown-spellcheck) - Runs spell check in the CI/CD pipeline. Installed via Node.js npm.
 - Github Page
 - HTML Presentations - reveal.js
+- Search Feature - lunr.js
 
 ### Jekyll Collection
 

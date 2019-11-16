@@ -13,3 +13,5 @@ My son can use the FaceTime App in iPad to call my iPhone.
 
 - Send pdf to iPad by email, then open the attachment with iBook App.
 - Using a tool called **Syncios** to share books between your PC to iPad.
+
+## iPad 自带录屏功能

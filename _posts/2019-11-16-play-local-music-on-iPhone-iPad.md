@@ -12,6 +12,7 @@ title: "iPhone and iPad 听本地音乐"
 或者可以下载国内的一些在线音乐App，比如QQ音乐，网易云音乐进行在线播放。
 
 但是在线音乐的出路还是慢慢地得付费，或者忍受广告，下面介绍一种听本地FTP服务器上音乐的办法。
+
 <! --more-- >
 
 ## 树莓派上搭建FTP 服务器
@@ -51,4 +52,8 @@ systemctl restart vsftpd
 在iPhone/iPad上安装foobar2000, 然后 "设置"-> "Media Library" -> "Add folder" -> "ftp://user:password@192.168.1.1"
 
 ![Add FTP Shares]({{ site.url }}{{site.baseurl}}/images/iPad-foobar2000-add-ftp-share.jpg)
+
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=75829297&cid=129722513&page=1" frameborder="0" allowfullscreen="true"></iframe>
+
+[B站观看短视频教程](https://www.bilibili.com/video/av75829297/)
 

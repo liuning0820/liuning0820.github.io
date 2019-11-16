@@ -15,7 +15,7 @@ title: "iPhone and iPad 听本地音乐"
 
 <! --more-- >
 
-## 树莓派上搭建FTP 服务器
+## 搭建FTP 服务器
 
 ```sh
 
@@ -29,7 +29,7 @@ sudo service vsftpd start
 
 ```
 
-### Access the FTP server from ssh
+### Access the FTP server from command line
 
 ```sh
 
@@ -46,6 +46,11 @@ utf8_filesystem=YES
 systemctl restart vsftpd
 
 ```
+
+### FTP files download and upload
+
+- WinSCP
+- FileZilla
 
 ## foobar2000
 

@@ -47,10 +47,10 @@ comment:
 # https://jekyllrb.com/docs/collections/
 
 # collections:
-#     - en
+#     - en-us
     
 collections:
-  en:
+  en-us:
     output: true
     permalink: /:collection/:path/
     

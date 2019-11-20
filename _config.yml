@@ -55,7 +55,7 @@ collections:
     permalink: /:collection/:path/
     
 # 中文集
-  cn:
+  zh-cn:
     output: true
-    permalink: /cn/:path/
+    permalink: /zh-cn/:path/
   

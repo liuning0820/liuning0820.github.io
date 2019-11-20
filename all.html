@@ -14,12 +14,12 @@ title: 对刘谈心-liuning0820.github.io
 
 	<h2>Collections:_en-us</h2>
 
-	{% for staff_member in site.en-us %}
+	{% for item in site.en-us %}
 		
 		<li><a href="{{ staff_member.url | prepend: site.baseurl }}">
-		{{ staff_member.name }} - {{ staff_member.position }}
+		{{ item.title }} - {{ item.author }}
 		</a></li>
-		<!-- <p>{{ staff_member.content}}</p> -->
+		<!-- <p>{{ item.content}}</p> -->
 	{% endfor %}
 
 	<h2>Collections :_cn</h2>

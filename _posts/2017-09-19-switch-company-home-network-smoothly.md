@@ -16,4 +16,4 @@
 在家里的一台24小时开机机器上安装CCProxy 软件，然后在本机上使用FireFox
 通过这台Home machine 作为国内网站的Proxy。
 
-![FireFox CCProxy]({{ site.url }}{{site.baseurl}}/images/75a475234e7b95eb7d2ee7b3f3552c78.png)
+![FireFox CCProxy]({{ site.url }}{{site.baseurl}}/images/ccproxy-firefox.png)

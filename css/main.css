@@ -15,8 +15,8 @@ h1 {
 body nav,body main {
 
 	width: 80%;
-	min-width: 800px;
-	margin-left: 100px;
+	/* min-width: 800px; */
+	margin-left: 10%;
 	display: block;
 	
 }
@@ -33,7 +33,7 @@ body main > div.tags {
 
 body main > div.main {
 	width: 68%;
-	float: right;
+	float: initial;
 	/* border: 2px #0085a1 dashed; */
 	/* clear: both; */
 	margin:5px,20px,5px;
@@ -54,9 +54,9 @@ nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding
 
 .donate {
 	width: 75%;
-	min-width: 800px;
+	/* min-width: 800px; */
 	padding: 10px 0; 
-	margin-left: 150px;
+	margin-left: 15%;
 	text-align: center;
 	clear: both;
 

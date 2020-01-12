@@ -14,35 +14,35 @@ pipeline {
 
     stage('test') {
       steps{
-        echo "good"
-        // error("Blocking pipeline")
+        // echo "good"
+        error("Blocking pipeline")
         }
 
-    //     post{
-    //   always{
-    //     echo "1"
-    //   }
+        post{
+      always{
+        echo "1"
+      }
 
-    //   changed{
-    //     echo "2"
-    //   }
+      changed{
+        echo "2"
+      }
 
-    //   failure{
-    //     echo "3"
-    //   }
+      failure{
+        echo "3"
+      }
 
-    //   unsuccessful{
-    //     echo "4"
-    //   }
+      unsuccessful{
+        echo "4"
+      }
 
-    //   unstable{
-    //     echo "5"
-    //   }
+      unstable{
+        echo "5"
+      }
 
-    //   cleanup{
-    //     echo "6"
-    //   }
-    // }
+      cleanup{
+        echo "6"
+      }
+    }
         
       }
     }
@@ -75,11 +75,11 @@ pipeline {
     //   }
     // }  
 
-    // post{
-    //   always{
-    //     echo "8"
-    //   }
-    // }  
+    post{
+      always{
+        echo "8"
+      }
+    }  
 
 
   }

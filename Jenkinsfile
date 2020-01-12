@@ -5,8 +5,18 @@ pipeline {
             timestamps()
         }
 
+        environment {
+          FOO = 'BAR'
+        }
+
 
   stages {
+
+    stage('test') {
+      steps{
+        echo env.FOO
+      }
+    }
 
        
     stage('Spell Check') {             

@@ -32,10 +32,8 @@ pipeline {
         mdspell -n -a -r --en-us "./_posts/*.md"
         '''
       }
-    }  
-
-
-
-  }
+    }
+  }  
+}
 
 

@@ -14,9 +14,7 @@ pipeline {
 
     stage('test') {
       steps{
-        script{
-          env.FOO = 'BAR'
-        }
+        sh 'export FOO=bar'
         echo env.FOO
       }
     }

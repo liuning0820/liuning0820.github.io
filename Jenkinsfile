@@ -5,15 +5,18 @@ pipeline {
             timestamps()
         }
 
-        environment {
-          FOO = 'BAR'
-        }
+        // environment {
+        //   FOO = 'BAR'
+        // }
 
 
   stages {
 
     stage('test') {
       steps{
+        script{
+          env.FOO = 'BAR'
+        }
         echo env.FOO
       }
     }

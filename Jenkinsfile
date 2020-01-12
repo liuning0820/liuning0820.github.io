@@ -15,7 +15,7 @@ pipeline {
     stage('test') {
       steps{
         script{
-          wihtEnv(["FOO=BAR"]){
+          withEnv(["FOO=BAR"]){
             echo env.FOO
           }
         }

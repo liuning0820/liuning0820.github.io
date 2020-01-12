@@ -14,8 +14,12 @@ pipeline {
 
     stage('test') {
       steps{
-        sh 'export FOO=bar'
-        echo env.FOO
+        script{
+          wihtEnv(["FOO=BAR"]){
+            echo env.FOO
+          }
+        }
+        
       }
     }
 

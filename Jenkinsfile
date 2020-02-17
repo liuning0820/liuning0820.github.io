@@ -21,7 +21,7 @@ pipeline {
 
  
     stage('Spell Check') {
-            when {
+      when {
               branch 'master'
       }             
       agent {

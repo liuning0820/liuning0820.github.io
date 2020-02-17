@@ -51,7 +51,7 @@ comment:
     disqus: liuning0820
 ```
 
-You can see [comments analytics](https://liuning0820.disqus.com/admin/analytics/comments) for your github page site.
+You can see your site's comment activity [here](https://liuning0820.disqus.com/admin/analytics/comments).
 
 ### Troubleshooting
 

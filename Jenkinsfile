@@ -10,6 +10,15 @@ pipeline {
 
   stages {
 
+    stage('develop branch') {
+          when {
+              branch 'develop'
+          }
+          steps {
+              echo 'multibranch pipeline project...'
+          }
+    }
+
  
     stage('Spell Check') {             
       agent {
@@ -26,6 +35,10 @@ pipeline {
             // this env var will force the library to use color.
            FORCE_COLOR = "1";
         }
+
+      when {
+              branch 'master'
+      }
 
       steps {
         echo 'Checking spelling...'

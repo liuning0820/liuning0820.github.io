@@ -20,7 +20,10 @@ pipeline {
     }
 
  
-    stage('Spell Check') {             
+    stage('Spell Check') {
+            when {
+              branch 'master'
+      }             
       agent {
         dockerfile {
             filename 'Dockerfile.mdspell'
@@ -36,9 +39,7 @@ pipeline {
            FORCE_COLOR = "1";
         }
 
-      when {
-              branch 'master'
-      }
+
 
       steps {
         echo 'Checking spelling...'

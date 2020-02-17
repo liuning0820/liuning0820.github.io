@@ -39,8 +39,6 @@ pipeline {
            FORCE_COLOR = "1";
         }
 
-
-
       steps {
         echo 'Checking spelling...'
         // mdspell -n -a -r --en-us "*.md" "*/*.md" "*/*/*.md"

@@ -22,3 +22,24 @@ Navigate to {Jenkins's URL}/configure and scroll down to "E-mail Notification".
   >
   > Solution: Go to https://myaccount.google.com/security and enabling "Access for less secure apps".(启用安全性较低的应用的访问权限)
 
+- Error sending to the following VALID addresses
+  > Received the email when manually trigger in the Jenkins, but failed with the error above using pipeline
+  > Solution:You should set SMTP Server and Authentication in both E-mail Notification and Extended E-mail Notification sections at {Jenkins's URL}/configure.
+
+## Pipeline Syntax to send email
+
+```groovy
+
+  post {
+      unsuccessful {
+            echo 'Pipeline is unsuccessful!'
+            emailext(subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ", body: "Job '<${env.BUILD_URL}>' Unsuccessful.", from: '******@gmail.com',to: '******@outlook.com')
+      }
+
+      always {
+            echo 'Pipeline Completed!'
+      }
+
+}
+
+```

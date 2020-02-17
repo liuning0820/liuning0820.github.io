@@ -30,7 +30,7 @@ tags: [jenkins]
 - [Manage Jenkins->Configure System -> Add GitHub Server](http://192.168.0.1:8080/configure)
 - Fill ["API URL"](https://api.github.com), "Credentials" Choose "Add"
 
-    ![Add GitHub Server]({{ site.url }}{{site.baseurl}}/images/jenkins-add-github-server.jpg)
+    ![Add GitHub Server]({{ site.url }}{{site.baseurl}}/images/jenkins-add-github-server.jpg){:height="80%" width="80%"}
 
 - In The pop up form，"Kind" Choose ”Secret text”，”Secret”填入前面在GitHub上生成的Personal access tokens.
 

@@ -7,7 +7,7 @@ title: Jenkins Pipeline Email Notification
 
 # Labs: Jenkins Pipeline Email Notification
 
-Assume the Jenkins url is [http://192.168.0.1:8080](http://192.168.0.1:8080).
+Assume the Jenkins url is <http://192.168.0.1:8080>.
 
 ## Configure Email Notification
 
@@ -20,14 +20,14 @@ Navigate to {Jenkins's URL}/configure and scroll down to "E-mail Notification".
 - Unable to send mail through **smtp.gmail.com**
   > SMTPAuthenticationError: Username and Password not accepted
   >
-  > Solution: Go to https://myaccount.google.com/security and enabling "Access for less secure apps".(启用安全性较低的应用的访问权限)
+  > Solution: Go to <https://myaccount.google.com/security> and enabling "Access for less secure apps".(启用安全性较低的应用的访问权限)
 
 - Unable to receive email
   > Error sending to the following VALID addresses
   >
   > Received the email when manually trigger in the Jenkins, but failed in pipeline script.
   >
-  > Solution:You should set SMTP Server and Authentication in both E-mail Notification and Extended E-mail Notification sections at {Jenkins's URL}/configure.
+  > Solution:You should set SMTP Server and Authentication in both E-mail Notification and Extended E-mail Notification sections at `Jenkins's URL`/configure.
 
 ## Pipeline Syntax to send email
 

@@ -13,7 +13,7 @@ Tips on visual studio code.
 Combines the simplicity of a code editor with what developers need for their code edit debug cycle.
 -- Eric Gamma
 
-## Search features in Visual Studio Code (vscode)
+## Search features in Visual Studio Code
 
 - Search file by name (**CTRL + P**)
 - Search over all the files in the open folder **Ctrl+Shift+F** 搜文件内容定位文件

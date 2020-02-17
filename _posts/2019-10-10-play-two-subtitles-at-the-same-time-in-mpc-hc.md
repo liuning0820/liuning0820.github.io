@@ -31,7 +31,7 @@ MPC-HC 本身内嵌的字幕加载器不支持双字幕，我们需要通过滤�
 
 ### 下载 VSFilter
 
-下载 [VSFilter_2.41.322_x64.exe](https://nightly.mpc-hc.org/mpc-hc_apps/vsfilter/) 并安装。
+下载 [VSFilter](https://nightly.mpc-hc.org/mpc-hc_apps/vsfilter/) 并安装。
 当安装结束后，会提示你去配置这个插件，勾选并进行配置如下：
 
 In the Main tab tick Override placement and enter a vertical (V) number somewhere between 0-25 to put this subtitle at the top. Click OK.
@@ -40,7 +40,7 @@ In the Main tab tick Override placement and enter a vertical (V) number somewher
 
 ### MPC-HC 中的配置
 
-打开 MPC-HC, go to Options (O) > Advanced, double click the BlockVSFilter entry to make it False. Click OK, close and reopen MPC-HC.
+打开 MPC-HC, go to Options (O) > Advanced, double click the "BlockVSFilter" entry to make it False. Click OK, close and reopen MPC-HC.
 
 当您打开视频文件并需要两个字幕时，可以右键单击->字幕菜单中加载底部的字幕，第二个显示在顶部的字幕可通过"过滤器" -> "VSFilter（自动加载版本）"加载。
 

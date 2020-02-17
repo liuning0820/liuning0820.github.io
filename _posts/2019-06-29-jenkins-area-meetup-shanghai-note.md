@@ -36,4 +36,4 @@ comments: true
 - DevOps人才难招
 - 如何解决数据库脚本的自动升级和回滚是自动化部署工具中的一大难题
 - [Carlos Sanchez](https://carlossg.github.io/presentations/2019-06_jam_shanghai_beijing)
-- [Carlos Sanchez@Github](https://github.com/carlossg)
+- [Carlos Sanchez's GitHub](https://github.com/carlossg)

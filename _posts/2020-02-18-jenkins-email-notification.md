@@ -13,7 +13,7 @@ Assume the Jenkins url is http://192.168.0.1:8080
 
 Navigate to {Jenkins's URL}/configure and scroll down to "E-mail Notification".
 
-![Email SMTP Setting]({{ site.url }}{{site.baseurl}}/images/jenkins-configure-system--email-smtp.png){:height="50%" width="70%"}
+![Email SMTP Setting]({{ site.url }}{{site.baseurl}}/images/jenkins-configure-system--email-smtp.png){:height="80%" width="80%"}
 
 ### Troubleshooting
 
@@ -24,7 +24,9 @@ Navigate to {Jenkins's URL}/configure and scroll down to "E-mail Notification".
 
 - Unable to receive email
   > Error sending to the following VALID addresses
+  >
   > Received the email when manually trigger in the Jenkins, but failed in pipeline script.
+  >
   > Solution:You should set SMTP Server and Authentication in both E-mail Notification and Extended E-mail Notification sections at {Jenkins's URL}/configure.
 
 ## Pipeline Syntax to send email
@@ -34,7 +36,9 @@ Navigate to {Jenkins's URL}/configure and scroll down to "E-mail Notification".
   post {
       unsuccessful {
             echo 'Pipeline is unsuccessful!'
-            emailext(subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ", body: "Job '<${env.BUILD_URL}>' Unsuccessful.", from: '******@gmail.com',to: '******@outlook.com')
+            emailext(subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ",
+            body: "Job '<${env.BUILD_URL}>' Unsuccessful.",
+            from: '******@gmail.com',to: '******@outlook.com')
       }
 
       always {

@@ -40,11 +40,11 @@ pipeline {
   post { 
       unstable { 
             echo 'Pipeline is unstable!'
-            mail body: "Job '<${env.BUILD_URL}>' Unstable.", from: 'liuning0820@gmail.com', subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ", to: 'liuning0820@gmail.com'
+            emailext(subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ", body: "Job '<${env.BUILD_URL}>' Unstable.", from: 'liuning0820@gmail.com',to: 'liuning0820@outlook.com')
       }
 
       always { 
-            mail body: "Job '<${env.BUILD_URL}>' Unstable.", from: 'liuning0820@gmail.com', subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ", to: 'liuning0820@gmail.com'
+            emailext(subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ", body: "Job '<${env.BUILD_URL}>' Unstable.", from: 'liuning0820@gmail.com',to: 'liuning0820@outlook.com')
             echo 'Pipeline Completed!'
       }
 

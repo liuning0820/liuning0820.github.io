@@ -25,7 +25,7 @@ comments: true
 
 ## Google Search
 
-### [How Goolge Search Engine Works](https://www.google.com/search/howsearchworks/)
+### [How Google Search Engine Works](https://www.google.com/search/howsearchworks/)
 
 The three key processes in delivering search results to you are:
 
@@ -72,9 +72,9 @@ Variant data
 - To verify the **source** of a piece of information, use the precise information you have.
 - To confirm a **fact**, use a generic description for what you seek.
 
-### Google Specfic Search Feature
+### Google Specific Search Feature
 
-- Conversions: From Units to Units --- parttern to follow: [number units in units]. For example, "100 usd in chinese yuan"
+- Conversions: From Units to Units --- pattern to follow: [number units in units]. For example, "100 usd in chinese yuan"
 
 - weather somewhere
 - time somewhere

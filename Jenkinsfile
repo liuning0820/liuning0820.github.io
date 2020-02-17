@@ -35,7 +35,20 @@ pipeline {
         '''
       }
     }
-  }  
+  }
+
+  post { 
+      unstable { 
+            echo 'Pipeline is unstable!'
+            emailext(subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ", body: "Job '<${env.BUILD_URL}>' Unstable.", from: 'liuning0820@outlook.com',to: 'liuning0820@outlook.com')
+      }
+
+      always { 
+            emailext(subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' ", body: "Job '<${env.BUILD_URL}>' Unstable.", from: 'liuning0820@outlook.com',to: 'liuning0820@outlook.com')
+            echo 'Pipeline Completed!'
+      }
+
+}  
 }
 
 

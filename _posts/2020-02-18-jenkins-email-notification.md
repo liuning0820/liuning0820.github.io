@@ -11,7 +11,7 @@ Assume the Jenkins url is http://192.168.0.1:8080
 
 ## Configure Email Notification
 
-Navigate to {Jenkins_URL}/configure and scroll down to "E-mail Notification".
+Navigate to {Jenkins's URL}/configure and scroll down to "E-mail Notification".
 
 ![Email SMTP Setting]({{ site.url }}{{site.baseurl}}/images/jenkins-configure-system--email-smtp.png){:height="50%" width="70%"}
 

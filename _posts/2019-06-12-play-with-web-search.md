@@ -48,8 +48,18 @@ Tips: Practice to find some word in a web page using CTRL+F to prove your thinki
 
 - Filter image results by color
 - Filter query result using operators
-  - Find content within domain example: "tesla site:stanford.edu".
-  - Find specific file type example: "filetype:kml 北京奥运会场馆", download that file, and upload to [google my maps](https://www.google.com/mymaps) to view.
+  - Find content within domain:
+
+    > ```sh
+    > tesla site:stanford.edu
+    > ```
+
+  - Find specific file type:
+
+    > ```sh
+    > filetype:kml 北京奥运会场馆
+    > ```
+    Download that file, and upload to [google my maps](https://www.google.com/mymaps) to view.
 
 - Use the minus sign (-) to eliminate irrelevant results.
   - There must be a space before the minus sign.
@@ -74,15 +84,19 @@ Variant data
 
 ### Google Specific Search Feature
 
-- Conversions: From Units to Units --- pattern to follow: [number units in units]. For example, "100 usd in chinese yuan"
-
+- Conversions: From Units to Units --- pattern to follow: [number units in units]. For example, "100 usd in Chinese Yuan"
 - weather somewhere
 - time somewhere
 
 ## Using WHOIS to identify who owns the site
 
 If you see a second company listed as a contact on the WHOIS page, then a relationship exists between the two companies.
-For example, run the command "whois youku.com" you will find youku.com has relationship with Alibaba.
+For example, run the command below you will find youku.com has relationship with Alibaba.
+
+```sh
+whois youku.com
+
+```
 
 ## Reference
 

@@ -36,7 +36,7 @@ Google Analytics for my blog.
 
 Another useful link [使用Google Analytics监控GitHub Pages访问流量](https://letianfeng.github.io/github/2018/05/27/github_pages_and_google_analytics.html)
 
-After the setup, you can navigate [Google Analytics Portal](https://analytics.google.com/analytics/web) to see the usage analytics of your website.
+After the setup, you can navigate to [Google Analytics Portal](https://analytics.google.com/analytics/web) to see the analytics of your website.
 
 ### 添加Disqus评论系统
 

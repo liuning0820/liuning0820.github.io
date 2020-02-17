@@ -26,11 +26,10 @@ author: liuning0820
 
 ## Planning What You're Going To Write
 
-- **Pre-writing**
+- Prepare
 
-  Define the purpose of the writing, gather information and compose the outline.
+  > Define the purpose of the writing, gather information and compose the outline.
 
-- **Drafting**
-- **Revising**
-- **Proofreading**
-
+- Drafting
+- Revising
+- Proofreading

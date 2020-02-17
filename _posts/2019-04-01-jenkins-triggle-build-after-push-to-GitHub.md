@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Labs: 向GitHub Push代码时触发Jenkins自动构建"
+title: "Labs: GitHub Push触发Jenkins自动构建"
 author: liuning0820
 tags: [jenkins]
 ---
 
-# Labs: 向GitHub Push代码时触发Jenkins自动构建
+# Labs: GitHub Push触发Jenkins自动构建
 
 ## GitHub上配置Jenkins的webhook地址
 

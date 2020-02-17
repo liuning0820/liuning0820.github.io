@@ -98,6 +98,8 @@ smtp.office365.com
 Yuan
 usd
 _config.yml
+smtp.gmail.com
+SMTPAuthenticationError
 
 
 

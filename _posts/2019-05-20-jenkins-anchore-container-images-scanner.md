@@ -50,4 +50,4 @@ An scanning report can be found at http://{my-jenkins-ip}:8080/job/anchore-test/
 
 ## Reference Links
 
-[anchore container image scanner jenkins plugin](https://dzone.com/articles/anchore-container-image-scanner-jenkins-plugin )
+[Anchore container image scanner jenkins plugin](https://dzone.com/articles/anchore-container-image-scanner-jenkins-plugin )

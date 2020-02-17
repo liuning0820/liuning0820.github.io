@@ -18,7 +18,6 @@ pipeline {
               echo 'multibranch pipeline project...'
           }
     }
-
  
     stage('Spell Check') {
       when {

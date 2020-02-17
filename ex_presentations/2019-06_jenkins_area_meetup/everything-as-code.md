@@ -7,7 +7,7 @@ More than ten years experience on software industry.
 
 Now works at DXC Technology for the Digital Transformation.
 
-GitHub Page: https://liuning0820.github.io/
+GitHub Page: <https://liuning0820.github.io/>
 
 ----
 

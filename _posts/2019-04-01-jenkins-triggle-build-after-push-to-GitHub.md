@@ -9,7 +9,7 @@ tags: [jenkins]
 
 ## GitHub上配置Jenkins的webhook地址
 
-- Step 1: 假设Jenkins所在服务器的地址是：192.168.0.1，端口为8080，那么webhook地址就是[webhook](http://192.168.0.1:8080/github-webhook/)
+- Step 1: 假设Jenkins所在服务器的地址是：192.168.0.1，端口为8080，那么webhook地址就是 `http://192.168.0.1:8080/github-webhook/`
 
 - Step 2: GitHub -> Settings -> Webhooks -> Add webhook and fill Payload URL with the webhook address in step 1.
 
@@ -28,7 +28,7 @@ tags: [jenkins]
 ## Jenkins配置
 
 - [Manage Jenkins->Configure System -> Add GitHub Server](http://192.168.0.1:8080/configure)
-- Fill ["API URL"](https://api.github.com), "Credentials" Choose "Add"
+- Fill "API URL" with `https://api.github.com`, "Credentials" Choose "Add"
 
     ![Add GitHub Server]({{ site.url }}{{site.baseurl}}/images/jenkins-add-github-server.jpg){:height="80%" width="80%"}
 

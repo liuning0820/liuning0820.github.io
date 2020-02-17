@@ -13,6 +13,11 @@ tags: [jenkins]
 
 - Step 2: GitHub -> Settings -> Webhooks -> Add webhook and fill Payload URL with the webhook address in step 1.
 
+### Troubleshoot
+
+- Error: We couldn’t deliver this payload: Failure when receiving data from the peer.
+  > Make sure the port of the Jenkins Server allow the inbound from GitHub. If the Jenkins Server is hosted in Azure VM, define an inbound port rule to allow traffic from GitHub Server.
+
 ## Generate Personal Access Token
 
 当Jenkins 接收到来之GitHub的webhook 的通知后，Jenkins需要访问GitHub repository的时候，有的操作是需要授权的，所以我们要在GitHub上生成授权的token给Jenkins使用，这就是Personal access tokens.

@@ -163,6 +163,20 @@ find . -name "*羽毛球*" # search current path for a file name contains '羽�
 
 ```
 
+
+
+## List the recently installed packages
+
+
+
+```sh
+# This will list all the packages including the dependencies that were installed recently on your system along with the time of installation.
+grep " install " /var/log/dpkg.log
+
+# This will show only the programs that you installed using apt command.
+grep " install " /var/log/apt/history.log
+```
+
 ### 多屏幕显示
 
 ```sh

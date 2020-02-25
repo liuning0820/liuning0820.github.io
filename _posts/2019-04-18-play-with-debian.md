@@ -25,6 +25,8 @@ git config --global user.email "sammy@domain.com"
 
 The easiest way to install Visual Studio Code for Debian/Ubuntu based distributions is to download and install the [.deb package](https://code.visualstudio.com/).
 
+To install old 32 bit version for Linux (ex. version 1.32), you can find find it here <https://code.visualstudio.com/updates/v1_32>
+
 ```sh
 
 sudo apt install ./<file>.deb

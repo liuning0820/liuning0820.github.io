@@ -37,6 +37,17 @@ sudo apt install ./<file>.deb
 
 ```
 
+### Install using Snapd
+
+```sh
+
+sudo apt update
+#Enable snapd
+sudo apt install snapd -y
+# Install Visual Studio Code
+sudo snap install code --classic
+```
+
 ## Chinese Input 中文输入法
 
 ```sh
@@ -78,6 +89,7 @@ sudo apt-get install qbittorrent
 
 ```sh
 sudo apt-get install cifs-utils smbclient
+
 
 sudo mkdir /media/Data
 

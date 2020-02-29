@@ -71,6 +71,7 @@ Having trouble with Pages? Check out the [documentation](https://help.github.com
 
 - [Travis CI](https://jekyllrb.com/docs/continuous-integration/travis-ci/)
 - [Jekyll](https://jekyllrb.com/)
+- [Hugo-gitlab-page](https://tkainrad.dev/posts/using-hugo-gitlab-pages-and-cloudflare-to-create-and-run-this-website/)
 
 ### 同类型博客
 

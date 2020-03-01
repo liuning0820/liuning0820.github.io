@@ -118,6 +118,30 @@ sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
 >
 > 加密方法: STARTTLS
 
+## Thunderbird Install
+
+- Download Thunderbird from the [Thunderbird download page](https://www.thunderbird.net/en-US/thunderbird/all/) to your home directory.
+- Extract the contents of the downloaded file: tar xjf thunderbird-*.tar.bz2
+- To start Thunderbird, run the thunderbird script in the thunderbird folder: ~/thunderbird/thunderbird
+
+- Create the desktop shortcut launcher
+
+Create a new text file called Thunderbird.desktop in the /home/pi/Desktop/ directory, e.g. /home/pi/Desktop/Thunderbird.desktop, contains the connect below:
+
+```ini
+[Desktop Entry]
+Name=Thunderbird
+Comment=Thunderbird Shortcut
+Icon=/path/to/a/icon/for/the/Thunderbird/shortcut
+Exec=/usr/share/applications/Thunderbird
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=None;
+
+```
+
+
 ## VPN
 
 ```sh
@@ -150,7 +174,7 @@ sudo apt-get install putty
 
 ```
 
-### GIMP - Open Source Image Editor
+## GIMP - Open Source Image Editor
 
 ```sh
 # https://www.gimp.org/
@@ -158,7 +182,7 @@ sudo apt-get install gimp
 
 ```
 
-### Snapd - Tool to interact with Ubuntu Core Snappy
+## Snapd - Tool to interact with Ubuntu Core Snappy
 
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross-platform and dependency-free.
 
@@ -168,7 +192,7 @@ sudo reboot
 sudo snap install hello-world ## find the snaps to install from store https://snapcraft.io/store
 ```
 
-### Find - search for files
+## Find - search for files
 
 ```sh
 
@@ -191,7 +215,7 @@ grep " install " /var/log/dpkg.log
 grep " install " /var/log/apt/history.log
 ```
 
-### 多屏幕显示
+## 多屏幕显示
 
 ```sh
 # 显示可用显示器
@@ -205,7 +229,7 @@ xrandr --output VGA-1 --auto --right-of LVDS-1
 
 ```
 
-### 摄像头视频拍照工具
+## 摄像头视频拍照工具
 
 ```sh
 # cheese  一个使用摄像头拍摄录像或照片的工具
@@ -213,3 +237,20 @@ xrandr --output VGA-1 --auto --right-of LVDS-1
 sudo apt-get install cheese
 
 ```
+
+## Printer Setup
+
+### Install HP Linux Image and Printer
+
+<https://developers.hp.com/hp-linux-imaging-and-printing/gethplip>
+
+```sh
+
+
+sudo apt-get install hplip
+sudo apt-get install hplip-gui
+
+
+```
+
+

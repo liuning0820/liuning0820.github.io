@@ -7,7 +7,7 @@ title: Jenkins Pipeline Email Notification
 
 # Labs: Jenkins Pipeline Email Notification
 
-Assume the Jenkins Server URL is `http://192.168.0.1:8080`.
+Assume the Jenkins Server URL is <http://192.168.0.1:8080>.
 
 ## Configure Email Notification
 
@@ -27,7 +27,7 @@ Navigate to {jenkins-server-url}/configure and scroll down to "E-mail Notificati
   >
   > Received the email when manually trigger in the Jenkins, but failed in pipeline script.
   >
-  > Solution:You should set SMTP Server and Authentication in both E-mail Notification and Extended E-mail Notification sections at `Jenkins's URL`'s configure.
+  > Solution:You should set SMTP Server and Authentication in both E-mail Notification and Extended E-mail Notification sections at "Jenkins's URL" configure.
 
 ## Pipeline Syntax to send email
 

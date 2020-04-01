@@ -7,7 +7,7 @@ title: Jenkins Pipeline Email Notification
 
 # Labs: Jenkins Pipeline Email Notification
 
-Assume the Jenkins Server URL is <http://192.168.0.1:8080>.
+Assume the Jenkins Server URL is "http://192.168.0.1:8080".
 
 ## Configure Email Notification
 

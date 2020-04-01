@@ -27,7 +27,7 @@ Navigate to {jenkins-server-url}/configure and scroll down to "E-mail Notificati
   >
   > Received the email when manually trigger in the Jenkins, but failed in pipeline script.
   >
-  > Solution:You should set SMTP Server and Authentication in both E-mail Notification and Extended E-mail Notification sections at `Jenkins's URL`/configure.
+  > Solution:You should set SMTP Server and Authentication in both E-mail Notification and Extended E-mail Notification sections at `Jenkins's URL`'s configure.
 
 ## Pipeline Syntax to send email
 

@@ -42,7 +42,7 @@ body main > div.main {
 
 
 /* 移动端隐藏Tags，并让main区域尽可能占据可用空间 */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
 	.tag{
 		display: none
 	}
@@ -50,7 +50,7 @@ body main > div.main {
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
 	.main{
 		width: 100% !important;
 	}

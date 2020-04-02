@@ -43,7 +43,7 @@ body main > div.main {
 
 /* 移动端隐藏Tags，并让main区域尽可能占据可用空间 */
 @media screen and (max-width: 768px){
-	.tag{
+	.tags{
 		display: none
 	}
 

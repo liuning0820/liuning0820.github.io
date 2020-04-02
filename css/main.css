@@ -40,6 +40,23 @@ body main > div.main {
 	
 }
 
+
+/* 移动端隐藏Tags，并让main区域尽可能占据可用空间 */
+@media screen and (max-width: 600px){
+	.tag{
+		display: none
+	}
+
+}
+
+
+@media screen and (max-width: 600px){
+	.main{
+		width: 100% !important;
+	}
+
+}
+
 code {
 	width: 100%;
 	display: inline-block;

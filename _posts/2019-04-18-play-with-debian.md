@@ -121,7 +121,10 @@ sudo mount -t cifs -o username=*** //192.168.*.*/sharename /media/Data/
 ## Thunderbird Install
 
 - Download Thunderbird from the [Thunderbird download page](https://www.thunderbird.net/en-US/thunderbird/all/) to your home directory.
-- Extract the contents of the downloaded file: tar xjf thunderbird-*.tar.bz2
+- Extract the contents of the downloaded file
+    ```sh
+    tar xjf thunderbird-*.tar.bz2
+    ```
 - To start Thunderbird, run the thunderbird script in the thunderbird folder: ~/thunderbird/thunderbird
 
 - Create the desktop shortcut launcher

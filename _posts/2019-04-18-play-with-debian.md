@@ -256,4 +256,22 @@ sudo apt-get install hplip-gui
 
 ```
 
+## Install aria2
+
+```sh
+
+sudo apt-get install aria2
+
+aria2c -h
+
+```
+
+## start simplenote
+
+```sh
+
+sudo simplenote --no-sandbox
+
+```
+
 

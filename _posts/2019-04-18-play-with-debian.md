@@ -295,4 +295,8 @@ scrot -s -cd 5 ./images/screenshot.png
 ```sh
 sudo apt install gnome-screenshot
 
+# open it in terminal
+gnome-screenshot --interactive
+gnome-screenshot -i
+
 ```

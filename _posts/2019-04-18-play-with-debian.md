@@ -292,6 +292,22 @@ scrot -s -cd 5 ./images/screenshot.png
 
 ### gnome-screenshot
 
+
+Making a Keyboard Shortcut for Gnome Screenshot
+The one real downside to Gnome Screenshot is that, as soon as you save one picture, the app closes and you need to launch it again for the next capture.  
+
+In fact, you can change the configuration so PrtSrc launches Gnome Screenshot instead of Scrot. In short, you must
+
+1. Open the /etc/xdg/openbox/lxde-pi-rc.xml file for editing.
+
+sudo nano /etc/xdg/openbox/lxde-pi-rc.xml
+
+2. Add the following code somewhere under the <keyboard> section.
+
+<keybind key="C-A-Print]"><action name="Execute"><command>gnome-screenshot --interactive</command></action></keybind>
+
+That will assign Gnome Screenshot to CTRL + ALT + PrtScr, but you can also override the regular PrtSrc command that launches Scrot by editing it in this section.
+
 ```sh
 sudo apt install gnome-screenshot
 
@@ -300,3 +316,4 @@ gnome-screenshot --interactive
 gnome-screenshot -i
 
 ```
+

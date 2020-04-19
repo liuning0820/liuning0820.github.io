@@ -274,4 +274,25 @@ sudo simplenote --no-sandbox
 
 ```
 
+## Screenshot Tools
 
+### scrot - commandline screenshot tool
+
+In commandline, type 'scrot' will take the screenshot, or press 'PrintScreen' button will take the screenshot.
+
+```sh
+
+scrot
+# The screenshot is saved under the specified file name. In addition, the parameters cause the screenshot to be created only after a delay of -d (delay) of 5 seconds. The parameter -c also displays this delay as a countdown. 
+scrot -cd 5 screenshot.png
+
+# -s select the region to take screenshots
+scrot -s -cd 5 ./images/screenshot.png
+```
+
+### gnome-screenshot
+
+```sh
+sudo apt install gnome-screenshot
+
+```

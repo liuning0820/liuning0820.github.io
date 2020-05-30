@@ -38,7 +38,7 @@ title: 是谁说Terraform 在中国将不可用
 
 我们没有这样做，因此我们在中国销售是非法的。我们必须在我们的企业条款中加入这一条。
 
-https://www.hashicorp.com/terms-of-evaluation
+[HashiCorp条款声明](https://www.hashicorp.com/terms-of-evaluation)
 
 ## So What
 

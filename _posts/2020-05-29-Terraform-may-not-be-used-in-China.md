@@ -9,7 +9,7 @@ title: 是谁说Terraform 在中国将不可用
 
 这两天一条关于Terraform 在中国将不可用的消息在微信公众号里炸锅了：
 
-![突发！ Terrafrom， Consul，Vagrant 等禁止中国使用！](images/2020-05-30-21-52-43.png)
+![突发！ Terrafrom， Consul，Vagrant 等禁止中国使用！]({{ site.url }}{{site.baseurl}}/images/2020-05-30-21-52-43.png){:height="80%" width="80%"}
 
 截图原文地址：<https://mp.weixin.qq.com/s/Bqe0RfPjqZ2nOdWEPb0SDA>
 
@@ -19,7 +19,7 @@ title: 是谁说Terraform 在中国将不可用
 
 至于发文者的目的，不知是忧国忧民，还是鼓吹焦虑，文章的末尾反正是广告时间，敲敲我们的爱国心，该上课了。
 
-![Terraform有多重要，能否代替](images/2020-05-30-21-57-01.png)
+![Terraform有多重要，能否代替]({{ site.url }}{{site.baseurl}}/images/2020-05-30-21-57-01.png){:height="80%" width="80%"}
 
 截图原文地址：<https://mp.weixin.qq.com/s/NSRNkIpa7LBjNsFcGV_gbA>
 
@@ -50,4 +50,4 @@ https://www.hashicorp.com/terms-of-evaluation
 
 ## Take Away
 
-看客，容易会被忽悠，要不想被忽悠，要学会刨根问底，追本溯源。了解事情的始末，探寻事实的真相。
+看客，你我，容易会被忽悠，要不想被忽悠，要学会刨根问底，追本溯源。了解事情的始末，探寻事实的真相。

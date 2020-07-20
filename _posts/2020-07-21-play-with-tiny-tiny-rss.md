@@ -7,7 +7,7 @@ title: 玩转tiny tiny RSS
 
 # Still RSS?
 
-我是windows 下的FeedDemon 的忠实用户，设置连FeedDemon 的开发者放弃开发它几年后，我还一直用着它。
+我是windows 下的**FeedDemon** 的忠实用户，甚至在FeedDemon 的开发者放弃开发它几年后，我还一直用着它。
 
 可如今我更多的是在MacOS 和 Linux下玩耍，需要一个替代品了。
 
@@ -21,7 +21,8 @@ Follow <https://git.tt-rss.org/fox/ttrss-docker-compose> and installed my Tiny T
 
 ```sh
 
-git clone https://git.tt-rss.org/fox/ttrss-docker-compose.git ttrss-docker && cd ttrss-docker
+git clone https://git.tt-rss.org/fox/ttrss-docker-compose.git ttrss-docker
+cd ttrss-docker
 docker-compose up --build
 
 

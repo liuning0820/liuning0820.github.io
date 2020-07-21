@@ -23,7 +23,7 @@ Follow <https://git.tt-rss.org/fox/ttrss-docker-compose> and installed my Tiny T
 
 git clone https://git.tt-rss.org/fox/ttrss-docker-compose.git ttrss-docker
 cd ttrss-docker
-docker-compose up --build
+docker-compose up --build -d
 
 
 ```

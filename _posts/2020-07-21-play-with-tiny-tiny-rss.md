@@ -21,11 +21,12 @@ Follow <https://git.tt-rss.org/fox/ttrss-docker-compose> and installed my Tiny T
 
 ```bash
 
-    git clone https://git.tt-rss.org/fox/ttrss-docker-compose.git ttrss-docker
-    cd ttrss-docker
-    docker-compose up --build -d
+git clone https://git.tt-rss.org/fox/ttrss-docker-compose.git ttrss-docker
+
+cd ttrss-docker
+
+docker-compose up --build -d
 
 
 ```
-
 

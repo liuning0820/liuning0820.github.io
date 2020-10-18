@@ -24,6 +24,30 @@ bundle exec jekyll serve
 
 Then browse to [http://localhost:4000](http://localhost:4000)
 
+### Run The Site In Docker
+
+Refer <https://medium.com/windmill-engineering/how-i-built-a-simple-static-jekyll-site-without-installing-ruby-a-rant-b7e87fb123d0>
+
+```sh
+
+docker build -t my-jekyll-env -f Dockerfile .
+docker run --name my-jekyll-env --mount type=bind,source=$(pwd),target=/src -p 4000:4000 -it my-jekyll-env
+
+
+```
+
+### Run with docker-compose
+
+```sh
+
+docker-compose build
+docker-compose up
+
+navigate to 127.0.0.1:4000
+
+
+```
+
 ## Hosted By GitHub Pages
 
 Hosted at [https://liuning0820.github.io/](https://liuning0820.github.io/)

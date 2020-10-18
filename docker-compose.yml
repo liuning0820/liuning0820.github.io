@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  liuning0820github:
+    image: my-jekyll-env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/src/
+    ports:
+      - 4000:4000

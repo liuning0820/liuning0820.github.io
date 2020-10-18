@@ -11,6 +11,11 @@ title: 玩转tiny tiny RSS
 
 可如今我更多的是在MacOS 和 Linux下玩耍，需要一个替代品了。
 
+<! --more-- >
+
+
+Update: [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire is a free and open source RSS reader for Mac and iOS.")
+
 ## Why not Feedly or lnoreader?
 
 Free limited, Pro version need to pay. 

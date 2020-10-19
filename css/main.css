@@ -7,9 +7,10 @@ header a { text-decoration: none; }
 header a:hover { text-decoration: underline; }
 
 header {
-	background-color: beige;
+	background-color: lightskyblue;
 	width: 80%;
 	margin-left: 10%;
+	height: 90px;
 }
 
 body{
@@ -28,6 +29,13 @@ body nav,body main {
 	/* min-width: 800px; */
 	margin-left: 10%;
 	display: block;
+	
+}
+
+
+body nav {
+
+	padding-top: 30px;
 	
 }
 

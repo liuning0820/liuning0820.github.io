@@ -5,7 +5,7 @@ WORKDIR /src
 COPY _config.yml /src
 COPY Gemfile /src
 
-RUN ls && bundler install
+RUN bundler install
 
 ENTRYPOINT bundle exec jekyll serve \
   --host 0.0.0.0 --config _config.yml --watch

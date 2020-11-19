@@ -102,12 +102,14 @@ grafana-cli plugins install agenty-flowcharting-panel
 ### Data Persistent Strategies
 
 - [Config Map](#config-map)
-- [Persistent Volumn](#PV)
+- [Persistent Volumn](#pv)
 - [External DB](#external-db)
 
 ----
 
 #### Config Map
+
+Phase 1 - Dashboards and Datasource Mount Using Config Map
 
 ![Dashboard and Datasource Using Config Map](images/data-persistent-config-map.png)
 
@@ -119,7 +121,7 @@ Phase 2 - Using PV for host plugins and internal db
 
 ![Plugins and DB Using PV](images/data-persistent-pv.png)
 
------
+----
 
 #### External DB
 
@@ -128,7 +130,6 @@ Phase 3 - Split the db out
 ![External db](images/data-persistent-db.png)
 
 ----
-
 
 ### CI/CD Pipeline
 

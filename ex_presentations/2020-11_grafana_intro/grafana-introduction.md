@@ -137,7 +137,7 @@ devops:monitoring instance intro and how to contribute
 
 - manage the config as code, nothing lost, no duplicate work
 - easy to boot a new instance
-- easy to upgrde
+- easy to upgrade
 
 ----
 

@@ -84,7 +84,7 @@ grafana-cli plugins install raintank-worldping-app
 
 ### FlowCharting
 
-[Flowcharting](https://play.grafana.org/d/Kcic5xeWz/flowcharting-events-and-animations?orgId=1) is a panel plugin. Use it to display complexe diagrams using the online graphing library draw.io.
+[Flowcharting](https://play.grafana.org/d/Kcic5xeWz/flowcharting-events-and-animations?orgId=1) is a panel plugin. Use it to display complex diagrams using the online graphing library draw.io.
 
 ```
 grafana-cli plugins install agenty-flowcharting-panel

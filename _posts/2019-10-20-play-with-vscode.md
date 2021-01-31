@@ -23,3 +23,9 @@ Combines the simplicity of a code editor with what developers need for their cod
 ## Line Actions
 
 - Delete the current line **Ctrl + Shift + K**
+
+## Remote Development with VSCode
+
+### SSH Targets Remote VM
+
+Note - For Azure VM, make sure to open the Inbound security rules in Network Security Group to allow the connect from VSCode.

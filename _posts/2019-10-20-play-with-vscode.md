@@ -24,6 +24,14 @@ Combines the simplicity of a code editor with what developers need for their cod
 
 - Delete the current line **Ctrl + Shift + K**
 
+
+## Plugins
+
+- vscode Rainbow Brackets plugin
+
+- vscode markdown plugin **Paste Image**
+
+
 ## Remote Development with VSCode
 
 ### SSH Targets Remote VM

@@ -22,8 +22,10 @@ Combines the simplicity of a code editor with what developers need for their cod
 
 ## Line Actions
 
-- Delete the current line **Ctrl + Shift + K**
-
+- Delete the current line **Ctrl + Shift + K** for Windows or **CMD + SHIFT + K** for Mac
+- COPY whole line **CMD + SHIFT + LEFT/RIGHT** for Mac
+- COPY whole word **OPTION + SHIFT + LEFT/RIGHT** for Mac
+- COPY line up/down **SHIFT+OPTION+up/down** for Mac
 
 ## Plugins
 

@@ -19,7 +19,9 @@ GitHub Page: <https://liuning0820.github.io/>
 
 <!-- ![Dashboard](images/grafana-dashboard-sample.png){:height="80%" width="50%"} -->
 
-<img alt="OpenTracing with Jaeger" width="60%" src="../assets/jaeger-arch.png" data-src="../assets/jaeger-arch.png">
+<!-- <img alt="OpenTracing with Jaeger" width="60%" src="../assets/jaeger-arch.png" data-src="../assets/jaeger-arch.png"> -->
+
+![Dev Powered by Docker](images/docker-power-user.png)
 
 ----
 

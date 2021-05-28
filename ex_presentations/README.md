@@ -1091,6 +1091,8 @@ To enable the PDF print capability in your presentation, the special print style
 </script>
 ```
 
+ex. http://localhost:4000/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
+
 ### Instructions
 
 1. Open your presentation with `print-pdf` included in the query string i.e. http://localhost:8000/?print-pdf. You can test this with [revealjs.com?print-pdf](http://revealjs.com?print-pdf).

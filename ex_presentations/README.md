@@ -1068,6 +1068,9 @@ Reveal.initialize({
 Presentations can be exported to PDF via a special print stylesheet. This feature requires that you use [Google Chrome](http://google.com/chrome) or [Chromium](https://www.chromium.org/Home) and to be serving the presentation from a web server.
 Here's an example of an exported presentation that's been uploaded to SlideShare: http://www.slideshare.net/hakimel/revealjs-300.
 
+ex. http://localhost:4000/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
+ex. https://liuning0820.github.io/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
+
 ### Separate pages for fragments
 [Fragments](#fragments) are printed on separate slides by default. Meaning if you have a slide with three fragment steps, it will generate three separate slides where the fragments appear incrementally.
 
@@ -1092,6 +1095,7 @@ To enable the PDF print capability in your presentation, the special print style
 ```
 
 ex. http://localhost:4000/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
+ex. https://liuning0820.github.io/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
 
 ### Instructions
 

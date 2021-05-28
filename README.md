@@ -91,6 +91,11 @@ Having trouble with Pages? Check out the [documentation](https://help.github.com
 
 ### HTML Presentations - reveal.js
 
+#### PDF Export
+
+ex. http://localhost:4000/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
+ex. https://liuning0820.github.io/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
+
 ## References
 
 - [Travis CI](https://jekyllrb.com/docs/continuous-integration/travis-ci/)

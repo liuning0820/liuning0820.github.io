@@ -41,7 +41,7 @@ Docs as Code approach gives benefits:
 - The doc cross platform
 - Github Page template can be shared across the org & company, make the theme and style consistent, easy to use.
 - Developers will often write a first draft of documentation
-- You can block merging of new features if they don’t include documentation, which incentivize developers to write about features while they are fresh
+- You can block merging of new features if they don’t include documentation, which forcing developers to write about features while they are fresh
 
 ----
 

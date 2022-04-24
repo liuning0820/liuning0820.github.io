@@ -33,6 +33,8 @@ Combines the simplicity of a code editor with what developers need for their cod
 
 - vscode markdown plugin **Paste Image**
 
+- VS Code Counter
+
 
 ## Remote Development with VSCode
 

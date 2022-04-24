@@ -14,3 +14,4 @@ Select the Screenshots icon from the page actions menu in the address bar, and t
 
 - Video Speed Controller
 - Tampermonkey
+- Feedbro - Advanced Feed Reader 

@@ -1,12 +1,11 @@
 FROM ruby:2.6
-RUN gem install jekyll bundler
 WORKDIR /src
 
-COPY _config.yml /src
+# COPY _config.yml /src
 COPY Gemfile /src
+RUN bundle install
 
-RUN bundler install
-
+COPY . /src
 ENTRYPOINT bundle exec jekyll serve \
   --host 0.0.0.0 --config _config.yml --watch
 

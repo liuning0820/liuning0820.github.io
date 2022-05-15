@@ -82,7 +82,7 @@ body main>div.main {
 
 code {
 	width: 100%;
-	display: inline-block;
+	/* display: inline-block; */
 	overflow: overlay;
 }
 

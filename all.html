@@ -16,7 +16,7 @@ title: 对刘谈心-liuning0820.github.io
 
 	{% for item in site.en-us %}
 		
-		<li><a href="{{ staff_member.url | prepend: site.baseurl }}">
+		<li><a href="{{ item.url | prepend: site.baseurl }}">
 		{{ item.title }} - {{ item.author }}
 		</a></li>
 		<!-- <p>{{ item.content}}</p> -->

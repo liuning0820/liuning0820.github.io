@@ -1,10 +1,14 @@
-
 html {
 	background-color: aliceblue
 }
 
-header a { text-decoration: none; }
-header a:hover { text-decoration: underline; }
+header a {
+	text-decoration: none;
+}
+
+header a:hover {
+	text-decoration: underline;
+}
 
 header {
 	background-color: lightskyblue;
@@ -13,63 +17,64 @@ header {
 	height: 90px;
 }
 
-body{
+body {
 	font-family: Arial, Helvetica, sans-serif
 }
 
 h1 {
 	font-size: 26px;
 	font-weight: normal;
-  }
-  
+}
 
-body nav,body main {
+
+body nav,
+body main {
 
 	width: 80%;
 	/* min-width: 800px; */
 	margin-left: 10%;
 	display: block;
-	
+
 }
 
 
 body nav {
 
 	padding-top: 30px;
-	
+
 }
 
 
-body main > div.tags {
+body main>div.tags {
 	width: 30%;
 	border: 2px lightblue dotted;
 	padding-left: 10px;
 	float: right;
 	clear: both;
-	
+
 }
 
-body main > div.main {
+body main>div.main {
 	width: 68%;
 	float: initial;
 	/* border: 2px #0085a1 dashed; */
 	/* clear: both; */
-	margin:5px,20px,5px;
-	
+	margin: 5px, 20px, 5px;
+
 }
 
 
 /* 移动端隐藏Tags，并让main区域尽可能占据可用空间 */
-@media screen and (max-width: 768px){
-	.tags{
+@media screen and (max-width: 768px) {
+	.tags {
 		display: none
 	}
 
 }
 
 
-@media screen and (max-width: 768px){
-	.main{
+@media screen and (max-width: 768px) {
+	.main {
 		width: 100% !important;
 	}
 
@@ -83,13 +88,30 @@ code {
 
 
 
-footer { border-top: 1px solid #d5d5d5; font-size: 1em; background: lightgray; width: 80%;
-	margin-left: 10%;}
+footer {
+	border-top: 1px solid #d5d5d5;
+	font-size: 1em;
+	/* background: lightgray; */
+	width: 80%;
+	margin-left: 10%;
+}
 
 
-nav ul li, footer ul li, nav ul li form  { display: inline; margin-right: 20px; }
+nav ul li,
+footer ul li,
+nav ul li form {
+	display: inline;
+	margin-right: 20px;
+}
 
-nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul,
+footer ul {
+	font-size: 1em;
+	font-family: 'Arial', 'Sans-Serif';
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
+}
 
 
 /* body main ul li {font-size: 1.5em; } */
@@ -97,7 +119,7 @@ nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding
 .donate {
 	width: 75%;
 	/* min-width: 800px; */
-	padding: 10px 0; 
+	padding: 10px 0;
 	margin-left: 15%;
 	text-align: center;
 	clear: both;
@@ -108,11 +130,11 @@ nav ul, footer ul { font-size: 1em; font-family:  'Arial', 'Sans-Serif'; padding
 
 /* div class="content" in index.html */
 /* div.content ul li{ font-size: 1.5em; } */
-div.main > div.content >h1 {
+div.main>div.content>h1 {
 	display: none
 }
 
-p #badminton{
+p #badminton {
 	color: rgb(255, 0, 170);
 	font-weight: bold
 }
@@ -129,34 +151,33 @@ p #badminton{
 	width: 600px;
 	margin: 0 0 10px 0;
   } */
-  
+
 #search-box {
 	margin: 0;
 	width: 200px;
 	font-size: 20px;
 	padding: 5px;
 	border: 1px solid #EEEEEE;
-  }
-  
+}
+
 #search-submit {
 	margin: 0;
 	font-size: large;
 	padding: 5px;
-  }
+}
 
 #search-results {
 	list-style-type: none;
 	padding: 0%
-
 }
 
-#search-results li {
+/* #search-results li {
 	background: #cce5ff;
-  }
+  } */
 
 /* Tag Cloud*/
 
-   #tag_cloud a:hover,
-  #tag_cloud a:active {
+#tag_cloud a:hover,
+#tag_cloud a:active {
 	background-color: #0085a1 !important;
-  }
+}

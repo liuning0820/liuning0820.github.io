@@ -1,17 +1,16 @@
 # ChatOps With Slack and Mattermost
 
-- [ChatOps With Slack and Mattermost](#chatops-with-slack-and-mattermost)
-  - [Subscribe to an RSS feed URL and receive updates in Slack](#subscribe-to-an-rss-feed-url-and-receive-updates-in-slack)
-  - [Automate Task](#automate-task)
-  - [自助问答](#自助问答)
-  - [定时任务](#定时任务)
-  - [Mattermost](#mattermost)
-    - [Install Mattermost in Ubuntu WSL](#install-mattermost-in-ubuntu-wsl)
-    - [Jenkins Integration](#jenkins-integration)
-      - [CR Approve](#cr-approve)
-  - [Mattermost WebHook](#mattermost-webhook)
-    - [GitHub Action to send PR notification to Mattermost](#github-action-to-send-pr-notification-to-mattermost)
-  - [Reference](#reference)
+- [Subscribe to an RSS feed URL and receive updates in Slack](#subscribe-to-an-rss-feed-url-and-receive-updates-in-slack)
+- [Automate Task](#automate-task)
+- [自助问答](#自助问答)
+- [定时任务](#定时任务)
+- [Mattermost](#mattermost)
+  - [Install Mattermost in Ubuntu WSL](#install-mattermost-in-ubuntu-wsl)
+  - [Jenkins Integration](#jenkins-integration)
+    - [CR Approve](#cr-approve)
+- [Mattermost WebHook](#mattermost-webhook)
+  - [GitHub Action to send PR notification to Mattermost](#github-action-to-send-pr-notification-to-mattermost)
+- [Reference](#reference)
 
 
 ## Subscribe to an RSS feed URL and receive updates in Slack
@@ -64,31 +63,31 @@ add a file notify.yml under .github/workflows/notify.yml
 
 ```yaml
 
-on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+# on:
+#   # Triggers the workflow on push or pull request events but only for the master branch
+#   push:
+#     branches: [ master ]
+#   pull_request:
+#     branches: [ master ]
 
-jobs:
-  build:
-    runs-on: self-hosted
+# jobs:
+#   build:
+#     runs-on: self-hosted
 
-    steps:
-    - uses: actions/checkout@v1
-    - name: Create the Mattermost Message for Push Event
-      if: ${{ github.event_name == 'push'}}
-      run: |
-        echo "{ \"username\": \"Chido\", \"text\":\"Push on [${{ github.repository }}](${{ github.event.repository.clone_url }}) by ${{ github.actor }}.See [commit list](${{ github.event.compare }}) \"}" > mattermost.json
-    - name: Create the Mattermost Message for Pull Request Event
-      if: ${{ github.event_name == 'pull_request'}}
-      run: |
-        echo "{ \"username\": \"Chido\", \"text\":\"${{ github.event.action }} pull request [${{ github.repository }}](${{ github.event.repository.clone_url }}) by ${{ github.actor }}.See [commit list](${{ github.event.pull_request._links.html.href }})\n**Source** : ${{github.head_ref}}\n**Destination** : ${{github.base_ref}} \"}" > mattermost.json
-    - uses: actions/action-mattermost-notify@1.1.0
-      env:
-        MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
-        MATTERMOST_CHANNEL: ${{ secrets.MATTERMOST_CHANNEL }}
+#     steps:
+#     - uses: actions/checkout@v1
+#     - name: Create the Mattermost Message for Push Event
+#       if: ${{ github.event_name == 'push'}}
+#       run: |
+#         echo "{ \"username\": \"Chido\", \"text\":\"Push on [${{ github.repository }}](${{ github.event.repository.clone_url }}) by ${{ github.actor }}.See [commit list](${{ github.event.compare }}) \"}" > mattermost.json
+#     - name: Create the Mattermost Message for Pull Request Event
+#       if: ${{ github.event_name == 'pull_request'}}
+#       run: |
+#         echo "{ \"username\": \"Chido\", \"text\":\"${{ github.event.action }} pull request [${{ github.repository }}](${{ github.event.repository.clone_url }}) by ${{ github.actor }}.See [commit list](${{ github.event.pull_request._links.html.href }})\n**Source** : ${{github.head_ref}}\n**Destination** : ${{github.base_ref}} \"}" > mattermost.json
+#     - uses: actions/action-mattermost-notify@1.1.0
+#       env:
+#         MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
+#         MATTERMOST_CHANNEL: ${{ secrets.MATTERMOST_CHANNEL }}
 
 ```
 

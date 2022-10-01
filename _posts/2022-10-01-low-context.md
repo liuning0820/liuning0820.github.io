@@ -5,7 +5,7 @@ tags: [mindset]
 comments: true
 ---
 
-# Low Context Communication
+## Low Context Communication
 
 通常我们的沟通除了很大程度上依赖于言语来传达信息，也有一些其他因素（围绕沟通的上下文）的影响.
 这里围绕沟通的上下文可能包括特定的文化背景，特定的语境，价值观，习惯，特定的时间空间以及与沟通的对象关系。
@@ -42,4 +42,5 @@ comments: true
 ## Reference
 
 [1] <https://en.wikipedia.org/wiki/High-context_and_low-context_cultures>
+
 [2] <https://en.wikipedia.org/wiki/Time_series_database>

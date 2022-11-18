@@ -2,21 +2,26 @@
 
 [![Build Status](https://travis-ci.org/liuning0820/liuning0820.github.io.svg?branch=master)](https://travis-ci.org/liuning0820/liuning0820.github.io)
 
-- [Personal Blog](#personal-blog)
-  - [Run The Site Locally](#run-the-site-locally)
-    - [Run The Site In Docker](#run-the-site-in-docker)
-    - [Run with docker-compose](#run-with-docker-compose)
-  - [Hosted By GitHub Pages](#hosted-by-github-pages)
-  - [Hosted by Netlify](#hosted-by-netlify)
-  - [Supporting Technologies](#supporting-technologies)
-    - [Jekyll Collection](#jekyll-collection)
-    - [Jekyll Themes](#jekyll-themes)
-      - [Jekyll Remote Theme](#jekyll-remote-theme)
-    - [GitHub Page Support](#github-page-support)
-    - [HTML Presentations - reveal.js](#html-presentations---revealjs)
-      - [PDF Export](#pdf-export)
-  - [References](#references)
-    - [同类型博客](#同类型博客)
+- [Run The Site Locally](#run-the-site-locally)
+  - [Run The Site In Docker](#run-the-site-in-docker)
+  - [Run with docker-compose](#run-with-docker-compose)
+- [Hosted By GitHub Pages](#hosted-by-github-pages)
+- [Hosted by Netlify](#hosted-by-netlify)
+- [Supporting Technologies](#supporting-technologies)
+  - [Jekyll Collection](#jekyll-collection)
+  - [Jekyll Themes](#jekyll-themes)
+    - [Jekyll Remote Theme](#jekyll-remote-theme)
+  - [jekyll-sitemap](#jekyll-sitemap)
+  - [GitHub Page Support](#github-page-support)
+  - [HTML Presentations - reveal.js](#html-presentations---revealjs)
+    - [PDF Export](#pdf-export)
+- [SEO](#seo)
+  - [Sitemaps](#sitemaps)
+  - [robots.txt](#robotstxt)
+  - [Google Analytics 数据增长](#google-analytics-数据增长)
+  - [Bing 网站管理员](#bing-网站管理员)
+- [References](#references)
+  - [同类型博客](#同类型博客)
 
 
 ## Run The Site Locally
@@ -95,6 +100,12 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 [A remote Jekyll themes](https://github.com/mmistakes/minimal-mistakes)
 
+### jekyll-sitemap
+
+silently generate a sitemap.xml for your jekyll site.
+
+https://liuning0820.github.io/sitemap.xml
+
 ### GitHub Page Support
 
 Having trouble with Pages? Check out the [documentation](https://help.github.com/categories/github-pages-basics/) and it will help you sort it out.
@@ -105,6 +116,34 @@ Having trouble with Pages? Check out the [documentation](https://help.github.com
 
 ex. http://localhost:4000/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
 ex. https://liuning0820.github.io/ex_presentations/2021-05_a_clean_dev_env/?print-pdf#/
+
+## SEO
+
+### Sitemaps
+
+The Sitemaps protocol allows a webmaster to inform search engines about URLs on a website that are available for crawling. [refer](#jekyll-sitemap)
+
+
+
+### robots.txt
+
+robots.txt可以告诉搜索引擎您网站的哪些页面可以被抓取，哪些页面不可以被抓取。 
+
+```robots.txt
+
+User-agent: *
+Disallow: /
+```
+
+### Google Analytics 数据增长
+
+统计你的网站的访问量等相关数据。
+
+[Google Analytics](https://analytics.google.com/analytics/web/)
+
+### Bing 网站管理员
+
+https://www.bing.com/webmaster/home/dashboard
 
 ## References
 

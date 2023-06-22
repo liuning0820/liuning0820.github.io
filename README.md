@@ -55,8 +55,8 @@ docker run --name my-jekyll-env --mount type=bind,source=$(pwd),target=/src -p 4
 
 ```sh
 
-docker-compose build
-docker-compose up
+docker compose build
+docker compose up
 
 navigate to 127.0.0.1:4000
 

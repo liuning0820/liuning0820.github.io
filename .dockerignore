@@ -1,4 +1,5 @@
 .git
 .jekyll-cache
+.jekyll-metadata
 .github
 Gemfile.lock

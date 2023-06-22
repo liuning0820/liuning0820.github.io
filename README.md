@@ -10,7 +10,6 @@
 - [Supporting Technologies](#supporting-technologies)
   - [Jekyll Collection](#jekyll-collection)
   - [Jekyll Themes](#jekyll-themes)
-    - [Jekyll Remote Theme](#jekyll-remote-theme)
   - [jekyll-sitemap](#jekyll-sitemap)
   - [GitHub Page Support](#github-page-support)
   - [HTML Presentations - reveal.js](#html-presentations---revealjs)
@@ -95,10 +94,6 @@ The collection should start with a underscore.
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/liuning0820/liuning0820.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-#### Jekyll Remote Theme
-
-[A remote Jekyll themes](https://github.com/mmistakes/minimal-mistakes)
 
 ### jekyll-sitemap
 

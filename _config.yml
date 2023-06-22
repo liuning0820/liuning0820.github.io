@@ -10,7 +10,7 @@ encoding                 : utf-8
 url                      : "https://liuning0820.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 email                    : liuning0820@outlook.com
-theme                    : jekyll-theme-slate
+theme                    : jekyll-theme-hacker
 search                   : true # true, false (default), enables basic site search powered by Lunr
 repository               : liuning0820/liuning0820.github.io
 exclude:
@@ -34,11 +34,11 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-sitemap
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
 
 # theme: jekyll-theme-hacker
 
-remote_theme: pages-themes/hacker@v0.2.0
+# remote_theme: pages-themes/hacker@v0.2.0
 
 
 

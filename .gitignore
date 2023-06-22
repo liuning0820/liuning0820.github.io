@@ -6,5 +6,5 @@
 /.vs
 /Gemfile.lock
 /.jekyll-cache
-
+.jekyll-metadata
 _site

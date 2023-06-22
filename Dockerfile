@@ -1,9 +1,11 @@
-FROM ruby:2.6
+FROM jekyll/builder:latest
 WORKDIR /src
 COPY _config.yml /src
 COPY Gemfile /src
-RUN bundle install
+RUN chmod -R 777 /src/
+# RUN bundle install
 # COPY . /src
-ENTRYPOINT bundle exec jekyll serve \
+RUN jekyll build
+ENTRYPOINT jekyll serve \
   --host 0.0.0.0 --config _config.yml --incremental
 

@@ -136,6 +136,27 @@ footer ul {
 }
 
 
+/* 一级菜单设置浮动 使之在一行上面 */
+.drop-down > ul >li {
+    float: left;
+    /* 为了让二级菜单栏参照定位  */
+    position: relative;
+	width: max-content;
+}
+/* 一级菜单栏悬停鼠标时显示二级菜单栏 */
+.drop-down > ul >li:hover > ul{
+    display: block;
+}
+/* 二级菜单栏绝对定位 脱离文档 默认不显示 */
+.drop-down > ul >li > ul {
+    position: absolute;
+    display: none;
+}
+
+
+
+
+
 /* body main ul li {font-size: 1.5em; } */
 
 .donate {

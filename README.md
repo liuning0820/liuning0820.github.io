@@ -2,31 +2,34 @@
 
 [![Build Status](https://travis-ci.org/liuning0820/liuning0820.github.io.svg?branch=master)](https://travis-ci.org/liuning0820/liuning0820.github.io)
 
-- [Run The Site Locally](#run-the-site-locally)
-  - [Run The Site In Docker](#run-the-site-in-docker)
-  - [Run with docker-compose](#run-with-docker-compose)
-- [Hosted By GitHub Pages](#hosted-by-github-pages)
-- [Hosted by Netlify](#hosted-by-netlify)
-- [Supporting Technologies](#supporting-technologies)
-  - [Jekyll Collection](#jekyll-collection)
-  - [Jekyll Themes](#jekyll-themes)
-  - [jekyll-sitemap](#jekyll-sitemap)
-  - [GitHub Page Support](#github-page-support)
-  - [HTML Presentations - reveal.js](#html-presentations---revealjs)
-    - [PDF Export](#pdf-export)
-- [SEO](#seo)
-  - [Sitemaps](#sitemaps)
-  - [robots.txt](#robotstxt)
-  - [Google Analytics 数据增长](#google-analytics-数据增长)
-  - [Bing 网站管理员](#bing-网站管理员)
-- [References](#references)
-  - [同类型博客](#同类型博客)
+- [Personal Blog](#personal-blog)
+  - [Run The Site Locally](#run-the-site-locally)
+    - [Run The Site In Docker](#run-the-site-in-docker)
+    - [Run with docker-compose](#run-with-docker-compose)
+  - [Hosted By GitHub Pages](#hosted-by-github-pages)
+  - [Hosted by Netlify](#hosted-by-netlify)
+    - [Netlify Deploy Error Troubleshooting](#netlify-deploy-error-troubleshooting)
+      - [requires rubygems version \>= 3.3.22](#requires-rubygems-version--3322)
+  - [Supporting Technologies](#supporting-technologies)
+    - [Jekyll Collection](#jekyll-collection)
+    - [Jekyll Themes](#jekyll-themes)
+    - [jekyll-sitemap](#jekyll-sitemap)
+    - [GitHub Page Support](#github-page-support)
+    - [HTML Presentations - reveal.js](#html-presentations---revealjs)
+      - [PDF Export](#pdf-export)
+  - [SEO](#seo)
+    - [Sitemaps](#sitemaps)
+    - [robots.txt](#robotstxt)
+    - [Google Analytics 数据增长](#google-analytics-数据增长)
+    - [Bing 网站管理员](#bing-网站管理员)
+  - [References](#references)
+    - [同类型博客](#同类型博客)
 
 
 ## Run The Site Locally
 
 ```sh
-
+# Run gem install a b to install gem package 'a' and 'b'.
 gem install jekyll bundler
 # Run 'bundle install' to install missing gems added in the Gemfile.
 bundle install
@@ -73,6 +76,21 @@ Netlify is a cloud computing company that offers hosting and serverless backend 
 The site dashboard can be accessed [Site Dashboard](https://app.netlify.com/sites/liuning0820/overview)
 
 Deployed at [https://liuning0820.netlify.com/](https://liuning0820.netlify.com/)
+
+### Netlify Deploy Error Troubleshooting
+
+#### requires rubygems version >= 3.3.22
+
+3:44:21 PM: ffi-1.17.0-x86_64-linux-musl requires rubygems version >= 3.3.22, which is
+3:44:21 PM: incompatible with the current version, 3.0.8
+3:44:21 PM: Error during gem install
+3:44:21 PM: Failing build: Failed to install dependencies
+
+- Solution
+
+Set a RUBY_VERSION environment variable. <https://docs.netlify.com/configure-builds/manage-dependencies/#ruby>
+
+RUBY_VERSION 3.1.1
 
 ## Supporting Technologies
 

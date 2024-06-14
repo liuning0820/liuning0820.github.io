@@ -1,5 +1,3 @@
-version: '3.4'
-
 services:
   liuning0820github:
     image: my-jekyll-env

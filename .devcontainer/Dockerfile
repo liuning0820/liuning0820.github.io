@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2
+FROM mcr.microsoft.com/vscode/devcontainers/ruby:1.1-3.3
 
 # ENV Variables required by Jekyll
 ENV LANG=en_US.UTF-8 \
@@ -8,8 +8,9 @@ ENV LANG=en_US.UTF-8 \
     LANG=en_US.UTF-8 \
     LANGUAGE=en_US
 
-# Install bundler
-RUN gem install bundler
+RUN gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/    
+# Install jekyll and bundler
+RUN gem install jekyll bundler
 
 # [Option] Install Node.js
 ARG NODE_VERSION="lts/*"

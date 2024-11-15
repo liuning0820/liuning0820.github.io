@@ -72,7 +72,12 @@ h1, h2, h3 {
 
 
 a {
+	text-decoration: none;
 	color: hsl(222, 70%, 53%);
+}
+
+a:hover {
+	color: #23527c;
 }
   
 

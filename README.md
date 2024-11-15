@@ -1,31 +1,5 @@
 # Personal Blog
 
-[![Build Status](https://travis-ci.org/liuning0820/liuning0820.github.io.svg?branch=master)](https://travis-ci.org/liuning0820/liuning0820.github.io)
-
-- [Personal Blog](#personal-blog)
-  - [Run The Site Locally](#run-the-site-locally)
-    - [Run The Site In Docker](#run-the-site-in-docker)
-    - [Run with docker-compose](#run-with-docker-compose)
-  - [Hosted By GitHub Pages](#hosted-by-github-pages)
-  - [Hosted by Netlify](#hosted-by-netlify)
-    - [Netlify Deploy Error Troubleshooting](#netlify-deploy-error-troubleshooting)
-      - [requires rubygems version \>= 3.3.22](#requires-rubygems-version--3322)
-  - [Supporting Technologies](#supporting-technologies)
-    - [Jekyll Collection](#jekyll-collection)
-    - [Jekyll Themes](#jekyll-themes)
-    - [jekyll-sitemap](#jekyll-sitemap)
-    - [GitHub Page Support](#github-page-support)
-    - [HTML Presentations - reveal.js](#html-presentations---revealjs)
-      - [PDF Export](#pdf-export)
-  - [SEO](#seo)
-    - [Sitemaps](#sitemaps)
-    - [robots.txt](#robotstxt)
-    - [Google Analytics 数据增长](#google-analytics-数据增长)
-    - [Bing 网站管理员](#bing-网站管理员)
-  - [References](#references)
-    - [同类型博客](#同类型博客)
-
-
 ## Run The Site Locally
 
 ```sh
@@ -41,7 +15,7 @@ bundle exec jekyll serve
 
 Then browse to [http://localhost:4000](http://localhost:4000)
 
-### Run The Site In Docker
+### Run the site with docker
 
 Refer <https://medium.com/windmill-engineering/how-i-built-a-simple-static-jekyll-site-without-installing-ruby-a-rant-b7e87fb123d0>
 
@@ -53,7 +27,7 @@ docker run --name my-jekyll-env --mount type=bind,source=$(pwd),target=/src -p 4
 
 ```
 
-### Run with docker-compose
+### Run the site with docker compose
 
 ```sh
 

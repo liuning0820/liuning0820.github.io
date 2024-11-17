@@ -7,7 +7,7 @@ comments: true
 
 # 亲力亲为的力量：超越AI的温暖互动
 
-*The Power of Personal Touch: Warm Interactions That Surpass AI*
+`The Power of Personal Touch: Warm Interactions That Surpass AI`
 
 在快节奏的数字时代，技术的发展为我们提供了许多便利，使得许多任务可以轻松地外包或自动化。近两年，随着生成式人工智能（GenAI）的快速发展，这一趋势更加明显。GenAI 已经在智能语音客服、自动化营销等领域得到广泛应用。然而，尽管这些技术提高了效率，但在某些场景下，客户反馈与AI客服的互动缺乏温度和人性化，导致客户感到不满和挫败。AI客服往往无法理解客户的复杂情感和细微需求,没有达到预期的效果，尤其是当涉及到与客户建立联系时。
 

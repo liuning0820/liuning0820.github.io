@@ -2,7 +2,7 @@
 layout: default
 author: 对刘谈心
 comments: true
-tags: [tools]
+tags: [geek life]
 title: "玩转Visual Studio Code"
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 author: 对刘谈心
 comments: true
-tags: [tools]
+tags: [geek life]
 title: "iPhone and iPad 听本地音乐"
 ---
 

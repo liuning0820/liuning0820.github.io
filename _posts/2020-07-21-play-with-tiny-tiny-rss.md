@@ -1,7 +1,7 @@
 ---
 layout: default
 author: liuning0820
-tags: [tools]
+tags: [geek life]
 title: 玩转tiny tiny RSS
 ---
 

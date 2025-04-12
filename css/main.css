@@ -346,6 +346,11 @@ body {
   border-radius: 5px;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 /* Search box */
 .search-form {
   display: flex;

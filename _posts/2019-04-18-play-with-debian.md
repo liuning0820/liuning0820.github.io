@@ -4,7 +4,7 @@ layout: default
 
 # Play With Debian
 
-![debian-logo]({{ site.url }}{{site.baseurl}}/images/debian-logo.png){:height="50%" width="50%"}
+![debian-logo]({{ site.url }}{{site.baseurl}}/images/debian-logo.png)
 
 Records tools installation when playing with Debian.
 
@@ -155,7 +155,7 @@ sslocal -c sslocal.conf # connect to the proxy server.
 
 ```
 
-![Firefox Proxy Setting]({{ site.url }}{{site.baseurl}}/images/shadowsocks-firefox.png){:height="50%" width="50%"}
+![Firefox Proxy Setting]({{ site.url }}{{site.baseurl}}/images/shadowsocks-firefox.png)
 
 ## Firefox Flash Player
 

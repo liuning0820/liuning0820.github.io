@@ -44,7 +44,7 @@ Engine Password: the Anchore Engine password. default: foobar
 
 Add a FreeStyle Job, and configure as below:
 
-![Anchore Build Options]({{ site.url }}{{site.baseurl}}/images/jenkins-anchore-image-scan.jpg){:height="50%" width="50%"}
+![Anchore Build Options]({{ site.url }}{{site.baseurl}}/images/jenkins-anchore-image-scan.jpg)
 
 An scanning report can be found at http://{my-jenkins-ip}:8080/job/anchore-test/25/anchore-results/
 

@@ -22,7 +22,7 @@ comments: true
 
 写微信公众号断断续续也有2年的时间了，虽然是用心的写了每一篇，但是对公众号的运营和数据的增长没有太上心。 不过通过微信助手，第一次看到有人订阅，第一次看到订阅量超过40，第一次看到单篇阅读量超过200，第一次看到读者分布国内20几个城市和国外4个城市，内心中还是有小小激动和大大的鼓舞。
 
-![wechat-data-growth]({{ site.url }}{{site.baseurl}}/images/data-growth-02.jpg){:height="50%" width="50%"}
+![wechat-data-growth]({{ site.url }}{{site.baseurl}}/images/data-growth-02.jpg)
 
 然后我慢慢觉得这样的历史数据的统计和趋势分析很有价值，它为你的公众号或者博客的数据增长提供了可以持续改进的直观反馈。
 

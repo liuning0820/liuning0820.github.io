@@ -25,7 +25,7 @@ CI工具能够及时从SVN中央服务器定时获取代码进行编译，来防
 这几年来，容器化发展，各种DevOps的工具层出不穷，各大企业纷纷构建出了企业级的DevOps平台来完成CI/CD。 我们称之为 Enterprise DevOps 时代。
 这里开始会有很多开销，比如各种环境的云资源的申请和闲置，比如海量管理软件包的存储仓库的开销等。
 
-![DevOps Pipeline]({{ site.url }}{{site.baseurl}}/images/devops-pipeline.jpg){:height="50%" width="50%"}
+![DevOps Pipeline]({{ site.url }}{{site.baseurl}}/images/devops-pipeline.jpg)
 
 这两年，一些个龙头企业，包括微软，亚马逊整合了自己Cloud 服务方面的各方面的能力，推出了DevOps 服务。一些中小企业，以后完全没有必要自建DevOps平台，直接SRE团队对接这些DevOps服务。我赞同这可能是趋势，以后你看着服务的账单，服务方也会给你一些报告建议，如何节约不必要的浪费。
 

@@ -421,6 +421,14 @@ img{
   content: "☰";
 }
 
+
+/* Hide GitHub ribbon on mobile devices */
+@media (max-width: 768px) {
+  .github-fork-ribbon {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .gh-head {
     padding: 1rem 0;

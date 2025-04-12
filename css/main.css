@@ -55,6 +55,7 @@ body {
   margin: 0 0 1.5rem 0;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .gh-head-brand a {
@@ -63,10 +64,33 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  max-width: 100%;
 }
 
-.gh-head-logo {
-  display: none; /* Hide the actual image */
+/* .gh-head-brand a img {
+  max-height: 45px;
+  max-width: 320px;
+  object-fit: contain;
+  margin: 0 auto;
+} */
+
+.gh-navigation-logo {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+/* .gh-navigation-logo.is-title {
+  max-height: 45px;
+  width: auto;
+} */
+
+@media (max-width: 768px) {
+  .gh-navigation-logo.is-title {
+    max-width: 70%;
+    height: auto;
+  }
 }
 
 .gh-head-title {
@@ -377,8 +401,26 @@ body {
   margin: 8px 0;
 }
 
-/* Mobile responsiveness */
+/* Mobile navigation and responsiveness */
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--heading-color);
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.mobile-menu-toggle:before {
+  content: "☰";
+}
+
 @media (max-width: 768px) {
+  .gh-head {
+    padding: 1rem 0;
+  }
+
   .gh-head-inner {
     flex-direction: column;
     align-items: center;
@@ -386,21 +428,63 @@ body {
   
   .gh-head-brand {
     margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
   }
 
   .gh-head-menu {
     width: 100%;
-    overflow-x: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
   }
   
+  .gh-head-menu.active {
+    max-height: 500px;
+  }
+
   .gh-head-menu ul {
-    padding-bottom: 0.5rem;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
   }
 
   .gh-head-menu li {
-    margin: 0.5rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+  }
+  
+  .gh-head-menu li a {
+    display: block;
+    padding: 12px;
+  }
+  
+  .drop-down > ul > li > ul {
+    position: static;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .drop-down > ul > li > ul > li {
+    margin: 0;
+    border-top: 1px solid var(--border-color);
+  }
+  
+  .drop-down > ul > li > ul > li a {
+    padding-left: 25px;
+    background-color: #f9f9f9;
   }
   
   .gh-post-title {

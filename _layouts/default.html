@@ -22,10 +22,10 @@
         <header class="gh-head">
             <div class="gh-head-inner">
                 <div class="gh-head-brand">
-                    <a href="/">
-                        <img src="/images/work-for-free.png" alt="Work For Free">
-
+                    <a href="/" class="gh-navigation-logo">
+                        <img src="/images/work-for-free.png" alt="Work For Free" class="gh-navigation-logo is-title">
                     </a>
+                    <button class="mobile-menu-toggle" aria-label="Menu"></button>
                 </div>
 
                 <div class="gh-head-menu">
@@ -127,5 +127,39 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const mobileMenu = document.querySelector('.gh-head-menu');
+            
+            if (mobileMenuToggle) {
+                mobileMenuToggle.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('active');
+                    this.setAttribute('aria-expanded', 
+                        mobileMenu.classList.contains('active') ? 'true' : 'false');
+                    
+                    // Change toggle icon based on state
+                    if (mobileMenu.classList.contains('active')) {
+                        this.textContent = '✕';
+                    } else {
+                        this.textContent = '';
+                        this.classList.remove('open');
+                    }
+                });
+            }
+            
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!event.target.closest('.gh-head-menu') && 
+                    !event.target.closest('.mobile-menu-toggle') && 
+                    mobileMenu.classList.contains('active')) {
+                    mobileMenu.classList.remove('active');
+                    mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                    mobileMenuToggle.textContent = '';
+                }
+            });
+        });
+    </script>
 </body>
 </html>

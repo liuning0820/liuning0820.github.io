@@ -1,36 +1,40 @@
 ---
 layout: default
-title: liuning0820.github.io
+title: Work For Free
 ---
 
-
-	<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-<p class="author">
-	<span class="date">{{ post.date | date_to_string   }}</span>
-</p>
-<div class="content">
-	<!-- {{ post.content }} -->
-  {{ post.excerpt }}
+<div class="gh-feed">
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+  <article class="gh-post">
+    <header class="gh-post-header">
+      <h2 class="gh-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="gh-post-meta">
+        <span class="gh-post-date">{{ post.date | date_to_string }}</span>
+      </div>
+    </header>
+    
+    <section class="gh-post-excerpt">
+      {{ post.excerpt }}
+      <a class="gh-read-more" href="{{ post.url }}">Continue reading &rarr;</a>
+    </section>
+  </article>
+  {% endfor %}
+  
+  <!-- Pagination links -->
+  <nav class="gh-pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a class="gh-pagination-item" href="/" title="Previous Page">&larr; Newer Posts</a>
+      {% else %}
+      <a class="gh-pagination-item" href="/page{{ paginator.previous_page }}/" title="Previous Page">&larr; Newer Posts</a>
+      {% endif %}
+    {% endif %}
+      
+    <span class="gh-page-number">Page {{paginator.page}} of {{paginator.total_pages}}</span>
+      
+    {% if paginator.next_page %}
+    <a class="gh-pagination-item" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &rarr;</a>
+    {% endif %}
+  </nav>
 </div>
-{% endfor %}
-
-<!-- Pagination links -->
-<div class="pagination" role="pagination">
-
-        {% if paginator.previous_page %}
-          {% if paginator.previous_page == 1 %}
-          <a class="newer-posts" href="/" title="Previous Page">&laquo; Newer Posts</a>
-          {% else %}
-          <a class="newer-posts" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
-          {% endif %}
-        {% endif %}
-
-        <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span>
-
-        {% if paginator.next_page %}
-        <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
-        {% endif %}
-</div>
-

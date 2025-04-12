@@ -1,87 +1,131 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<!-- Bing 网站管理员 BingWebmasterTools -->
-	<meta name="msvalidate.01" content="CC5AB97F09B3CAD127831C826A544FFF" />
-	<!-- set viewport of the devices (ex. mobile phone) on which to read the posts  -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{page.title}}</title>
-	<!-- <link rel="stylesheet" type="text/css" href="{{ site.url }}{{site.baseurl}}/css/main.css">
-	<link rel="stylesheet" type="text/css" href="{{ site.url }}{{site.baseurl}}/css/gh-fork-ribbon.css"> -->
-	<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-	<link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | relative_url}}" />
-	<link rel="stylesheet" type="text/css" href="{{ '/css/gh-fork-ribbon.css' | relative_url}}" />
-
-
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!-- Bing 网站管理员 BingWebmasterTools -->
+    <meta name="msvalidate.01" content="CC5AB97F09B3CAD127831C826A544FFF" />
+    <!-- set viewport of the devices (ex. mobile phone) on which to read the posts  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    
+    <!-- Google Fonts - Inter & Merriweather -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | relative_url }}" />
+    <link rel="stylesheet" type="text/css" href="{{ '/css/gh-fork-ribbon.css' | relative_url }}" />
 </head>
 
-
-
-
 <body>
+    <div class="gh-viewport">
+        <header class="gh-head">
+            <div class="gh-head-inner">
+                <div class="gh-head-brand">
+                    <a href="/">
+                        <img src="/images/workforfree-logo.png" alt="Work For Free" class="gh-head-logo">
 
-	<header>
-			{% include header.html %}
-	</header>
+                    </a>
+                </div>
 
-	<main>
-		<div class="tags">{% include tags.html %}</div>
-		<div class="main">
-			{{content | remove: '<p>&lt;! –more– &gt;</p>' }}
-		</div>
+                <div class="gh-head-menu">
+                    <nav class="drop-down">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/all.html">Blogs</a></li>
+                            <li><a href="https://liuning0820.github.io/rss-reader/">FeedRead</a></li>
+                            <li><a href="/ex_presentations/index.html">Presentations</a></li>
+                            <li><a href="/workforfree/podcasts">Podcasts</a></li>
+                            <li class="drop-down"><a href="#">Apps</a>
+                                <ul>
+                                <li>
+                                    <a href="https://liuning0820.github.io/react-todo/">React ToDo App</a>
+                                </li>
+                                <li>
+                                    <a href="https://liuning0820.github.io/bookmark/">Bookmarks</a>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><a href="/about">About</a></li>
+                            
+                            <li>
+                                <a href="/feed.xml" title="RSS Feed">
+                                    <img src="https://wangbase.com/blogimg/asset/202107/bg2021072117.png" alt="RSS" style="width: 20px; height: 20px; border: 0pt none;">
+                                </a>
+                            </li>
 
-</main>
+                            <li>
+                                {% if site.search == true %}
+                                    <form class="search-form" action="/search.html" method="get">
+                                        <input type="text" id="search-box" name="query" placeholder="Search...">
+                                        <button type="submit" id="search-submit">Search</button>
+                                    </form>
+                                {% endif %}
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
-	<div class="donate">
-		<div><em>Subscribe to get updates</em></div>
+        <a class="github-fork-ribbon fixed" title="Contribute on GitHub" href="https://github.com/liuning0820/liuning0820.github.io">Fork me on GitHub</a>
 
-		<!-- <button id="rewardButton" , disable="enable" ,
-			onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}"
-			,
-			style="cursor: pointer; border: 0; outline: 0; border-radius: 100%; padding: 0; margin: 10px; letter-spacing: normal; text-transform: none; text-indent: 0px; text-shadow: none">
-			<span onmouseover="this.style.color='rgb(236,96,0)';this.style.background='rgb(204,204,204)'"
-				onMouseOut="this.style.color='#fff';this.style.background='rgb(236,96,0)'"
-				style="display: inline-block; width: 70px; height: 70px; border-radius: 100%; line-height: 81px; color: #fff; font: 400 35px/75px 'microsofty'; background: rgb(236,96,0)">👍</span>
-		</button> -->
+        <section class="gh-container">
+            <div class="gh-container-inner">
+                <main class="gh-main">
+                    <div class="gh-feed">
+                        {{ content | remove: '<p>&lt;! –more– &gt;</p>' }}
+                    </div>
+                </main>
+                
+                <div class="gh-tags">
+                    {% include tags.html %}
+                </div>
+            </div>
+        </section>
 
+        <div class="donate">
+            <h3>Subscribe to get updates</h3>
 
-		<div id="QR" style="display: block;">
+            <div id="QR">
+                <div id="wechat">
+                    <img id="wechat_qr" src="/images/donate/weixin.jpg" alt="WeChat Pay" />
+                    <p>微信打赏</p>
+                </div>
 
-			<!-- https://localhost:4000/liuning0820.github.io/images/donate/weixin.JPG -->
-			<!-- https://liuning0820.github.io/liuning0820.github.io/images/donate/weixin.JPG -->
-			<!-- src="{{ site.url }}{{site.baseurl}}/images/donate/weixin.jpg" -->
-			<div id="wechat" style="display: inline-block">
-				<img id="wechat_qr" src="/images/donate/weixin.jpg" alt=" WeChat Pay"
-					style="width: 200px; max-width: 100%; display: inline-block" />
-				<p>微信打赏</p>
-			</div>
+                <div id="gongzhonghao">
+                    <img id="gongzhonghao_img" src="/images/gongzhonghao.jpg" alt="对刘谈心" />
+                    <p>关注公众号：对刘谈心</p>
+                </div>
+            </div>
+        </div>
 
-			<div id="gongzhonghao" style="display: inline-block">
-			  <img id="gongzhonghao_img" src="/images/gongzhonghao.jpg" alt="对刘谈心" style="width: 200px; max-width: 100%; display: inline-block"/>
-			  <p>关注公众号：对刘谈心</p>
-			</div>
+        {% if page.comments %}
+            {% include comments.html %}
+        {% endif %}
 
-			<!-- <div id="alipay" style="display: inline-block">
-			  <img id="alipay_qr" src="/images/donate/zhifubao.JPG" alt="Alipay" style="width: 200px; max-width: 100%; display: inline-block"/>
-			  <p>支付宝打赏</p>
-			</div> -->
+        <footer class="gh-footer">
+            <div class="gh-footer-inner">
+                <ul>
+                    <li><a href="mailto:liuning0820@outlook.com">Email</a></li>
+                    <li><a href="https://github.com/liuning0820">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/toby-liu-86750923/">Linkedin</a></li>
+                </ul>
 
-		</div>
-	</div>
+                <div class="gh-copyright">
+                    <p>
+                        Help me to make this site awesome:
+                        {% if paginator.previous_page %}
+                        <a href="{{site.github.repository_url}}/edit/master/{{page.name}}">edit this page</a>
+                        {% else %}
+                        <a href="{{site.github.repository_url}}/edit/master/{{page.path}}">edit this page</a>
+                        {% endif %}
 
-
-	{% if page.comments %}
-		{% include comments.html %}
-	{% endif %}
-
-	<footer>
-		{% include footer.html %}
-	</footer>
-
-	<!-- _includes/analytics.html -->
-
+                        <a href="{{site.github.repository_url}}/issues/new?labels=bug">report an issue</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
-
 </html>

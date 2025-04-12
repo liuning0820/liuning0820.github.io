@@ -44,7 +44,7 @@ In the Main tab tick Override placement and enter a vertical (V) number somewher
 
 当您打开视频文件并需要两个字幕时，可以右键单击->字幕菜单中加载底部的字幕，第二个显示在顶部的字幕可通过"过滤器" -> "VSFilter（自动加载版本）"加载。
 
-![加载额外字幕]({{ site.url }}{{site.baseurl}}/images/mpc_vsfilter_subtitle.jpg){:height="50%" width="70%"}
+![加载额外字幕]({{ site.url }}{{site.baseurl}}/images/mpc_vsfilter_subtitle.jpg)
 
 ### 参考链接
 

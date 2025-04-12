@@ -13,7 +13,7 @@ title: "GitHub Pages 中嵌入视频"
 
 <! --more-- >
 
-![短视频 - 次世代的图文方式]({{ site.url }}{{site.baseurl}}/images/short-video.png){:height="50%" width="70%"}
+![短视频 - 次世代的图文方式]({{ site.url }}{{site.baseurl}}/images/short-video.png)
 
 作为开篇，下面是一个练习的示例。后续需要考虑这些个视频如何托管。
 

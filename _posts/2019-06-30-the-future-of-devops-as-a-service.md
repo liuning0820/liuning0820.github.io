@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: liuning0820
 tags: [devops]
 title: "DevOps的未来: 开发运维即服务"

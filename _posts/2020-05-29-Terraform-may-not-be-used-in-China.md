@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: liuning0820
 tags: [mindset]
 title: 是谁说Terraform 在中国将不可用

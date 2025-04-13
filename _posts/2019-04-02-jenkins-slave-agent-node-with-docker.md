@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: liuning0820
 tags: [jenkins]
 title: Docker On Docker

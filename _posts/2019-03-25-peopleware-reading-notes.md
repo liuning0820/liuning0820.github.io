@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Reading Notes: Peopleware: Productive Projects and Teams"
 author: liuning0820
 tags: [communication]

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "旁观者效应"
 date: 2017-07-06
 comments: true

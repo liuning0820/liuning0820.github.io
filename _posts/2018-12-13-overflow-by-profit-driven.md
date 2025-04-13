@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "名利驱使知识与娱乐泛滥"
 author: liuning0820
 ---

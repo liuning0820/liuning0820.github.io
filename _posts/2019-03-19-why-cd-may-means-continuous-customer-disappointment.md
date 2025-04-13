@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Why continuous deployment may cause continuous customer dissatisfaction"
 tags: [devops, ci]
 ---

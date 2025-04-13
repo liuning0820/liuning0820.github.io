@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Labs: Jenkins Embeddable Build Status"
 author: liuning0820
 tags: [jenkins]

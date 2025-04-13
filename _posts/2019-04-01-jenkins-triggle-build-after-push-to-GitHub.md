@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Labs: GitHub Push触发Jenkins自动构建"
 author: liuning0820
 tags: [jenkins]

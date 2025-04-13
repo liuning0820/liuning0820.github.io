@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Container Image Vulnerability Scanner"
 author: liuning0820
 tags: [jenkins]

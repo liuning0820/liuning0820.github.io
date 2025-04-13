@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "learn the up to date knowledge"
 ---
 

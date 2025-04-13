@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Play with iPad"
 author: liuning0820
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 # title: "Reading Notes - Technology Strategy Pattern"
 author: liuning0820
 tags: [book]

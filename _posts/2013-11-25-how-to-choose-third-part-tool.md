@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: liuning0820
 tags: [mindset]
 title: "how-to-choose-third-part-tool"

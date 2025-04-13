@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "写博客的道德底线和意图"
 ---
 

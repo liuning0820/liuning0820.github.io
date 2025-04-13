@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: 对刘谈心
 comments: true
 tags: [mindset]

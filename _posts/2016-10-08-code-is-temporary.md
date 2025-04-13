@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "code-is-temporary 代码是过眼云烟"
 ---
 

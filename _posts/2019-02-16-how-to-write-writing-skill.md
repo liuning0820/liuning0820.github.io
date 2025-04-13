@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "HOW TO WRITE"
 author: liuning0820
 ---

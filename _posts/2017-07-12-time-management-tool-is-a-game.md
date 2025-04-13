@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "时间管理工具就是一场游戏"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "software integration design thinking 软件集成设计随想"
 ---
 

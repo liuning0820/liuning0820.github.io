@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Play With Web Search"
 author: liuning0820
 comments: true

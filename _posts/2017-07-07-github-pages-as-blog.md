@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "github-pages as blog"
 date: 2017-07-07
 comments: true

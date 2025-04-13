@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Using What You Already Have"
 date: 2014-06-12
 comments: true

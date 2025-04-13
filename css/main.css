@@ -351,6 +351,11 @@ img{
   height: auto;
 }
 
+iframe{
+  max-width: 100%;
+  height: auto;
+}
+
 /* Search box */
 .search-form {
   display: flex;

@@ -352,6 +352,38 @@ p>img{
 }
 
 
+/* Post navigation */
+.gh-post-navigation {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gh-post-previous,
+.gh-post-next {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.gh-post-previous {
+  margin-right: auto;
+}
+
+.gh-post-next {
+  margin-left: auto;
+}
+
+.gh-post-previous:hover,
+.gh-post-next:hover {
+  text-decoration: underline;
+}
+
+
 /* Search box */
 .search-form {
   display: flex;

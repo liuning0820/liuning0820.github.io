@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="gh-post-navigation">
+  {% if page.previous %}
+    <a class="gh-post-previous" href="{{ page.previous.url }}">&larr; Previous Post: {{ page.previous.title }}</a>
+  {% endif %}
+  
+  {% if page.next %}
+    <a class="gh-post-next" href="{{ page.next.url }}">Next Post: {{ page.next.title }} &rarr;</a>
+  {% endif %}
+</div>

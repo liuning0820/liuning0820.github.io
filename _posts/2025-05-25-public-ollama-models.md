@@ -28,20 +28,20 @@ curl -X POST http://<IP>:11434/api/chat -d '{
 
 | IP | Models |
 |-----|--------|
-| 123.60.64.205 | llama3.2:3b-instruct-q5_K_M,deepseek-r1:1.5b |
+| 123.60.64.205 | llama3.2:3b-instruct-q5_K_M<br>deepseek-r1:1.5b |
 | 101.132.74.29 | llama3.2:3b-instruct-q5_K_M |
-| 139.196.196.43 | qwen3:32b,qwen3:30b-a3b,qwen2.5:72b-instruct,deepseek-r1:70b |
-| 223.166.61.66 | qwen3:4b,qwen3:32b,mxbai-embed-large:latest,bge-m3:latest,nomic-embed-text:latest,qwen2.5-coder:32b,qwen2.5-coder:14b,qwen2.5:32b,qwen2.5:latest,mistral-small3.1:latest,codellama:13b,codellama:34b,codellama:70b,qwq:latest,deepseek-v2:16b,deepseek-coder-v2:latest,gemma3:12b,gemma3:latest,qwen2.5:3b,gemma3:1b,deepseek-r1:14b,deepseek-r1:32b,deepseek-r1:8b,deepseek-r1:7b,deepseek-r1:1.5b |
-| 106.75.235.214 | llama3.1:8b,gemma3:27b,qwq:latest,deepseek-r1:70b |
-| 117.50.171.129 | qwq:latest,qwen2.5-coder:32b |
+| 139.196.196.43 | qwen3:32b<br>qwen3:30b-a3b<br>qwen2.5:72b-instruct<br>deepseek-r1:70b |
+| 223.166.61.66 | qwen3:4b<br>qwen3:32b<br>mxbai-embed-large:latest<br>bge-m3:latest<br>nomic-embed-text:latest<br>qwen2.5-coder:32b<br>qwen2.5-coder:14b<br>qwen2.5:32b<br>qwen2.5:latest<br>mistral-small3.1:latest<br>codellama:13b<br>codellama:34b<br>codellama:70b<br>qwq:latest<br>deepseek-v2:16b<br>deepseek-coder-v2:latest<br>gemma3:12b<br>gemma3:latest<br>qwen2.5:3b<br>gemma3:1b<br>deepseek-r1:14b<br>deepseek-r1:32b<br>deepseek-r1:8b<br>deepseek-r1:7b<br>deepseek-r1:1.5b |
+| 106.75.235.214 | llama3.1:8b<br>gemma3:27b<br>qwq:latest<br>deepseek-r1:70b |
+| 117.50.171.129 | qwq:latest<br>qwen2.5-coder:32b |
 | 117.50.180.35 | bge-m3:latest |
-| 116.232.26.17 | qwen3:0.6b,qwen3:1.7b |
-| 117.50.176.34 | qwen2.5:1.5b,qwen2.5:7b,qwen2.5:14b |
-| 222.64.131.253 | llama3.2:3b-instruct-q5_K_M,qwen2.5:32b-instruct-q4_K_M,qwq:32b-q4_K_M,qwen2.5:32b,qwen2.5-coder:14b,sqlcoder:15b,deepseek-r1:14b,qwen2.5:14b,bge-m3:567m,qwen2.5:7b,nomic-embed-text:latest,qwen2.5:0.5b |
-| 123.60.5.218 | llama3-backup:latest,mario:latest,llama3.2:latest,llama3.2:3b-instruct-q5_K_M,deepseek-r1:8b |
-| 218.1.223.134 | llama3.2:3b-instruct-q5_K_M,smollm2:135m,deepseek-r1:1.5b,deepseek-r1:7b,deepseek-r1:8b |
-| 101.132.88.19 | nomic-embed-text:latest,llama3.2:3b,llama3.2:1b,deepseek-r1:1.5b |
-| 114.95.209.211 | nomic-embed-text:latest,qwen2.5-coder:latest,deepseek-r1:7b |
+| 116.232.26.17 | qwen3:0.6b<br>qwen3:1.7b |
+| 117.50.176.34 | qwen2.5:1.5b<br>qwen2.5:7b<br>qwen2.5:14b |
+| 222.64.131.253 | llama3.2:3b-instruct-q5_K_M<br>qwen2.5:32b-instruct-q4_K_M<br>qwq:32b-q4_K_M<br>qwen2.5:32b<br>qwen2.5-coder:14b<br>sqlcoder:15b<br>deepseek-r1:14b<br>qwen2.5:14b<br>bge-m3:567m<br>qwen2.5:7b<br>nomic-embed-text:latest<br>qwen2.5:0.5b |
+| 123.60.5.218 | mario:latest<br>llama3-backup:latest<br>llama3.2:latest<br>llama3.2:3b-instruct-q5_K_M<br>deepseek-r1:8b |
+| 218.1.223.134 | llama3.2:3b-instruct-q5_K_M<br>smollm2:135m<br>deepseek-r1:1.5b<br>deepseek-r1:7b<br>deepseek-r1:8b |
+| 101.132.88.19 | nomic-embed-text:latest<br>llama3.2:3b<br>llama3.2:1b<br>deepseek-r1:1.5b |
+| 114.95.209.211 | nomic-embed-text:latest<br>qwen2.5-coder:latest<br>deepseek-r1:7b |
 
 
 ## Disclaimer

@@ -1,3 +1,10 @@
+---
+layout: post
+author: liuning0820
+tags: [ai]
+comments: true
+---
+
 # Public Ollama Models 20250525
 
 ## How to chat with Ollama models

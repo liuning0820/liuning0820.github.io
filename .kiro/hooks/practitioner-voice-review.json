@@ -3,13 +3,13 @@
   "hooks": [
     {
       "name": "Practitioner Voice Blog Review",
-      "trigger": "PostFileSave",
-      "description": "Reviews blog posts in _posts/ using Practitioner Voice writing principles extracted from Martin Fowler's article. Evaluates authority from experience, leading with claims, author visibility, tension preservation, specificity, and avoidance of LLM voice.",
-      "matcher": "_posts[/\\\\].*\\.md$",
+      "trigger": "UserPromptSubmit",
       "action": {
         "type": "agent",
         "prompt": "The user just saved a blog post in _posts/. Review it using the \"Practitioner Voice\" writing principles (from Martin Fowler's practitioner-voice article) and provide specific, actionable improvement suggestions.\n\n## Practitioner Voice Review Criteria\n\nEvaluate the post on these dimensions and provide concrete suggestions:\n\n### 1. Authority from Experience (作者是否在场)\n- Does the writing show the author was IN the situation, not observing from outside?\n- Is authority earned from lived experience, not credentials or citations?\n- Suggestion: Where can the author add specific details only someone who lived it would know?\n\n### 2. Lead with the Claim (先说结论)\n- Does the post open with its core insight/judgment, or does it build up slowly?\n- Does it trust the reader enough to start with the point?\n- Suggestion: Could the opening be restructured to state the conclusion first, then show reasoning?\n\n### 3. Author Stays Visible (作者判断可见)\n- Is the author's personal judgment visible throughout, or hidden behind general statements?\n- Does it read like something only THIS person could have written?\n- Suggestion: Where are generic statements that could be replaced with the author's specific perspective?\n\n### 4. Tension Without Resolution (保留张力)\n- Does the post name real tensions/contradictions without forcing neat resolutions?\n- Does it resist the urge to wrap everything in tidy takeaways?\n- Suggestion: Are there oversimplified conclusions that would be more honest as unresolved tensions?\n\n### 5. Specificity Over Universality (信任具体性)\n- Does it trust specific, situated examples over universal claims?\n- Does it write for readers who will recognize the pattern, not everyone?\n- Suggestion: Where can abstract advice be replaced with concrete, specific situations?\n\n### 6. Avoid LLM Voice (避免AI腔)\n- Does the writing have something at stake? Does the author risk something?\n- Is it free from fluent-but-empty phrasing, formulaic structures, or excessive hedging?\n- Suggestion: Flag any passages that sound \"correct but weightless\" - polished but with nothing risked.\n\n## Output Format\n\nProvide your review in Chinese (matching the blog's language), structured as:\n1. 总体印象 (1-2 sentences)\n2. 亮点 (what already works well in Practitioner Voice style)\n3. 改进建议 (specific, actionable suggestions with example rewrites where helpful)\n4. 可选：提供一段改写示例展示如何让文章更具 Practitioner Voice 的特质"
-      }
+      },
+      "description": "Reviews blog posts in _posts/ using Practitioner Voice writing principles extracted from Martin Fowler's article. Evaluates authority from experience, leading with claims, author visibility, tension preservation, specificity, and avoidance of LLM voice.",
+      "enabled": true
     }
   ]
 }

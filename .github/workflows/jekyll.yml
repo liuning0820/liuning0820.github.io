@@ -1,21 +1,56 @@
-name: Jekyll site CI
+name: Deploy Jekyll site to Pages
 
-# on:
-#   push:
-#     branches:
-#     - master
+on:
+  push:
+    branches:
+      - master
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
 
-on: [push]
+# Permissions required for deploying to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; don't cancel an in-progress production deploy
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll/ && jekyll build --future && gem install html-proofer -v 3.19.4 && gem which html-proofer && ls -al /usr/gem/gems//html-proofer-3.19.4/bin && /usr/gem/gems//html-proofer-3.19.4/bin/htmlproofer ./_site --disable-external 'true' --log-level debug"
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        # --future publishes posts dated ahead of the build date
+        run: bundle exec jekyll build --future --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -8,7 +8,6 @@ gem "jekyll-theme-hacker"
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
-  gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
 end
 

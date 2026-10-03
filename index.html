@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Work For Free
-pagination:
-  enabled: true
 ---
 
 <div class="gh-feed">
-  <!-- This loops through the paginated posts -->
-  {% for post in paginator.posts %}
+  <!-- Show the most recent posts. Uses site.posts directly so the home
+       page never depends on a pagination plugin that can leave the
+       paginator object nil. -->
+  {% for post in site.posts limit: 5 %}
   <article class="gh-post">
     <header class="gh-post-header">
       <h2 class="gh-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -15,28 +15,16 @@ pagination:
         <span class="gh-post-date">{{ post.date | date_to_string }}</span>
       </div>
     </header>
-    
+
     <section class="gh-post-excerpt">
       {{ post.excerpt }}
       <a class="gh-read-more" href="{{ post.url }}">Continue reading &rarr;</a>
     </section>
   </article>
   {% endfor %}
-  
-  <!-- Pagination links -->
+
+  <!-- Link to the full archive -->
   <nav class="gh-pagination">
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-      <a class="gh-pagination-item" href="/" title="Previous Page">&larr; Newer Posts</a>
-      {% else %}
-      <a class="gh-pagination-item" href="/page{{ paginator.previous_page }}/" title="Previous Page">&larr; Newer Posts</a>
-      {% endif %}
-    {% endif %}
-      
-    <span class="gh-page-number">Page {{paginator.page}} of {{paginator.total_pages}}</span>
-      
-    {% if paginator.next_page %}
-    <a class="gh-pagination-item" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &rarr;</a>
-    {% endif %}
+    <a class="gh-pagination-item" href="{{ '/all.html' | relative_url }}" title="All posts">All posts &rarr;</a>
   </nav>
 </div>

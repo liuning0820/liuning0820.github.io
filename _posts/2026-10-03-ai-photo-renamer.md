@@ -243,7 +243,7 @@ powershell -ExecutionPolicy Bypass -File .\run.ps1
 
 完整源码和安装说明已发布在 GitHub：
 
-[查看 GitHub 项目源码](请替换为你的-GitHub-项目地址)
+[查看 GitHub 项目源码](https://github.com/liuning0820/media-ai-renamer)
 
 如果你也有大量使用 `IMG_XXXX.JPG` 命名的旅行照片，希望这个工具能帮助你更高效地完成整理。
 

@@ -49,7 +49,7 @@ Netlify is a cloud computing company that offers hosting and serverless backend 
 
 The site dashboard can be accessed [Site Dashboard](https://app.netlify.com/sites/liuning0820/overview)
 
-Deployed at [https://liuning0820.netlify.com/](https://liuning0820.netlify.com/)
+Deployed at [https://liuning0820.netlify.app/](https://liuning0820.netlify.app/)
 
 ### Netlify Deploy Error Troubleshooting
 

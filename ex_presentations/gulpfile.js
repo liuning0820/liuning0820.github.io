@@ -7,7 +7,7 @@ const through = require('through2');
 const qunit = require('node-qunit-puppeteer')
 
 const {rollup} = require('rollup')
-const {terser} = require('rollup-plugin-terser')
+const terser = require('@rollup/plugin-terser').default
 const babel = require('@rollup/plugin-babel').default
 const commonjs = require('@rollup/plugin-commonjs')
 const resolve = require('@rollup/plugin-node-resolve').default
@@ -16,8 +16,7 @@ const sass = require('sass')
 const gulp = require('gulp')
 const tap = require('gulp-tap')
 const zip = require('gulp-zip')
-const header = require('gulp-header')
-const eslint = require('gulp-eslint')
+const eslint = require('gulp-eslint-new')
 const minify = require('gulp-clean-css')
 const connect = require('gulp-connect')
 const autoprefixer = require('gulp-autoprefixer')
@@ -158,6 +157,17 @@ gulp.task('plugins', () => {
 })
 
 // a custom pipeable step to transform Sass to CSS
+function prependBanner() {
+  return through.obj( ( vinylFile, encoding, callback ) => {
+    const transformedFile = vinylFile.clone();
+    transformedFile.contents = Buffer.concat([
+        Buffer.from(banner),
+        transformedFile.contents
+    ]);
+    callback(null, transformedFile);
+  });
+}
+
 function compileSass() {
   return through.obj( ( vinylFile, encoding, callback ) => {
     const transformedFile = vinylFile.clone();
@@ -187,7 +197,7 @@ gulp.task('css-core', () => gulp.src(['css/reveal.scss'])
     .pipe(compileSass())
     .pipe(autoprefixer())
     .pipe(minify({compatibility: 'ie9'}))
-    .pipe(header(banner))
+    .pipe(prependBanner())
     .pipe(gulp.dest('./dist')))
 
 gulp.task('css', gulp.parallel('css-themes', 'css-core'))
@@ -201,9 +211,14 @@ gulp.task('qunit', () => {
         name: 'test-server'
     }
 
-    let server = connect.server( serverConfig )
-
     let testFiles = glob.sync('test/*.html' )
+
+    if( testFiles.length === 0 ) {
+        console.log(`${'✔'} Passed 0 tests`.green.bold);
+        return Promise.resolve();
+    }
+
+    let server = connect.server( serverConfig )
 
     let totalTests = 0;
     let failingTests = 0;

@@ -7,6 +7,8 @@
 
 # Site Settings
 encoding                 : utf-8
+title                    : Work For Free
+description              : "记录技术实践、个人思考、旅行与生活。"
 url                      : "https://liuning0820.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 email                    : liuning0820@outlook.com

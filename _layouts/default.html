@@ -7,7 +7,21 @@
     <!-- set viewport of the devices (ex. mobile phone) on which to read the posts  -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include analytics.html %}
-    <title>{{ page.title }}</title>
+    {% assign meta_title = page.title | default: site.title %}
+    {% assign meta_description = page.description | default: page.summary | default: page.excerpt | default: site.description %}
+    {% assign meta_description = meta_description | strip_html | strip_newlines | normalize_whitespace | truncate: 160 %}
+    {% assign meta_url = page.url | relative_url | prepend: site.url %}
+    <title>{{ meta_title | escape }}</title>
+    <meta name="description" content="{{ meta_description | escape }}" />
+    <link rel="canonical" href="{{ meta_url | escape }}" />
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+    <meta property="og:title" content="{{ meta_title | escape }}" />
+    <meta property="og:description" content="{{ meta_description | escape }}" />
+    <meta property="og:url" content="{{ meta_url | escape }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ meta_title | escape }}" />
+    <meta name="twitter:description" content="{{ meta_description | escape }}" />
+    <meta name="twitter:url" content="{{ meta_url | escape }}" />
     
     <!-- Google Fonts - Inter & Merriweather -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

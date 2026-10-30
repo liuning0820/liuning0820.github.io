@@ -2,7 +2,57 @@
 layout: default
 ---
 
-{{ content }}
+{% assign article_parts = content | split: '</h1>' %}
+{% if article_parts.size > 1 %}
+  {% assign article_body = article_parts[1] %}
+{% else %}
+  {% assign article_body = content %}
+{% endif %}
+
+{% assign article_text = article_body | strip_html | normalize_whitespace %}
+{% assign article_characters = article_text | size %}
+{% comment %}Estimate one minute per 400 normalized article characters; short articles show 1 minute.{% endcomment %}
+{% assign reading_minutes = article_characters | divided_by: 400 %}
+{% if reading_minutes < 1 %}
+  {% assign reading_minutes = 1 %}
+{% endif %}
+
+{% if page.categories and page.categories != empty %}
+  {% assign article_category = page.categories | first %}
+{% elsif page.category %}
+  {% assign article_category = page.category %}
+{% elsif page.tags and page.tags != empty %}
+  {% assign article_category = page.tags | first %}
+{% else %}
+  {% assign article_category = '未分类' %}
+{% endif %}
+
+<article class="gh-article">
+  <header class="gh-article-header">
+    {% if article_parts.size > 1 %}
+      {{ article_parts[0] | replace: '<h1', '<h1 class="gh-post-title"' }}</h1>
+    {% else %}
+      <h1 class="gh-post-title">{{ page.title }}</h1>
+    {% endif %}
+
+    <dl class="gh-article-meta">
+      <div class="gh-article-meta-item">
+        <dt>发布日期</dt>
+        <dd><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y-%m-%d" }}</time></dd>
+      </div>
+      <div class="gh-article-meta-item">
+        <dt>分类</dt>
+        <dd>{{ article_category }}</dd>
+      </div>
+      <div class="gh-article-meta-item">
+        <dt>阅读时间</dt>
+        <dd>{{ reading_minutes }} 分钟</dd>
+      </div>
+    </dl>
+  </header>
+
+  <div class="gh-article-content">{{ article_body }}</div>
+</article>
 
 <div class="gh-post-navigation">
   {% if page.previous %}

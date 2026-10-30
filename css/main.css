@@ -196,6 +196,40 @@ body {
   overflow-wrap: anywhere;
 }
 
+.gh-article-header {
+  margin-bottom: 2rem;
+}
+
+.gh-article-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: #666666;
+  overflow-wrap: anywhere;
+}
+
+.gh-article-meta-item {
+  display: flex;
+  gap: 0.35rem;
+  margin: 0;
+}
+
+.gh-article-meta dt {
+  font-weight: 500;
+}
+
+.gh-article-meta dd {
+  margin: 0;
+}
+
+.gh-article-content > p {
+  margin: 0 0 1.25rem;
+}
+
 .gh-post-date {
   margin-right: 0;
 }

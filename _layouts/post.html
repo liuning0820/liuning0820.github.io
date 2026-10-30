@@ -37,16 +37,16 @@ layout: default
 
     <dl class="gh-article-meta">
       <div class="gh-article-meta-item">
-        <dt>发布日期</dt>
-        <dd><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y-%m-%d" }}</time></dd>
+        <dt>发布日期：</dt>
+        <dd><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y年%-m月%-d日" }}</time></dd>
       </div>
       <div class="gh-article-meta-item">
-        <dt>分类</dt>
+        <dt>分类：</dt>
         <dd>{{ article_category }}</dd>
       </div>
       <div class="gh-article-meta-item">
-        <dt>阅读时间</dt>
-        <dd>{{ reading_minutes }} 分钟</dd>
+        <dt>阅读时间：</dt>
+        <dd>{{ reading_minutes }}分钟</dd>
       </div>
     </dl>
   </header>

@@ -215,7 +215,14 @@ body {
 .gh-article-meta-item {
   display: flex;
   gap: 0.35rem;
+  min-width: 0;
   margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.gh-article-meta-item:not(:last-child)::after {
+  content: '·';
+  margin-left: 0.4rem;
 }
 
 .gh-article-meta dt {

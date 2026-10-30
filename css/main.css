@@ -468,6 +468,11 @@ p>img{
   content: "☰";
 }
 
+.mobile-menu-toggle:focus-visible {
+  outline: 3px solid var(--link-color);
+  outline-offset: 3px;
+}
+
 
 /* Hide GitHub ribbon on mobile devices */
 @media (max-width: 768px) {
@@ -500,15 +505,22 @@ p>img{
     top: 20px;
   }
 
+  .gh-head-menu a:focus-visible {
+    outline: 3px solid var(--link-color);
+    outline-offset: 3px;
+  }
+
   .gh-head-menu {
     width: 100%;
     max-height: 0;
     overflow: hidden;
+    visibility: hidden;
     transition: max-height 0.3s ease-in-out;
   }
   
   .gh-head-menu.active {
     max-height: 500px;
+    visibility: visible;
   }
 
   .gh-head-menu ul {

@@ -40,10 +40,10 @@
                     <a href="/" class="gh-navigation-logo">
                         <img src="/images/work-for-free.png" alt="Work For Free" class="gh-navigation-logo is-title">
                     </a>
-                    <button class="mobile-menu-toggle" aria-label="Menu"></button>
+                    <button type="button" class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu"></button>
                 </div>
 
-                <div class="gh-head-menu">
+                <div class="gh-head-menu" id="mobile-menu">
                     <nav class="drop-down">
                         <ul>
                             <li><a href="/">Home</a></li>
@@ -142,32 +142,42 @@
             const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
             const mobileMenu = document.querySelector('.gh-head-menu');
             
-            if (mobileMenuToggle) {
-                mobileMenuToggle.addEventListener('click', function() {
-                    mobileMenu.classList.toggle('active');
-                    this.setAttribute('aria-expanded', 
-                        mobileMenu.classList.contains('active') ? 'true' : 'false');
-                    
-                    // Change toggle icon based on state
-                    if (mobileMenu.classList.contains('active')) {
-                        this.textContent = '✕';
-                    } else {
-                        this.textContent = '';
-                        this.classList.remove('open');
-                    }
-                });
-            }
-            
-            // Close mobile menu when clicking outside
-            document.addEventListener('click', function(event) {
-                if (!event.target.closest('.gh-head-menu') && 
-                    !event.target.closest('.mobile-menu-toggle') && 
-                    mobileMenu.classList.contains('active')) {
+            if (mobileMenuToggle && mobileMenu) {
+                const closeMobileMenu = function(returnFocus) {
                     mobileMenu.classList.remove('active');
                     mobileMenuToggle.setAttribute('aria-expanded', 'false');
                     mobileMenuToggle.textContent = '';
-                }
-            });
+                    mobileMenuToggle.classList.remove('open');
+
+                    if (returnFocus) {
+                        mobileMenuToggle.focus();
+                    }
+                };
+
+                mobileMenuToggle.addEventListener('click', function() {
+                    const isOpen = mobileMenu.classList.toggle('active');
+                    this.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+                    
+                    // Change toggle icon based on state
+                    this.textContent = isOpen ? '✕' : '';
+                });
+
+                document.addEventListener('keydown', function(event) {
+                    if (event.key === 'Escape' && mobileMenu.classList.contains('active')) {
+                        event.preventDefault();
+                        closeMobileMenu(true);
+                    }
+                });
+
+                // Close mobile menu when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!event.target.closest('.gh-head-menu') &&
+                        !event.target.closest('.mobile-menu-toggle') &&
+                        mobileMenu.classList.contains('active')) {
+                        closeMobileMenu(false);
+                    }
+                });
+            }
         });
     </script>
 </body>

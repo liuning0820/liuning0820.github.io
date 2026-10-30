@@ -3,12 +3,18 @@
 ## Run The Site Locally
 
 ```sh
-# Run gem install a b to install gem package 'a' and 'b'.
-gem install jekyll bundler
-# Run 'bundle install' to install missing gems added in the Gemfile.
+ruby -v
+gem -v
+bundle -v
+# Run gem install a b to install gem package 'a' and 'b'.≈ pip install —— 手动装单个包
+# gem install jekyll bundler
+
+bundle config set --local path vendor/bundle
+# Run 'bundle install' to install missing gems added in the Gemfile. ≈ pip install -r requirements.txt
 bundle install
-jekyll -v
+# jekyll -v
 # jekyll serve
+bundle exec jekyll -v
 bundle exec jekyll serve
 
 ```

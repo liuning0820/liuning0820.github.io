@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Plex Media Server"
 author: liuning0820
 tags: [geek life]
 comments: true

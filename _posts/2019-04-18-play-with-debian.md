@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Play With Debian"
 tags: [geek life]
 author: 对刘谈心
 ---

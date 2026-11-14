@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Low Context Communication"
 author: liuning0820
 tags: [mindset]
 comments: true

@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "亲力亲为的力量：超越AI的温暖互动"
 author: liuning0820
 tags: [mindset]
 comments: true

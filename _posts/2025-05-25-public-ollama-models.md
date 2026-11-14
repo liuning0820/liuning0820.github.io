@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Public Ollama Models 20250525"
 author: liuning0820
 tags: [ai]
 comments: true

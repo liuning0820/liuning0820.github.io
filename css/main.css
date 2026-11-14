@@ -396,6 +396,20 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+.topic-list--secondary {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.topic-list--secondary li {
+  padding: 0.5rem 0;
+}
+
+.topic-list--secondary .topic-list-name,
+.topic-list--secondary .topic-list-count {
+  color: #666666;
+}
+
 /* Donate section */
 .donate {
   background-color: var(--light-gray);

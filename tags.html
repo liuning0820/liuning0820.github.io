@@ -8,12 +8,29 @@ description: 按主题浏览对刘谈心的文章。
 
 <p>浏览站内主题及其文章数量。括号中的数字表示该主题包含的文章数量。</p>
 
+{% assign sorted_tags = site.tags | sort %}
 <ul class="topic-list">
-  {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
-    <li>
-      <span class="topic-list-name">{{ tag[0] | escape }}</span>
-      <span class="topic-list-count">{{ tag[1].size }}</span>
-    </li>
+    {% if tag[1].size > 1 %}
+      <li>
+        <span class="topic-list-name">{{ tag[0] | escape }}</span>
+        <span class="topic-list-count">{{ tag[1].size }}</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>其他主题</h2>
+
+<p>以下主题当前各有一篇文章。</p>
+
+<ul class="topic-list topic-list--secondary">
+  {% for tag in sorted_tags %}
+    {% if tag[1].size == 1 %}
+      <li>
+        <span class="topic-list-name">{{ tag[0] | escape }}</span>
+        <span class="topic-list-count">{{ tag[1].size }}</span>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>

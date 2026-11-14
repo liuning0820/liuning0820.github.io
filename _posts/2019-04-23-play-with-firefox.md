@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Play With Firefox"
 tags: [geek life]
 author: 对刘谈心
 ---

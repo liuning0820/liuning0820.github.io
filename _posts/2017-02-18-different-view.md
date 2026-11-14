@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "不同的视角"
 author: liuning0820
 tags: [mindset]
 comments: true

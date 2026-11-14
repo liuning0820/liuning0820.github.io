@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Reading Notes: The DevOps Handbook"
 author: liuning0820
 tags: [devops, book]
 ---

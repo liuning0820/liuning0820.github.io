@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "跨域名服务商切换域名服务器"
 author: liuning0820
 tags: [geek life]
 comments: true

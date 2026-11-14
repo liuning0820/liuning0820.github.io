@@ -1,3 +1,9 @@
+---
+layout: post
+author: liuning0820
+tags: [mindset]
+title: "How to Focus"
+---
 
 # Why lot of people fail to focus 
 

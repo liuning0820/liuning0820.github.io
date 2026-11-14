@@ -1,3 +1,9 @@
+---
+layout: post
+author: liuning0820
+tags: [devops]
+title: "ChatOps With Slack and Mattermost"
+---
 # ChatOps With Slack and Mattermost
 
 - [Subscribe to an RSS feed URL and receive updates in Slack](#subscribe-to-an-rss-feed-url-and-receive-updates-in-slack)
@@ -61,6 +67,7 @@ sudo -u mattermost ./bin/mattermost
 
 add a file notify.yml under .github/workflows/notify.yml
 
+{% raw %}
 ```yaml
 
 # on:
@@ -90,6 +97,7 @@ add a file notify.yml under .github/workflows/notify.yml
 #         MATTERMOST_CHANNEL: ${{ secrets.MATTERMOST_CHANNEL }}
 
 ```
+{% endraw %}
 
 
 ## Reference

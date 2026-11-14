@@ -1,3 +1,9 @@
+---
+layout: post
+author: liuning0820
+tags: [geek life]
+title: "系统升级和颠覆思维"
+---
 # 系统升级和颠覆思维
 
 ## Windows 10 2018.04 更新

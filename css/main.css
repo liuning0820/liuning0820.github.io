@@ -362,6 +362,40 @@ body {
   color: var(--link-color);
 }
 
+/* Topic index */
+.topic-list {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+}
+
+.topic-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.topic-list-name {
+  overflow-wrap: anywhere;
+}
+
+.topic-list-count::before {
+  content: "(";
+}
+
+.topic-list-count::after {
+  content: ")";
+}
+
+.topic-list-count {
+  flex: 0 0 auto;
+  color: #666666;
+  font-variant-numeric: tabular-nums;
+}
+
 /* Donate section */
 .donate {
   background-color: var(--light-gray);

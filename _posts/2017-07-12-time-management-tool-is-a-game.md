@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "时间管理工具就是一场游戏"
+tags: [mindset]
+author: 对刘谈心
 ---
 
 # 时间没有被工具节约

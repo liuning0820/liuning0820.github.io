@@ -3,6 +3,7 @@ layout: post
 title: "Play With Web Search"
 author: liuning0820
 comments: true
+tags: [geek life]
 ---
 
 ## Search Engine 搜索引擎

@@ -1,5 +1,8 @@
 ---
 title: Visual Studio Guide
+layout: post
+tags: [geek life]
+author: 对刘谈心
 ---
 
 ## New feature supported by VS2013

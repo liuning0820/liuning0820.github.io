@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "HP Culture"
+tags: [mindset]
+author: 对刘谈心
 ---
 
 # HP Culture

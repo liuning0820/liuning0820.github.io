@@ -2,6 +2,7 @@
 layout: post
 title: "Why continuous deployment may cause continuous customer dissatisfaction"
 tags: [devops, ci]
+author: 对刘谈心
 ---
 
 # Why continuous deployment may cause continuous customer dissatisfaction

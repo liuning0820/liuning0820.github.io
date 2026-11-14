@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "code-is-temporary 代码是过眼云烟"
+tags: [mindset]
+author: 对刘谈心
 ---
 
 # code-is-temporary 代码是过眼云烟

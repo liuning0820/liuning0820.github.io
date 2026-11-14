@@ -1,0 +1,19 @@
+---
+layout: default
+title: 主题 - 对刘谈心
+description: 按主题浏览对刘谈心的文章。
+---
+
+<h1>主题</h1>
+
+<p>浏览站内主题及其文章数量。括号中的数字表示该主题包含的文章数量。</p>
+
+<ul class="topic-list">
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    <li>
+      <span class="topic-list-name">{{ tag[0] | escape }}</span>
+      <span class="topic-list-count">{{ tag[1].size }}</span>
+    </li>
+  {% endfor %}
+</ul>

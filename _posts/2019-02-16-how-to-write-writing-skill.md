@@ -2,6 +2,7 @@
 layout: post
 title: "HOW TO WRITE"
 author: liuning0820
+tags: [mindset]
 ---
 
 # How To Write

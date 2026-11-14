@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "software integration design thinking 软件集成设计随想"
+tags: [product design]
+author: 对刘谈心
 ---
 
 Service agent (SA) 这个项目与service manager (SM) 集成经历过两种方案，一种是直接与SM的数据库进行集成交互；另外一种就是面向服务的集成，通过SM提供的SMRWS API服务进行交互集成。我概括地称之为直接面向基准数据源的集成设计(SA->SMDB) 和面向服务的集成设计(SA->SMRWS->SMDB)。

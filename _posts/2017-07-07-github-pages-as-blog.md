@@ -4,6 +4,8 @@ title: "github-pages as blog"
 date: 2017-07-07
 comments: true
 categories:
+tags: [geek life]
+author: 对刘谈心
 ---
 
 # GitHub Pages Guide

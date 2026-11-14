@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "learn the up to date knowledge"
+tags: [mindset]
+author: 对刘谈心
 ---
 
 # 随时过期的技术文章

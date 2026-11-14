@@ -4,6 +4,8 @@ title: "旁观者效应"
 date: 2017-07-06
 comments: true
 categories:
+tags: [communication]
+author: 对刘谈心
 ---
 
 

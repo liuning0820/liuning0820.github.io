@@ -4,6 +4,8 @@ title: "Using What You Already Have"
 date: 2014-06-12
 comments: true
 categories:
+tags: [mindset]
+author: 对刘谈心
 ---
 
 Sometimes we keep looking for resources everywhere only to realize that we had

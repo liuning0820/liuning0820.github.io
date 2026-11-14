@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "写博客的道德底线和意图"
+tags: [mindset]
+author: 对刘谈心
 ---
 
 # Why I write blog
